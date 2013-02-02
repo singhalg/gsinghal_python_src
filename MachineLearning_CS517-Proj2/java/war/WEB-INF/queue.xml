@@ -1,0 +1,14 @@
+<queue-entries>
+  <queue>
+    <name>default</name>
+    <rate>1/s</rate>
+    <!-- There are as many buckets as there are backend instances -->
+    <bucket-size>40</bucket-size>
+    <max-concurrent-requests>40</max-concurrent-requests>
+    <retry-parameters>
+      <min-backoff-seconds>10</min-backoff-seconds>
+      <max-backoff-seconds>60</max-backoff-seconds>
+      <max-doublings>2</max-doublings>
+    </retry-parameters>
+  </queue>
+</queue-entries>

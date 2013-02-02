@@ -1,0 +1,150 @@
+#!/usr/bin/env python
+import re, math
+
+def convert_file2dictionary(filename,dictKeyField):
+	fTasks=open(filename,"r")
+	original_lines=fTasks.readlines()
+	fTasks.close()
+	original_fields=map(lambda s:s.strip('"'),original_lines[0].strip("\n").strip("\r").split("\t"))
+	all_items=dict()
+	numrows = 0
+	for t in original_lines[1:]:
+		numrows += 1
+		#print "processing row %s" % numrows
+		item_dictionary={}
+		for k,v in map(None,original_fields,t.split('\t')):
+			item_dictionary[k]=v.strip("\n").strip("\r").strip('"')
+		all_items[item_dictionary["TargetID"]]=item_dictionary
+	print "processed %s rows" % numrows
+	return all_items
+
+def run():
+	result = convert_file2dictionary("train.tsv","TargetID")
+	print "dictionary has %s items" % len(result)
+
+	# reprint the data into a new file, subbing "NaN" with "LOL"
+##	with open("output.txt", "w") as f:
+##		cols = sorted(result[0].keys())  # this gives us column names in order
+##		firstrow_string = ""
+##		for col_name in cols:
+##			firstrow_string = "%s\t%s" %(firstrow_string, col_name)  # concat column names to first line, tab separated
+##		f.write("%s\n" % (firstrow_string.lstrip("\t")))  # stripping leading tab
+##		for row in result:
+##			row_string = ""
+##			for col_name in cols:
+##				row_string = "%s\t%s" %(row_string, row[col_name].replace("NaN", "LOL"))
+##			f.write("%s\n" %(row_string.lstrip("\t")))
+##	f.close()
+
+##	# reorganize the data into column-major
+##	result2 = []
+##	for (k,v) in result[0].iteritems():
+##		if not k == "TargetID":
+##			tempd = dict()
+##			tempd["pid"] = k
+##			result2.append(tempd)
+##	for row in result:
+##		for (k,v) in row.iteritems():
+##			continue
+
+
+	# computes mean and std of the values of AD vs CON for each GI
+	with open("stats.txt", "w") as f:
+		f.write("TargetID\tmeanAD\tsdAD\tmeanCON\tsdCON\tdiff\n")
+		stats = []
+		for k,row in result.iteritems():
+			# each row corresponds to data from one GI
+			valuesAD = []
+			valuesCON = []
+			for (k,v) in row.iteritems():
+				if re.search("AD", k):
+					valuesAD.append(v)
+				elif re.search("CON", k):
+					valuesCON.append(v)
+			row_dict = dict()
+			row_dict["meanAD"] = getMean(valuesAD)
+			row_dict["sdAD"] = getSD(valuesAD)
+			row_dict["meanCON"] = getMean(valuesCON)
+			row_dict["sdCON"] = getSD(valuesCON)
+			row_dict["TargetID"] = row["TargetID"]
+			row_dict["diff"] = diff(valuesAD, valuesCON)
+			stats.append(row_dict)
+			f.write("%s\t%s\t%s\t%s\t%s\t%s\n" % (row_dict["TargetID"],row_dict["meanAD"],row_dict["sdAD"],row_dict["meanCON"],row_dict["sdCON"],row_dict["diff"]))
+		print "computed stats for %s GIs" % len(stats)
+	f.close()
+
+
+
+	top = shrink(stats, size=20)
+	top_names = map(lambda x: x["TargetID"], top)
+	print top_names
+
+	lean_results = []
+	for k,row in result.iteritems():
+		if row["TargetID"] in top_names:
+			lean_results.append(row)
+	print "lean results contain %s results" % (len(lean_results))
+	# printing lean results into file
+	with open("output_lean.txt", "w") as f:
+		cols = sorted(lean_results[0].keys())  # this gives us column names in order
+		firstrow_string = ""
+		for col_name in cols:
+			firstrow_string = "%s\t%s" %(firstrow_string, col_name)  # concat column names to first line, tab separated
+		f.write("%s\n" % (firstrow_string.lstrip("\t")))  # stripping leading tab
+		for row in lean_results:
+			row_string = ""
+			for col_name in cols:
+				row_string = "%s\t%s" %(row_string, row[col_name].replace("NaN", "NaN"))
+			f.write("%s\n" %(row_string.lstrip("\t")))
+	f.close()
+
+def diff(v1, v2):
+	mean1 = getMean(v1)
+	sd1 = getSD(v1)
+	mean2 = getMean(v2)
+	sd2 = getSD(v2)
+	return math.fabs(mean1-mean2)/((sd1+sd2)/2)
+
+def getMean(v):
+	floatv = toFloat(v)
+	return (sum(floatv)/len(floatv))
+
+def getSD(v):
+	floatv = toFloat(v)
+	mean = getMean(floatv)
+	sd = math.sqrt(sum((x-mean)**2 for x in floatv)/len(floatv))
+	return sd
+
+def toFloat(v):
+	temp = []
+	for each in v:
+		if not each == "NaN":
+			temp.append(float(each))
+	return temp
+
+def shrink(d, size=3, key="diff"):
+	s = sorted(d, key=lambda x: x[key])
+	return s[-size:]
+
+def run2():
+	d = [
+		{"diff": 5, "name": "Josh"},
+		{"diff": 4, "name": "Dan"},
+		{"diff": 3, "name": "Mark"},
+		{"diff": 2, "name": "Nathan"},
+		{"diff": 1, "name": "Phil"},
+		]
+	dnew = shrink(d)
+	dnew_names = map(lambda x: x["name"], dnew)
+	print dnew_names
+
+def main():
+	run()
+	#run2()
+
+if __name__ == '__main__':
+	main()
+
+
+# sort dict by values from smallest to largest
+# sorted(d.items(), key=lambda x: x[1])

@@ -1,0 +1,19 @@
+<backends>
+	<backend name="worker">
+		<class>B4</class>
+		<options>
+			<dynamic>true</dynamic>
+		</options>
+		<max-concurrent-requests>2</max-concurrent-requests>
+		<instances>15</instances>
+	</backend>
+	
+	<!--<backend name="large">
+		<class>B4</class>
+		<options>
+			<dynamic>true</dynamic>
+		</options>
+		<max-concurrent-requests>1</max-concurrent-requests>
+		<instances>5</instances>
+	</backend>-->
+</backends>

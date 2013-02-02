@@ -1,0 +1,6 @@
+gene	chr	exon_id	hq coverage	position	position2	in_range	coding
+	chr21   27354658        27354666        7336	N/A				FALSE	N/A
+	chr21   27354665        27354666        7336	N/A				FALSE	N/A
+	chr21   27354666        27354667        7334	N/A				FALSE	N/A
+	chr21   27354657        27354667        7334	N/A				FALSE	N/A
+	chr21   27354657        27354790        7327	N/A				FALSE	N/A

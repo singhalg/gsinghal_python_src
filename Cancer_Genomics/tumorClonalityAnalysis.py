@@ -1,0 +1,439 @@
+#-------------------------------------------------------------------------------
+# Name:        module1
+# Purpose:
+#
+# Author:      Gaurav Singhal
+#
+# Created:     02/10/2012
+# Copyright:   (c) Gaurav Singhal 2012
+# Licence:     This work is licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License.
+#              To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/3.0/.
+#-------------------------------------------------------------------------------
+
+import numpy as np
+import sys, math
+from sets import Set
+import pickle
+
+def pileupCompare(file1, file2, outfileName, targetCapturePlatform, databases):
+
+    targetCaptureFlds = Set(['AgilentV3', 'AgilentV4', 'Illumina'])
+    if targetCapturePlatform not in targetCaptureFlds:
+        print 'TargetCapturePlatform is invalid !!'
+        sys.exit()
+    AgV3, AgV4, Illumina, EVS, dbSNPcommon = databases
+    fh1 = open(file1, 'rU')
+    fh2 = open(file2, 'rU')
+
+    prim = fh1.readlines()
+    met = fh2.readlines()
+    fh1.close()
+    fh2.close()
+    primary = {}
+    metastasis = {}
+    primarySet = Set([])
+    metastasisSet = Set([])
+    onlyInPrimSet = Set([])
+    onlyInMetSet = Set([])
+    depthDict = {} # dict of dict. {'1#1000111':{'primary':'25', 'metastasis':'27'},
+    effectDict = {} # dict. {'1#1000111':['NON_SYNONYMOUS_CODING', 'MODERATE', 'MISSENSE']}
+
+##
+##"
+#ref != N
+#first those variants whose freq changes
+#then those variants wich are absent from one but present in another group
+#
+##"
+
+    for line in prim[9:]:
+        flds = line.split('\t')
+        depth = flds[7].strip().split(';')[0][3:]
+        key = flds[0].strip() + '#' +flds[1].strip()  # the position of the variant is always 1-based coordinate
+
+        depthVal = {}
+        depthVal['primary'] = depth
+        depthDict[key] = depthVal
+        effects = ''
+
+        if len(flds[7].strip().split(';')) > 3:
+
+            effects = flds[7].strip().split(';')[3].split(',')
+            pval_raw = flds[7].strip().split(';')[2][5:]
+            try:
+                pvalue = (math.log10(float(pval_raw))) *-1
+##                print pvalue
+            except:
+                pvalue = 0
+
+##        except:
+##            print line
+##            print flds[7]
+##            sys.exit()
+            impacts = []
+
+            for eachEffect in effects:
+                impact = eachEffect.partition('(')[2].split('|')[0]
+                if impact == 'MODIFIER':
+                    impacts.append(['MODIFIER', 0])
+                elif impact == 'MODERATE':
+                    impacts.append(['MODERATE', 2])
+                elif impact == 'LOW':
+                    impacts.append(['LOW', 1])
+                elif impact =='HIGH':
+                    impacts.append(['HIGH', 3])
+            impactVal = sorted(impacts, reverse=True, key=myFun)[0]
+            effectDict[key] = impactVal
+##        if len(impacts)>1:
+##            print sorted(impacts, reverse=True, key=myFun)
+        value = {}
+
+        alt = flds[4].strip().split(',')
+##        info = flds[3].strip().split(';')
+##        alt = info[1][4:].split(',')
+
+#        alt = flds[3].strip().split(',')
+#        st = flds[4].strip().index('AF=')
+
+        af = flds[7].strip().split(';')[1][3:].split(',')
+##        af = info[3].strip()[3:].split(',')
+#        af = flds[4][st+3:].strip().split(',')
+        if len(alt) != len(af):
+            print 'Error !! # ALT ALLELE and AF mismatch'
+            print line
+            continue
+##            sys.exit()
+        for i in range(len(alt)):
+            value[alt[i]] = float(af[i])
+        primary[key] = [value, pvalue]
+
+
+    for line in met[9:]:
+        flds = line.split('\t')
+        depth = flds[7].strip().split(';')[0][3:]
+        key = flds[0].strip() + '#' +flds[1].strip()  # the position of the variant is always 1-based coordinate
+
+##        depth = flds[3].strip().split(';')[2][3:]
+##        key = flds[0].strip() + '#' +flds[2].strip()
+        if (key not in effectDict) and(len(flds[7].strip().split(';')) > 3):
+            effects = flds[7].strip().split(';')[3].split(',')
+
+            pval_raw = flds[7].strip().split(';')[2][5:]
+            try:
+                pvalue = (math.log10(float(pval_raw))) *-1
+##                print pvalue
+            except:
+                pvalue = 0
+
+            impacts = []
+
+            for eachEffect in effects:
+                impact = eachEffect.partition('(')[2].split('|')[0]
+                if impact == 'MODIFIER':
+                    impacts.append(['MODIFIER', 0])
+                elif impact == 'MODERATE':
+                    impacts.append(['MODERATE', 2])
+                elif impact == 'LOW':
+                    impacts.append(['LOW', 1])
+                elif impact =='HIGH':
+                    impacts.append(['HIGH', 3])
+            impactVal = sorted(impacts, reverse=True, key=myFun)[0]
+            effectDict[key] = impactVal
+
+        if key in depthDict:
+            depthVal = depthDict[key]
+            depthVal['metastasis'] = depth
+            depthDict[key] = depthVal
+        else:
+            depthVal = {}
+            depthVal['metastasis'] = depth
+            depthDict[key] = depthVal
+
+        value = {}
+        alt = flds[4].strip().split(',')
+        af = flds[7].strip().split(';')[1][3:].split(',')
+
+##        info = flds[3].strip().split(';')
+##        alt = info[1][4:].split(',')
+##
+###        alt = flds[3].strip().split(',')
+###        st = flds[4].strip().index('AF=')
+##
+##        af = info[3].strip()[3:].split(',')
+###        af = flds[4][st+3:].strip().split(',')
+        if len(alt) != len(af):
+            print 'Error !! # ALT ALLELE and AF mismatch'
+            print line
+##            sys.exit()
+            continue
+        for i in range(len(alt)):
+            value[alt[i]] = float(af[i])
+        metastasis[key] = [value, pvalue]
+
+##    print primary
+##    print metastasis
+
+    primarySet = Set(primary.keys())
+    metastasisSet = Set(metastasis.keys())
+    onlyInPrimSet = primarySet - metastasisSet
+    onlyInMetSet = metastasisSet - primarySet
+    commonLoc = primarySet & metastasisSet
+    allLoci = primarySet | metastasisSet
+
+##    AgV3, AgV4, Illumina, EVS, dbSNPcommon
+
+    if targetCapturePlatform == 'AgilentV3':
+        allControls = AgV3 | EVS | dbSNPcommon
+
+    elif targetCapturePlatform == 'AgilentV4':
+        allControls = AgV4 | EVS | dbSNPcommon
+
+    else:
+        allControls = Illumina | EVS | dbSNPcommon
+
+
+
+
+
+##    for eachLoc in allLoci:
+##        if eachLoc not in allControls:
+##            if eachLoc in primarySet:
+##                allele_dict = primary[eachLoc]
+##                for anAllele in allele_dict:
+
+
+
+    different = {}
+##    print 'reached point 1'
+    for each in commonLoc:
+        primVar = primary[each][0]
+        metVar = metastasis[each][0]
+        primAlleles = primVar.keys()
+        metAlleles = metVar.keys()
+
+        commonAltAlleles = Set(metAlleles) & Set(primAlleles)                                        # alt_alleles (C,G etc) at a particular location which are present in both prim and metastasis
+        for alt_al in commonAltAlleles:
+
+##            if primVar[alt_al] != metVar[alt_al]:
+
+            if each in different:
+                val = different[each]
+                val[alt_al] = [primVar[alt_al], metVar[alt_al]]
+            else:
+                val = {}
+                val[alt_al] = [primVar[alt_al], metVar[alt_al]]
+            different[each] = val   # different is a dict of dict of the form {'1#1001232':{'A':['0.1210249','0.002321'], 'C':['0.002322','0.0232']}, '2#1034465':{'T':['0.4456459','0.445651'], 'G':['0.0544','0.0432']},.. }
+##            else:
+##                pass
+
+##            else:
+##                if each in different:
+##                    val = different[each]
+##                    val[alt_al] = [primVar[alt_al], 0]
+##                else:
+##                    val = {}
+##                    val[alt_al] = [primVar[alt_al], 0]
+##                    different[each] = val
+
+
+        MetAlleleNotInPrim = Set(metAlleles) - Set(primAlleles)
+        PrimAlleleNotInMet =  Set(primAlleles) - Set(metAlleles)
+
+        for alt_all in PrimAlleleNotInMet:
+            if each in different:
+                val = different[each]
+                val[alt_all] = [primVar[alt_all], 0]
+            else:
+                val = {}
+                val[alt_all] = [primVar[alt_all], 0]
+            different[each] = val
+        for alt_all in MetAlleleNotInPrim:
+            if each in different:
+                val = different[each]
+                val[alt_all] = [0, metVar[alt_all]]
+            else:
+                val = {}
+                val[alt_all] = [0, metVar[alt_all]]
+            different[each] = val
+
+##    print 'reached point 2'
+    for each in onlyInMetSet:
+        val = {}
+        variants = metastasis[each][0]
+        for abase in variants.keys():
+            val[abase] = [0, variants[abase]]
+        different[each]  = val
+    for each in onlyInPrimSet:
+        val = {}
+        variants = primary[each][0]
+        for abase in variants.keys():
+            val[abase] = [variants[abase], 0]
+        different[each]  = val
+##    print 'reached point 3'
+
+    outfile1 = outfileName + '_no_commonV2.csv'
+    outfile2 = outfileName + '_no_commonV2_cutoff.csv'
+    fhout = open(outfile1, 'w')
+
+    fhout2 = open(outfile2, 'w')
+
+
+    outline = 'chr' + ',' + 'position' + ',' + 'DP_PRIM' +',' + 'PVAL_PRIM' + ',' +'DP_MET'+','+ 'PVAL_MET' +',' + 'ALT_ALLELE' + ','  + 'VAR_FREQ_PRIM' + ',' + 'VAR_FREQ_MET' + ',EFFECT_IMPACT' '\n'  ##+ 'ALT_ALLELE_2' + ',' + 'VAR_FREQ_PRIM' + ',' + 'VAR_FREQ_MET' + ',' + 'ALT_ALLELE_3' + ',' + 'VAR_FREQ_PRIM' + ',' + 'VAR_FREQ_MET' + ',' + 'ALT_ALLELE_4' + ',' + 'VAR_FREQ_PRIM' + ',' + 'VAR_FREQ_MET' + ',' + 'ALT_ALLELE_5' + ',' + 'VAR_FREQ_PRIM' + ',' + 'VAR_FREQ_MET' + ',' + 'ALT_ALLELE_6' + ',' + 'VAR_FREQ_PRIM' + ',' + 'VAR_FREQ_MET' + ',' + '\n'
+    fhout.write(outline)
+    fhout2.write(outline)
+
+##    print 'All variants detected = ', len(different.keys())
+
+    rareVariants = Set(different.keys()) - allControls
+
+    variantLoc = sorted(list(rareVariants))
+##    print 'Rare variants detected  =', len(variantLoc)
+
+##    variantLoc = sorted(different.keys())
+    for eachLoc in variantLoc:
+
+        chrm, pos = eachLoc.split('#')
+        outline = chrm + ',' + pos + ','
+
+        depths = depthDict[eachLoc]
+        if 'primary' in depths:
+
+            prim_depth = depths['primary']
+        else:
+            prim_depth = '0'
+
+        if 'metastasis' in depths:
+            met_depth = depths['metastasis']
+        else:
+            met_depth = '0'
+
+        if eachLoc in primary:
+
+            pVal_prim = primary[eachLoc][1]
+        else:
+            pVal_prim = 0
+        if eachLoc in metastasis:
+            pVal_met = metastasis[eachLoc][1]
+        else:
+            pVal_met = 0
+        if ((pVal_prim>=3) or (pVal_met>=3)): # if both pVal_prim and pVal_met are less than 3, then we disregard the variant.
+
+
+            outline += prim_depth + ',' +  str(pVal_prim)+ ',' + met_depth + ',' + str(pVal_met) + ','
+
+
+
+            variants = different[eachLoc]
+            for eachVar in variants.keys():
+
+                VAF = variants[eachVar]
+                if eachLoc in effectDict:  # not all loci are present as keys in effectDict, some variants have ATL allele == REF allele and have no entry for mutation effect, so we are excluding such loci from our csv file
+                    outline1 = outline + eachVar + ','+ str(VAF[0]) + ',' + str(VAF[1]) + ',' + str(effectDict[eachLoc][1]) + '\n'
+
+                    fhout.write(outline1)
+
+                if ((VAF[0] >= 1.0) or (VAF[1] >= 1.0)) and ((VAF[0] <= 95) or (VAF[1] <= 95)):
+                    if eachLoc in effectDict:
+                        outline2 = outline  + eachVar + ',' + str(VAF[0]) + ',' + str(VAF[1]) + ',' + str(effectDict[eachLoc][1]) +  '\n'
+                        fhout2.write(outline2)
+
+
+
+##    print 'reached point 4'
+    fhout.close()
+    fhout2.close()
+    del allControls, different, primary, metastasis, depthDict, effectDict
+    print outfileName, '  processed !'
+
+
+
+
+def myFun(alist):
+    return alist[1]
+
+
+
+
+def tumorClonalityAnalysis():
+    fhAgilentV3 = open('agilent_V3_common.pkl', 'rU')
+    AgV3 = pickle.load(fhAgilentV3)
+    fhAgilentV3.close()
+
+
+
+    fhAgilentV4 = open('Illumina_Agilent_common.pkl', 'rU')
+    AgV4 = pickle.load(fhAgilentV4)
+    fhAgilentV4.close()
+
+
+    fhIllumina = open('Illumina_common.pkl', 'rU')
+    Illumina = pickle.load(fhIllumina)
+    fhIllumina.close()
+
+    fhexternal = open('commonEVS_asrd10.pkl', 'rU')
+    EVS = pickle.load(fhexternal)
+    fhexternal.close()
+
+    fhdbSNP = open('dbSNPcommon_nonClinical.pkl', 'rU')
+    dbSNP = pickle.load(fhdbSNP)
+
+    dbSNPcommon = Set(dbSNP.keys())
+    del dbSNP
+
+    databases = AgV3, AgV4, Illumina, EVS, dbSNPcommon
+
+    pileupCompare('PT_1_lung_VarScan_clean_snpEff.vcf', 'PT_1_brain_VarScan_clean_snpEff.vcf', 'PT_1_VarScan',  'Illumina', databases)
+    pileupCompare('PT_2_lung_VarScan_clean_snpEff.vcf', 'PT_2_brain_VarScan_clean_snpEff.vcf', 'PT_2_VarScan',  'AgilentV4', databases)
+    pileupCompare('PT_3_lung_VarScan_clean_snpEff.vcf', 'PT_3_brain_VarScan_clean_snpEff.vcf', 'PT_3_VarScan',  'AgilentV4', databases)
+    pileupCompare('PT_6_lung_VarScan_clean_snpEff.vcf', 'PT_6_brain_VarScan_clean_snpEff.vcf', 'PT_6_VarScan',  'AgilentV4', databases)
+    pileupCompare('PT_9_lung_VarScan_clean_snpEff.vcf', 'PT_9_brain_VarScan_clean_snpEff.vcf', 'PT_9_VarScan',  'AgilentV3', databases)
+    pileupCompare('PT_10_lung_VarScan_clean_snpEff.vcf', 'PT_10_brain_VarScan_clean_snpEff.vcf', 'PT_10_VarScan',  'AgilentV3', databases)
+    pileupCompare('PT_11_lung_VarScan_clean_snpEff.vcf', 'PT_11_brain_VarScan_clean_snpEff.vcf', 'PT_11_VarScan',  'AgilentV3', databases)
+    pileupCompare('PT_12_lung_VarScan_clean_snpEff.vcf', 'PT_12_brain_VarScan_clean_snpEff.vcf', 'PT_12_VarScan',  'AgilentV3', databases)
+    pileupCompare('PT_13_lung_VarScan_clean_snpEff.vcf', 'PT_13_brain_VarScan_clean_snpEff.vcf', 'PT_13_VarScan',  'AgilentV4', databases)
+
+
+##    if targetCapturePlatform == 'AgilentV3':
+##        fhAgilentV3 = open('agilent_V3_common.pkl', 'rU')
+##    elif targetCapturePlatform == 'AgilentV4':
+##        fhinternal = open('Illumina_Agilent_common.pkl', 'rU')
+##    else:
+##        fhinternal = open('Illumina_common.pkl', 'rU')
+##    internal = pickle.load(fhinternal)
+##    fhinternal.close()
+##    fhexternal = open('commonEVS_asrd10.pkl', 'rU')
+##    external = pickle.load(fhexternal)
+##    fhexternal.close()
+##
+##    fhdbSNP = open('dbSNPcommon_nonClinical.pkl', 'rU')
+##    dbSNP = pickle.load(fhdbSNP)
+##
+##    dbSNPcommon = Set(dbSNP.keys())
+##    del dbSNP
+##
+##    fhdbSNP.close()
+
+
+##    allControls = internal | external | dbSNPcommon
+
+
+
+
+def main():
+##    file1 = sys.argv[1]
+##    file2 = sys.argv[2]
+##    outfile = sys.argv[3]
+##    target_capture_platform = sys.argv[4]
+    # needs input in vcf format, these vcf files have those variants which fall in target capture boundaries.
+    # target_capture_platform is a string having one of the following values : 'AgilentV3', 'AgilentV4', Illumina'
+
+##    pileupCompare(file1, file2, outfile, target_capture_platform)
+    tumorClonalityAnalysis()
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+

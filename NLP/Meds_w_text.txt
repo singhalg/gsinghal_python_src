@@ -1,0 +1,4311 @@
+<value><name>A/B Otic Drops</name></value>
+<value><name>Abacavir Sulfate</name></value>
+<value><name>Abacavir Sulfate And Lamivudine</name></value>
+<value><name>Abacavir Sulfate, Lamivudine, And Zidovudine</name></value>
+<value><name>Abatacept</name></value>
+<value><name>Abciximab</name></value>
+<value><name>Abilify</name></value>
+<value><name>Abilify Maintena</name></value>
+<value><name>Abiraterone Acetate</name></value>
+<value><name>Absorica</name></value>
+<value><name>Abstral</name></value>
+<value><name>Acamprosate Calcium</name></value>
+<value><name>Acanya</name></value>
+<value><name>Acarbose</name></value>
+<value><name>Accolate</name></value>
+<value><name>Accuhist</name></value>
+<value><name>Accuhist Pdx</name></value>
+<value><name>Accuneb</name></value>
+<value><name>Accupril</name></value>
+<value><name>Accuretic</name></value>
+<value><name>Acebutolol Hydrochloride</name></value>
+<value><name>Acella Antipyrine And Benzocaine Otic</name></value>
+<value><name>Acella Hydrocortisone Acetate - Pramoxine Singles</name></value>
+<value><name>Aceon</name></value>
+<value><name>Acetadote</name></value>
+<value><name>Acetaminophen</name></value>
+<value><name>Acetaminophen And Butalbital</name></value>
+<value><name>Acetaminophen And Codeine</name></value>
+<value><name>Acetaminophen And Codeine Phosphate</name></value>
+<value><name>Acetaminophen And Oxycodone Hydrochloride</name></value>
+<value><name>Acetaminophen And Phenyltoloxamine Citrate</name></value>
+<value><name>Acetaminophen, Dichloralphenazone, And Isometheptene Mucate</name></value>
+<value><name>Acetasol Hc</name></value>
+<value><name>Acetazolamide</name></value>
+<value><name>Acetic Acid</name></value>
+<value><name>Acetic Acid In Aqueous Aluminum Acetate</name></value>
+<value><name>Acetic Acid, Antipyrine, Benzocaine,</name></value>
+<value><name>Acetylcholine Chloride</name></value>
+<value><name>Acetylcysteine</name></value>
+<value><name>Acidulated Phosphate Fluoride</name></value>
+<value><name>Aciphex</name></value>
+<value><name>Acitretin</name></value>
+<value><name>Aclidinium Bromide</name></value>
+<value><name>Aclovate</name></value>
+<value><name>Acrivastine And Pseudoephedrine Hydrochloride</name></value>
+<value><name>Actemra</name></value>
+<value><name>Acthrel</name></value>
+<value><name>Actidose</name></value>
+<value><name>Actigall</name></value>
+<value><name>Actimmune</name></value>
+<value><name>Actiq</name></value>
+<value><name>Activase</name></value>
+<value><name>Activated Charcoal And Sorbitol</name></value>
+<value><name>Activella</name></value>
+<value><name>Actonel</name></value>
+<value><name>Actoplus Met</name></value>
+<value><name>Actoplus Met Xr</name></value>
+<value><name>Actos</name></value>
+<value><name>Acular</name></value>
+<value><name>Acular Ls</name></value>
+<value><name>Acunol</name></value>
+<value><name>Acuvail</name></value>
+<value><name>Acyclovir</name></value>
+<value><name>Acyclovir And Hydrocortisone</name></value>
+<value><name>Acyclovir Sodium</name></value>
+<value><name>Aczone</name></value>
+<value><name>Adagen</name></value>
+<value><name>Adalat Cc</name></value>
+<value><name>Adalimumab</name></value>
+<value><name>Adapalene</name></value>
+<value><name>Adapalene And Benzoyl Peroxide</name></value>
+<value><name>Adcetris</name></value>
+<value><name>Adcirca</name></value>
+<value><name>Adderall</name></value>
+<value><name>Adderall Xr</name></value>
+<value><name>Adefovir Dipivoxil</name></value>
+<value><name>Adenocard</name></value>
+<value><name>Adenoscan</name></value>
+<value><name>Adenosine</name></value>
+<value><name>Adipex-P</name></value>
+<value><name>Adrenaclick</name></value>
+<value><name>Adriamycin</name></value>
+<value><name>Adrucil</name></value>
+<value><name>Advair</name></value>
+<value><name>Advair Diskus</name></value>
+<value><name>Advair Hfa</name></value>
+<value><name>Advate</name></value>
+<value><name>Advicor</name></value>
+<value><name>Afeditab</name></value>
+<value><name>Afeditab Cr</name></value>
+<value><name>Afinitor</name></value>
+<value><name>Aflibercept</name></value>
+<value><name>Agalsidase Beta</name></value>
+<value><name>Aggrastat</name></value>
+<value><name>Aggrenox</name></value>
+<value><name>Agrylin</name></value>
+<value><name>A-Hydrocort</name></value>
+<value><name>Air</name></value>
+<value><name>Air Compressed</name></value>
+<value><name>Air Compressed (Medical Air Usp)</name></value>
+<value><name>Airacof</name></value>
+<value><name>Ak-Con</name></value>
+<value><name>Ak-Fluor</name></value>
+<value><name>Akne-Mycin</name></value>
+<value><name>Ak-Pentolate</name></value>
+<value><name>Ak-Poly-Bac</name></value>
+<value><name>Akten</name></value>
+<value><name>Ala Scalp</name></value>
+<value><name>Alacort</name></value>
+<value><name>Alagesic</name></value>
+<value><name>Alamast</name></value>
+<value><name>Albendazole</name></value>
+<value><name>Albenza</name></value>
+<value><name>Albuked</name></value>
+<value><name>Albumin (Human)</name></value>
+<value><name>Albuminar-20</name></value>
+<value><name>Albuminar-25</name></value>
+<value><name>Albuminar-5</name></value>
+<value><name>Alburx</name></value>
+<value><name>Albutein</name></value>
+<value><name>Albuterol</name></value>
+<value><name>Albuterol Sulfate</name></value>
+<value><name>Albuterol Sulfate Er</name></value>
+<value><name>Alcaftadine</name></value>
+<value><name>Alcaine</name></value>
+<value><name>Alclometasone Dipropionate</name></value>
+<value><name>Alcortin</name></value>
+<value><name>Alcortin A</name></value>
+<value><name>Aldactazide</name></value>
+<value><name>Aldactone</name></value>
+<value><name>Aldara</name></value>
+<value><name>Aldesleukin</name></value>
+<value><name>Aldurazyme</name></value>
+<value><name>Alefacept</name></value>
+<value><name>Alemtuzumab</name></value>
+<value><name>Alendronate Sodium</name></value>
+<value><name>Alendronate Sodium And Cholecalciferol</name></value>
+<value><name>Alfenta</name></value>
+<value><name>Alfentanil Hydrochloride</name></value>
+<value><name>Alfuzosin</name></value>
+<value><name>Alfuzosin Hydrochloride</name></value>
+<value><name>Alfuzosin Hydrochloride Er</name></value>
+<value><name>Alglucosidase Alfa</name></value>
+<value><name>Aliclen</name></value>
+<value><name>Alimta</name></value>
+<value><name>Alinia</name></value>
+<value><name>Aliskiren Hemifumarate</name></value>
+<value><name>Aliskiren Hemifumarate And Amlodipine Besylate</name></value>
+<value><name>Aliskiren Hemifumarate And Hydrochlorothiazide</name></value>
+<value><name>Aliskiren Hemifumarate And Valsartan</name></value>
+<value><name>Alitretinoin</name></value>
+<value><name>Alkeran</name></value>
+<value><name>Allegra</name></value>
+<value><name>Allegra D 24 Hour</name></value>
+<value><name>Allegra D-12 Hour</name></value>
+<value><name>Allegra D</name></value>
+<value><name>Allernaze</name></value>
+<value><name>Allerx</name></value>
+<value><name>Allerx Dose Pack</name></value>
+<value><name>Allerx D</name></value>
+<value><name>Allopurinol</name></value>
+<value><name>Allopurinol Sodium</name></value>
+<value><name>Almotriptan Malate</name></value>
+<value><name>Alocril</name></value>
+<value><name>Alodox</name></value>
+<value><name>Aloe Vera Leaf And Iodoquinol</name></value>
+<value><name>Alomide</name></value>
+<value><name>Aloprim</name></value>
+<value><name>Aloquin</name></value>
+<value><name>Alora</name></value>
+<value><name>Alosetron Hydrochloride</name></value>
+<value><name>Aloxi</name></value>
+<value><name>Alpha-1 Proteinase Inhibitor Human</name></value>
+<value><name>Alphagan P</name></value>
+<value><name>Alphanate</name></value>
+<value><name>Alphanine Sd</name></value>
+<value><name>Alprazolam</name></value>
+<value><name>Alprazolam XR</name></value>
+<value><name>Alprostadil</name></value>
+<value><name>Alrex</name></value>
+<value><name>Alsuma</name></value>
+<value><name>Altabax</name></value>
+<value><name>Altace</name></value>
+<value><name>Altavera</name></value>
+<value><name>Alteplase</name></value>
+<value><name>Altoprev</name></value>
+<value><name>Altretamine</name></value>
+<value><name>Aluminium Chloride Hexahydrate</name></value>
+<value><name>Aluminum Chloride</name></value>
+<value><name>Aluminum Chloride Hexahydrate And Alcohol</name></value>
+<value><name>Aluvea</name></value>
+<value><name>Alvesco</name></value>
+<value><name>Alvimopan</name></value>
+<value><name>Alyacen 1/35</name></value>
+<value><name>Alyacen 7/7/7</name></value>
+<value><name>Amantadine Hcl</name></value>
+<value><name>Amaryl</name></value>
+<value><name>Ambenonium Chloride</name></value>
+<value><name>Ambien</name></value>
+<value><name>Ambien Cr</name></value>
+<value><name>Ambisome</name></value>
+<value><name>Ambrisentan</name></value>
+<value><name>Amcinonide</name></value>
+<value><name>Amerge</name></value>
+<value><name>A-Methapred</name></value>
+<value><name>Amethia</name></value>
+<value><name>Amethia Lo</name></value>
+<value><name>Amethyst</name></value>
+<value><name>Amevive</name></value>
+<value><name>Amicar</name></value>
+<value><name>Amidate</name></value>
+<value><name>Amifostine</name></value>
+<value><name>Amikacin Sulfate</name></value>
+<value><name>Amiloride Hydrochloride</name></value>
+<value><name>Amiloride Hydrochloride And Hydrochlorothiazide</name></value>
+<value><name>Aminocaproic Acid</name></value>
+<value><name>Aminohippurate Sodium</name></value>
+<value><name>Aminohippurate Sodium Pah</name></value>
+<value><name>Aminolevulinic Acid Hydrochloride</name></value>
+<value><name>Aminophylline</name></value>
+<value><name>Aminophylline Dihydrate</name></value>
+<value><name>Aminosalicylic Acid</name></value>
+<value><name>Amiodarone</name></value>
+<value><name>Amiodarone Hydrochloride</name></value>
+<value><name>Amitiza</name></value>
+<value><name>Amitriptyline</name></value>
+<value><name>Amlobenz</name></value>
+<value><name>Amlodipine</name></value>
+<value><name>Amlodipine Besylate</name></value>
+<value><name>Amlodipine Besylate And Atorvastatin Calcium</name></value>
+<value><name>Amlodipine Besylate And Benazepril Hydrochloride</name></value>
+<value><name>Amlodipine Besylate And Olmesartan Medoxomil</name></value>
+<value><name>Amlodipine Besylate And Valsartan</name></value>
+<value><name>Amlodipine Besylate/Atorvastatin Calcium</name></value>
+<value><name>Amlodipine Valsartan And Hydrochlorothiazide</name></value>
+<value><name>Ammonia Inhalants</name></value>
+<value><name>Ammonia N 13</name></value>
+<value><name>Ammonium Chloride</name></value>
+<value><name>Ammonium Lactate</name></value>
+<value><name>Ammonium Molybdate</name></value>
+<value><name>Ammonul</name></value>
+<value><name>Amnesteem</name></value>
+<value><name>Amoxapine</name></value>
+<value><name>Amoxicillin</name></value>
+<value><name>Amoxicillin And Calvulanate Potassium</name></value>
+<value><name>Amphadase</name></value>
+<value><name>Amphotec</name></value>
+<value><name>Amphotericin B</name></value>
+<value><name>Ampicillin</name></value>
+<value><name>Ampicillin And Sulbactam</name></value>
+<value><name>Ampicillin Sodium</name></value>
+<value><name>Ampicillin Trihydrate</name></value>
+<value><name>Ampyra</name></value>
+<value><name>Amrix</name></value>
+<value><name>Amturnide</name></value>
+<value><name>Amyl Nitrite</name></value>
+<value><name>Amyvid</name></value>
+<value><name>Anafranil</name></value>
+<value><name>Anagrelide Hydrochloride</name></value>
+<value><name>Anakinra</name></value>
+<value><name>Analpram Advanced</name></value>
+<value><name>Analpram E</name></value>
+<value><name>Analpram Hc</name></value>
+<value><name>Anaprox</name></value>
+<value><name>Anaprox Ds</name></value>
+<value><name>Anascorp</name></value>
+<value><name>Anaspaz</name></value>
+<value><name>Anastrozole</name></value>
+<value><name>Ancobon</name></value>
+<value><name>Androderm</name></value>
+<value><name>Androgel</name></value>
+<value><name>Androxy</name></value>
+<value><name>Anectine</name></value>
+<value><name>Anesthetic</name></value>
+<value><name>Angeliq</name></value>
+<value><name>Angiomax</name></value>
+<value><name>Anidulafungin</name></value>
+<value><name>Antabuse</name></value>
+<value><name>Antara</name></value>
+<value><name>Anthralin</name></value>
+<value><name>Antihemophilic Factor Human</name></value>
+<value><name>Antihemophilic Factor Recombinant</name></value>
+<value><name>Antihemophilic Factor, Human Recombinant</name></value>
+<value><name>Antihemophilic Factor, Recombinant</name></value>
+<value><name>Antihemophilic Factor/Von Willebrand Factor Complex (Human)</name></value>
+<value><name>Anti-Inhibitor Coagulant Complex</name></value>
+<value><name>Antipyrine And Benzocaine</name></value>
+<value><name>Antipyrine And Benzocaine Otic</name></value>
+<value><name>Antithrombin III</name></value>
+<value><name>Antivenin (Micrurus Fulvius)</name></value>
+<value><name>Antivert</name></value>
+<value><name>Anucort Hc</name></value>
+<value><name>Anusol</name></value>
+<value><name>Anusol Hc</name></value>
+<value><name>Anzemet</name></value>
+<value><name>Apexicon</name></value>
+<value><name>Apexicon E</name></value>
+<value><name>Apidra</name></value>
+<value><name>Apidra Solostar</name></value>
+<value><name>Aplenzin</name></value>
+<value><name>Aplenzin Er</name></value>
+<value><name>Aplisol</name></value>
+<value><name>Apokyn</name></value>
+<value><name>Apomorphine Hydrochloride</name></value>
+<value><name>Apomorphinum Muriaticum</name></value>
+<value><name>Apraclonidine</name></value>
+<value><name>Apraclonidine Hydrochloride</name></value>
+<value><name>Apraclonidine Ophthalmic</name></value>
+<value><name>Aprepitant</name></value>
+<value><name>Apri</name></value>
+<value><name>Apriso</name></value>
+<value><name>Aptivus</name></value>
+<value><name>Aralast</name></value>
+<value><name>Aralast Np</name></value>
+<value><name>Aranelle</name></value>
+<value><name>Aranesp</name></value>
+<value><name>Arava</name></value>
+<value><name>Arbinoxa</name></value>
+<value><name>Arcalyst</name></value>
+<value><name>Arcapta Neohaler</name></value>
+<value><name>Arestin</name></value>
+<value><name>Arformoterol Tartrate</name></value>
+<value><name>Argatroban</name></value>
+<value><name>Arginine Hydrochloride</name></value>
+<value><name>Argipressin</name></value>
+<value><name>Aricept</name></value>
+<value><name>Arimidex</name></value>
+<value><name>Aripiprazole</name></value>
+<value><name>Aristocort</name></value>
+<value><name>Aristospan</name></value>
+<value><name>Arixtra</name></value>
+<value><name>Armodafinil</name></value>
+<value><name>Armour Thyroid</name></value>
+<value><name>Aromasin</name></value>
+<value><name>Arranon</name></value>
+<value><name>Arsenic Trioxide</name></value>
+<value><name>Artemether And Lumefantrine</name></value>
+<value><name>Arthrotec</name></value>
+<value><name>Articadent</name></value>
+<value><name>Articaine Hydrochloride And Epinephrine Bitartrate</name></value>
+<value><name>Artiss</name></value>
+<value><name>Artiss Frozen</name></value>
+<value><name>Arzerra</name></value>
+<value><name>Asacol</name></value>
+<value><name>Asacol Hd</name></value>
+<value><name>Asclera</name></value>
+<value><name>Ascomp With Codeine</name></value>
+<value><name>Ascorbic Acid</name></value>
+<value><name>Asenapine Maleate</name></value>
+<value><name>Asmanex</name></value>
+<value><name>Asparaginase</name></value>
+<value><name>Aspirin And Dipyridamole</name></value>
+<value><name>Astelin</name></value>
+<value><name>Astepro</name></value>
+<value><name>Astramorph</name></value>
+<value><name>Astramorph Pf</name></value>
+<value><name>Atacand</name></value>
+<value><name>Atacand Hct</name></value>
+<value><name>Atazanavir Sulfate</name></value>
+<value><name>Atelvia</name></value>
+<value><name>Atenolol</name></value>
+<value><name>Atenolol And Chlorthalidone</name></value>
+<value><name>Atgam</name></value>
+<value><name>Ativan</name></value>
+<value><name>Atomoxetine</name></value>
+<value><name>Atomoxetine Hydrochloride</name></value>
+<value><name>Atorvastatin Calcium</name></value>
+<value><name>Atorvastatin Calcium Trihydrate</name></value>
+<value><name>Atovaquone</name></value>
+<value><name>Atovaquone And Proguanil Hydrochloride</name></value>
+<value><name>Atracurium Besylate</name></value>
+<value><name>Atralin</name></value>
+<value><name>Atridox</name></value>
+<value><name>Atripla</name></value>
+<value><name>Atropine And Pralidoxime Chloride</name></value>
+<value><name>Atropine Sulfate</name></value>
+<value><name>Atrovent</name></value>
+<value><name>Atrovent Hfa</name></value>
+<value><name>Atuss Ds Tannate Suspension</name></value>
+<value><name>Augmentin</name></value>
+<value><name>Augmentin Xr</name></value>
+<value><name>Auranofin</name></value>
+<value><name>Aurodex</name></value>
+<value><name>Avage</name></value>
+<value><name>Avalide</name></value>
+<value><name>Avandamet</name></value>
+<value><name>Avandaryl</name></value>
+<value><name>Avandia</name></value>
+<value><name>Avapro</name></value>
+<value><name>Avastin</name></value>
+<value><name>Avc Vaginal</name></value>
+<value><name>Avelox</name></value>
+<value><name>Avelox Abc Pack</name></value>
+<value><name>Aviane</name></value>
+<value><name>Aviane 28 Day</name></value>
+<value><name>Avinza</name></value>
+<value><name>Avita</name></value>
+<value><name>Avodart</name></value>
+<value><name>Avonex</name></value>
+<value><name>Axert</name></value>
+<value><name>Axid</name></value>
+<value><name>Axiron</name></value>
+<value><name>Axitinib</name></value>
+<value><name>Aygestin</name></value>
+<value><name>Azacitidine</name></value>
+<value><name>Azactam</name></value>
+<value><name>Azasan</name></value>
+<value><name>Azasite</name></value>
+<value><name>Azathioprine</name></value>
+<value><name>Azelaic Acid</name></value>
+<value><name>Azelastine Hydrochloride</name></value>
+<value><name>Azelastine Hydrochloride And Fluticasone Propionate</name></value>
+<value><name>Azelex</name></value>
+<value><name>Azilect</name></value>
+<value><name>Azilsartan Kamedoxomil</name></value>
+<value><name>Azilsartan Medoxomil And Chlorthalidone</name></value>
+<value><name>Azithromycin</name></value>
+<value><name>Azopt</name></value>
+<value><name>Azor</name></value>
+<value><name>Aztreonam</name></value>
+<value><name>Azulfidine</name></value>
+<value><name>Azulfidine En-Tabs</name></value>
+<value><name>Azurette</name></value>
+<value><name>Baciim</name></value>
+<value><name>Bacillus Calmette-Guerin</name></value>
+<value><name>Bacitracin</name></value>
+<value><name>Bacitracin Zinc And Polymyxin B Sulfate</name></value>
+<value><name>Baclofen</name></value>
+<value><name>Bacteriostatic Sodium Chloride</name></value>
+<value><name>Bacteriostatic Water</name></value>
+<value><name>Bactrim</name></value>
+<value><name>Bactrim Ds</name></value>
+<value><name>Bactroban</name></value>
+<value><name>Balziva</name></value>
+<value><name>Banzel</name></value>
+<value><name>Baraclude</name></value>
+<value><name>Barium Sulfate</name></value>
+<value><name>Basiliximab</name></value>
+<value><name>Baycadron</name></value>
+<value><name>Bebulin</name></value>
+<value><name>Bebulin Vh</name></value>
+<value><name>Becaplermin</name></value>
+<value><name>Beclomethasone Dipropionate</name></value>
+<value><name>Beclomethasone Dipropionate Monohydrate</name></value>
+<value><name>Beconase Aq</name></value>
+<value><name>Belatacept</name></value>
+<value><name>Belimumab</name></value>
+<value><name>Belladonna Alkaloids With Phenobartbital</name></value>
+<value><name>Benaphetamine</name></value>
+<value><name>Benazepril</name></value>
+<value><name>Benazepril Hydrochloride</name></value>
+<value><name>Benazepril Hydrochloride And Hydrochlorothiazide</name></value>
+<value><name>Bendamustine Hydrochloride</name></value>
+<value><name>Benefix</name></value>
+<value><name>Benicar</name></value>
+<value><name>Benicar Hct</name></value>
+<value><name>Benlysta</name></value>
+<value><name>Bentyl</name></value>
+<value><name>Benzaclin</name></value>
+<value><name>Benzamycin</name></value>
+<value><name>Benzamycin Pak</name></value>
+<value><name>Benzefoam</name></value>
+<value><name>Benzefoam Ultra</name></value>
+<value><name>Benzepro</name></value>
+<value><name>Benzethonium Chloride</name></value>
+<value><name>Benzocaine</name></value>
+<value><name>Benzo-Jel</name></value>
+<value><name>Benzonatate</name></value>
+<value><name>Benzoyl Peroxide</name></value>
+<value><name>Benzoyl Peroxide 4</name></value>
+<value><name>Benzoyl Peroxide 8</name></value>
+<value><name>Benzoyl Peroxide Wash</name></value>
+<value><name>Benzphetamine Hydrochloride</name></value>
+<value><name>Benztropine Mesylate</name></value>
+<value><name>Benztropine Mesylate Injection</name></value>
+<value><name>Benzyl Alcohol</name></value>
+<value><name>Bepotastine Besilate</name></value>
+<value><name>Bepreve</name></value>
+<value><name>Beractant</name></value>
+<value><name>Berinert</name></value>
+<value><name>Besifloxacin</name></value>
+<value><name>Besivance</name></value>
+<value><name>Betadine</name></value>
+<value><name>Betagan</name></value>
+<value><name>Betaine</name></value>
+<value><name>Betamethasone</name></value>
+<value><name>Betamethasone Clotrimazole</name></value>
+<value><name>Betamethasone Dipropionate</name></value>
+<value><name>Betamethasone Sodium Phosphate And Betamethasone Acetate</name></value>
+<value><name>Betamethasone Valerate</name></value>
+<value><name>Betapace</name></value>
+<value><name>Betapace Af</name></value>
+<value><name>Betasept</name></value>
+<value><name>Betaseron</name></value>
+<value><name>Betaxolol</name></value>
+<value><name>Betaxolol Hydrochloride</name></value>
+<value><name>Bethanechol Chloride</name></value>
+<value><name>Betimol</name></value>
+<value><name>Betoptic S</name></value>
+<value><name>Bevacizumab</name></value>
+<value><name>Bexarotene</name></value>
+<value><name>Bexxar</name></value>
+<value><name>Bexxar Dosimetric</name></value>
+<value><name>Bexxar Therapeutic</name></value>
+<value><name>Beyaz</name></value>
+<value><name>Beyondclear</name></value>
+<value><name>Biaxin</name></value>
+<value><name>Bicalutamide</name></value>
+<value><name>Bicillin Cr</name></value>
+<value><name>Bicillin C-R 900/300</name></value>
+<value><name>Bicillin L-A</name></value>
+<value><name>Bicnu</name></value>
+<value><name>Bidil</name></value>
+<value><name>Biltricide</name></value>
+<value><name>Bimatoprost</name></value>
+<value><name>Binosto</name></value>
+<value><name>Bioglo</name></value>
+<value><name>Bio-Scriptives Lidum Topical Analgesic</name></value>
+<value><name>Bisacodyl</name></value>
+<value><name>Bisoprolol Fumarate</name></value>
+<value><name>Bisoprolol Fumarate And Hydrochlorothiazide</name></value>
+<value><name>Bivalirudin</name></value>
+<value><name>Bleomycin</name></value>
+<value><name>Bleomycin Sulfate</name></value>
+<value><name>Blephamide</name></value>
+<value><name>B-Nexa</name></value>
+<value><name>Boceprevir</name></value>
+<value><name>Boniva</name></value>
+<value><name>Bontril</name></value>
+<value><name>Bontril Pdm</name></value>
+<value><name>Borofair</name></value>
+<value><name>Bortezomib</name></value>
+<value><name>Bosentan</name></value>
+<value><name>Bosulif</name></value>
+<value><name>Bosutinib Monohydrate</name></value>
+<value><name>Botox</name></value>
+<value><name>Botox Cosmetic</name></value>
+<value><name>Botulinum Toxin Type A</name></value>
+<value><name>Bpo</name></value>
+<value><name>Bpo 3 Foaming</name></value>
+<value><name>Bpo 6 Foaming</name></value>
+<value><name>Bpo 9 Foaming</name></value>
+<value><name>Bravelle</name></value>
+<value><name>Brentuximab Vedotin</name></value>
+<value><name>Brevibloc</name></value>
+<value><name>Brevicon</name></value>
+<value><name>Brevital Sodium</name></value>
+<value><name>Briellyn</name></value>
+<value><name>Brilinta</name></value>
+<value><name>Brimonidine</name></value>
+<value><name>Brimonidine Tartrate</name></value>
+<value><name>Brimonidine Tartrate, Timolol Maleate</name></value>
+<value><name>Brinzolamide</name></value>
+<value><name>Bromax</name></value>
+<value><name>Bromday</name></value>
+<value><name>Bromfed Dm</name></value>
+<value><name>Bromfenac</name></value>
+<value><name>Bromfenac Sodium</name></value>
+<value><name>Bromocriptine Mesylate</name></value>
+<value><name>Brompheniramine Maleate</name></value>
+<value><name>Brovana</name></value>
+<value><name>Bss</name></value>
+<value><name>Bss Plus</name></value>
+<value><name>Budeprion</name></value>
+<value><name>Budeprion Sr</name></value>
+<value><name>Budeprion Xl</name></value>
+<value><name>Budesonide</name></value>
+<value><name>Budesonide And Formoterol Fumarate Dihydrate</name></value>
+<value><name>Budesonide Inhalation</name></value>
+<value><name>Buffered Intrathecal Electrolyte/Dextrose</name></value>
+<value><name>Bumetanide</name></value>
+<value><name>Buminate</name></value>
+<value><name>Bupap</name></value>
+<value><name>Buphenyl</name></value>
+<value><name>Bupivacaine</name></value>
+<value><name>Bupivacaine Hcl</name></value>
+<value><name>Bupivacaine Hydrochloride</name></value>
+<value><name>Bupivacaine Hydrochloride And Epinephrine</name></value>
+<value><name>Buprenex</name></value>
+<value><name>Buprenorphine</name></value>
+<value><name>Buprenorphine And Naloxone</name></value>
+<value><name>Buprenorphine Hcl</name></value>
+<value><name>Buprenorphine Hydrochloride</name></value>
+<value><name>Buprenorphine Hydrochloride And Naloxone Hydrochloride</name></value>
+<value><name>Buproban</name></value>
+<value><name>Bupropion</name></value>
+<value><name>Bupropion Hydrobromide</name></value>
+<value><name>Bupropion Hydrochloride</name></value>
+<value><name>Bupropion Hydrochloride SR</name></value>
+<value><name>Bupropion Hydrochloride Xl</name></value>
+<value><name>Buspirone</name></value>
+<value><name>Buspirone Hydrochloride</name></value>
+<value><name>Busulfan</name></value>
+<value><name>Busulfex</name></value>
+<value><name>Butabarbital Sodium</name></value>
+<value><name>Butalbital And Acetaminophen</name></value>
+<value><name>Butalbital, Acetaminophen And Caffeine</name></value>
+<value><name>Butalbital, Acetaminophen, Caffeine, And Codeine Phosphate</name></value>
+<value><name>Butenafine Hydrochloride</name></value>
+<value><name>Butisol Sodium</name></value>
+<value><name>Butoconazole Nitrate</name></value>
+<value><name>Butorphanol Tartrate</name></value>
+<value><name>Butrans</name></value>
+<value><name>Bydureon</name></value>
+<value><name>Byetta</name></value>
+<value><name>Bystolic</name></value>
+<value><name>Cabazitaxel</name></value>
+<value><name>Cabergoline</name></value>
+<value><name>Caduet</name></value>
+<value><name>Cafcit</name></value>
+<value><name>Cafergot</name></value>
+<value><name>Caffeine And Sodium Benzoate</name></value>
+<value><name>Caffeine Citrate</name></value>
+<value><name>Calan</name></value>
+<value><name>Calan Sr</name></value>
+<value><name>Calcijex</name></value>
+<value><name>Calcipotriene</name></value>
+<value><name>Calcipotriene And Betamethasone Dipropionate</name></value>
+<value><name>Calcitonin Salmon</name></value>
+<value><name>Calcitrene</name></value>
+<value><name>Calcitriol</name></value>
+<value><name>Calcium</name></value>
+<value><name>Calcium Acetate</name></value>
+<value><name>Calcium Chloride</name></value>
+<value><name>Calcium Choride</name></value>
+<value><name>Calcium Disodium Versenate</name></value>
+<value><name>Calcium Folinate</name></value>
+<value><name>Calcium Gluconate</name></value>
+<value><name>Caldolor</name></value>
+<value><name>Calfactant</name></value>
+<value><name>Cambia</name></value>
+<value><name>Camila</name></value>
+<value><name>Campath</name></value>
+<value><name>Campral</name></value>
+<value><name>Camptosar</name></value>
+<value><name>Camrese</name></value>
+<value><name>Camreselo</name></value>
+<value><name>Canakinumab</name></value>
+<value><name>Canasa</name></value>
+<value><name>Cancidas</name></value>
+<value><name>Candesartan Cilexetil</name></value>
+<value><name>Candesartan Cilexetil And Hydrochlorothiazide</name></value>
+<value><name>Cantil</name></value>
+<value><name>Capacet</name></value>
+<value><name>Capastat Sulfate</name></value>
+<value><name>Capecitabine</name></value>
+<value><name>Capex</name></value>
+<value><name>Capital And Codeine</name></value>
+<value><name>Caprelsa</name></value>
+<value><name>Capreomycin</name></value>
+<value><name>Captopril And Hydrochlorothiazide</name></value>
+<value><name>Captorpil</name></value>
+<value><name>Carac</name></value>
+<value><name>Carafate</name></value>
+<value><name>Carbachol</name></value>
+<value><name>Carbaglu</name></value>
+<value><name>Carbamazepine</name></value>
+<value><name>Carbamazepine (Chewable)</name></value>
+<value><name>Carbamazepine Er</name></value>
+<value><name>Carbatrol</name></value>
+<value><name>Carbetapentane Citrate and Guaifenesin</name></value>
+<value><name>Carbidopa</name></value>
+<value><name>Carbidopa And Levodopa</name></value>
+<value><name>Carbidopa, Levodopa And Entacapone</name></value>
+<value><name>Carbinoxamine Maleate</name></value>
+<value><name>Carbmazepine (Chewable)</name></value>
+<value><name>Carbocaine</name></value>
+<value><name>Carbocaine With Neo-Cobefrin</name></value>
+<value><name>Carbogen</name></value>
+<value><name>Carbon Dioxide</name></value>
+<value><name>Carbon Dioxide Air Mixture</name></value>
+<value><name>Carbon Dioxide Oxygen Mixture</name></value>
+<value><name>Carbon Dioxide Refrigerated</name></value>
+<value><name>Carboplatin</name></value>
+<value><name>Carboprost Tromethamine</name></value>
+<value><name>Cardene</name></value>
+<value><name>Cardene IV</name></value>
+<value><name>Cardene Sr</name></value>
+<value><name>Cardizem</name></value>
+<value><name>Cardizem Cd</name></value>
+<value><name>Cardizem La</name></value>
+<value><name>Cardura</name></value>
+<value><name>Cardura Xl</name></value>
+<value><name>Carfilzomib</name></value>
+<value><name>Carglumic Acid</name></value>
+<value><name>Carimune</name></value>
+<value><name>Carimune Nanofiltered</name></value>
+<value><name>Carisoprodol</name></value>
+<value><name>Carisoprodol And Aspirin</name></value>
+<value><name>Carisoprodol, Aspirin And Codeine Phosphate</name></value>
+<value><name>Carmol Hc</name></value>
+<value><name>Carmustine</name></value>
+<value><name>Carnitor</name></value>
+<value><name>Carnitor Sf</name></value>
+<value><name>Carteolol Hydrochloride</name></value>
+<value><name>Cartia</name></value>
+<value><name>Cartia Xt</name></value>
+<value><name>Carvedilol</name></value>
+<value><name>Carvedilol Phosphate</name></value>
+<value><name>Casodex</name></value>
+<value><name>Caspofungin Acetate</name></value>
+<value><name>Castor Oil And Balsam, Peru</name></value>
+<value><name>Cataflam</name></value>
+<value><name>Catapres</name></value>
+<value><name>Cathflo Activase</name></value>
+<value><name>Caverject</name></value>
+<value><name>Caverject Impulse</name></value>
+<value><name>Cavirinse</name></value>
+<value><name>Cayston</name></value>
+<value><name>Caziant</name></value>
+<value><name>Cedax</name></value>
+<value><name>Ceenu</name></value>
+<value><name>Cefaclor</name></value>
+<value><name>Cefadroxil</name></value>
+<value><name>Cefadroxil Hemihydrate</name></value>
+<value><name>Cefadroxil Monohydrate</name></value>
+<value><name>Cefazolin</name></value>
+<value><name>Cefazolin Sodium</name></value>
+<value><name>Cefdinir</name></value>
+<value><name>Cefditoren Pivoxil</name></value>
+<value><name>Cefepime</name></value>
+<value><name>Cefepime Hydrochloride</name></value>
+<value><name>Cefixime</name></value>
+<value><name>Cefotaxime</name></value>
+<value><name>Cefotaxime Sodium</name></value>
+<value><name>Cefotetan</name></value>
+<value><name>Cefotetan Disodium</name></value>
+<value><name>Cefoxitin</name></value>
+<value><name>Cefoxitin Sodium</name></value>
+<value><name>Cefpodoxime Proxetil</name></value>
+<value><name>Cefprozil</name></value>
+<value><name>Ceftaroline Fosamil</name></value>
+<value><name>Ceftazidime</name></value>
+<value><name>Ceftazidime Sodium</name></value>
+<value><name>Ceftibuten Dihydrate</name></value>
+<value><name>Ceftin</name></value>
+<value><name>Ceftriaxone</name></value>
+<value><name>Ceftriaxone Sodium</name></value>
+<value><name>Cefuroxime</name></value>
+<value><name>Cefuroxime Axetil</name></value>
+<value><name>Cefuroxime Sodium</name></value>
+<value><name>Celebrex</name></value>
+<value><name>Celecoxib</name></value>
+<value><name>Celestone</name></value>
+<value><name>Celestone Soluspan</name></value>
+<value><name>Celexa</name></value>
+<value><name>Cellcept</name></value>
+<value><name>Celontin</name></value>
+<value><name>Cem-Urea</name></value>
+<value><name>Cenestin</name></value>
+<value><name>Centany</name></value>
+<value><name>Centratex</name></value>
+<value><name>Centussin Dhc</name></value>
+<value><name>Cephalexin</name></value>
+<value><name>Ceprotin</name></value>
+<value><name>Cerezyme</name></value>
+<value><name>Cerisa</name></value>
+<value><name>Certolizumab Pegol</name></value>
+<value><name>Cerubidine</name></value>
+<value><name>Cervidil</name></value>
+<value><name>Cesamet</name></value>
+<value><name>Cetirizine</name></value>
+<value><name>Cetirizine Hydrochloride</name></value>
+<value><name>Cetrorelix Acetate</name></value>
+<value><name>Cetrotide</name></value>
+<value><name>Cetuximab</name></value>
+<value><name>Cevimeline Hydrochloride</name></value>
+<value><name>Chantix</name></value>
+<value><name>Chemet</name></value>
+<value><name>Chenodal</name></value>
+<value><name>Chenodiol</name></value>
+<value><name>Childrens Silapap</name></value>
+<value><name>Chloral Hydrate</name></value>
+<value><name>Chloralum</name></value>
+<value><name>Chlorambucil</name></value>
+<value><name>Chloramphenicol Sodium Succinate</name></value>
+<value><name>Chlordiazepoxide And Amitriptyline Hydrochloride</name></value>
+<value><name>Chlordiaze Poxide Hcl</name></value>
+<value><name>Chlordiazepoxide Hydrochloride</name></value>
+<value><name>Chlordiazepoxide Hydrochloride And Clidinium Bromide</name></value>
+<value><name>Chlorhexidine Gluconate</name></value>
+<value><name>Chloromag</name></value>
+<value><name>Chloroprocaine Hydrochloride</name></value>
+<value><name>Chloroquine</name></value>
+<value><name>Chloroquine Phosphate</name></value>
+<value><name>Chlorothiazide</name></value>
+<value><name>Chlorothiazide Sodium</name></value>
+<value><name>Chloroxylenol / Pramoxine Hcl</name></value>
+<value><name>Chloroxylenol, Benzocaine And Hydrocortisone Acetate</name></value>
+<value><name>Chlorpromazine</name></value>
+<value><name>Chlorpromazine Hydrochloride</name></value>
+<value><name>Chlorpropamide</name></value>
+<value><name>Chlorthalidone</name></value>
+<value><name>Chlorzoxazone</name></value>
+<value><name>Cholestyramine</name></value>
+<value><name>Cholestyramine Light</name></value>
+<value><name>Choline Magnesium Trisalicylate</name></value>
+<value><name>Choriogonadotropin Alfa</name></value>
+<value><name>Chorionic Gonadotropin</name></value>
+<value><name>Chromic Chloride</name></value>
+<value><name>Chromium</name></value>
+<value><name>Cialis</name></value>
+<value><name>Ciclesonide</name></value>
+<value><name>Ciclodan</name></value>
+<value><name>Ciclopirox</name></value>
+<value><name>Ciclopirox Olamine</name></value>
+<value><name>Cidofovir</name></value>
+<value><name>Cidofovir Anhydrous</name></value>
+<value><name>Cidofovir Dihydrate</name></value>
+<value><name>Cilostazol</name></value>
+<value><name>Ciloxan</name></value>
+<value><name>Cimetidine</name></value>
+<value><name>Cimetidine Hydrochloride</name></value>
+<value><name>Cimetidine Hydrochloride Oral Solution</name></value>
+<value><name>Cimzia</name></value>
+<value><name>Cinacalcet Hydrochloride</name></value>
+<value><name>Cinryze</name></value>
+<value><name>Cipro</name></value>
+<value><name>Ciprodex</name></value>
+<value><name>Ciprofloxacin</name></value>
+<value><name>Ciprofloxacin Er</name></value>
+<value><name>Ciprofloxacin Hydrochloride</name></value>
+<value><name>Ciprofloxacin Otic</name></value>
+<value><name>Cisatracurium Besylate</name></value>
+<value><name>Cisplatin</name></value>
+<value><name>Citalopram</name></value>
+<value><name>Citalopram Hydrobromide</name></value>
+<value><name>Citanest Forte</name></value>
+<value><name>Citanest Plain</name></value>
+<value><name>Citric Acid Anhydrous And 13C Urea</name></value>
+<value><name>Cladribine</name></value>
+<value><name>Claforan</name></value>
+<value><name>Claravis</name></value>
+<value><name>Clarifoam Ef</name></value>
+<value><name>Clarinex</name></value>
+<value><name>Clarinex Reditabs</name></value>
+<value><name>Clarinex-D 12 Hour</name></value>
+<value><name>Clarinex-D 24 Hour</name></value>
+<value><name>Claris</name></value>
+<value><name>Clarithromycin</name></value>
+<value><name>Clarithromycin Xr</name></value>
+<value><name>Clemastine Fumarate</name></value>
+<value><name>Clenia</name></value>
+<value><name>Clenz-Lyte</name></value>
+<value><name>Cleocin</name></value>
+<value><name>Cleocin Hydrochloride</name></value>
+<value><name>Cleocin Pediatric</name></value>
+<value><name>Cleocin Phosphate</name></value>
+<value><name>Cleocin T</name></value>
+<value><name>Clevidipine</name></value>
+<value><name>Cleviprex</name></value>
+<value><name>Climara</name></value>
+<value><name>Climara Pro</name></value>
+<value><name>Clinac Bpo 7</name></value>
+<value><name>Clindacin P</name></value>
+<value><name>Clindacin Pac</name></value>
+<value><name>Clinda-Derm</name></value>
+<value><name>Clindagel</name></value>
+<value><name>Clindamax</name></value>
+<value><name>Clindamax Lotion</name></value>
+<value><name>Clindamycin</name></value>
+<value><name>Clindamycin - Benzoyl Peroxide</name></value>
+<value><name>Clindamycin Hydrochloride</name></value>
+<value><name>Clindamycin Palmitate Hydrochloride</name></value>
+<value><name>Clindamycin Phosphate</name></value>
+<value><name>Clindamycin Phosphate And Benzoyl Peroxide</name></value>
+<value><name>Clindamycin Phosphate And Tretinoin</name></value>
+<value><name>Clindareach</name></value>
+<value><name>Clindesse</name></value>
+<value><name>Clinoril</name></value>
+<value><name>Clinpro 5000</name></value>
+<value><name>Clobazam</name></value>
+<value><name>Clobetasol Propionate</name></value>
+<value><name>Clobex</name></value>
+<value><name>Clocortolone Pivalate</name></value>
+<value><name>Cloderm</name></value>
+<value><name>Clofarabine</name></value>
+<value><name>Clolar</name></value>
+<value><name>Clomiphene Citrate</name></value>
+<value><name>Clomipramine Hydrochloride</name></value>
+<value><name>Clonazepam</name></value>
+<value><name>Clonidine</name></value>
+<value><name>Clonidine Hcl</name></value>
+<value><name>Clonidine Hydrochloride</name></value>
+<value><name>Clonidine Hydrochloride And Chlorthalidone</name></value>
+<value><name>Clopidogrel</name></value>
+<value><name>Clopidogrel Bisulfate</name></value>
+<value><name>Clorazepate Dipotassium</name></value>
+<value><name>Clorpres</name></value>
+<value><name>Clotrimazole</name></value>
+<value><name>Clotrimazole And Betamethasone Dipropionate</name></value>
+<value><name>Clotrimazole Troche</name></value>
+<value><name>Clozapine</name></value>
+<value><name>Clozaril</name></value>
+<value><name>Coagulation Factor Ix (Recombinant)</name></value>
+<value><name>Coagulation Factor Ix Human</name></value>
+<value><name>Coagulation Factor Viia (Recombinant) Room Temperature Stable</name></value>
+<value><name>Coartem</name></value>
+<value><name>Cocaine Hydrochloride</name></value>
+<value><name>Cocet Plus</name></value>
+<value><name>Codeine Base</name></value>
+<value><name>Codeine Phosphate And Chlorpheniramine Maleate</name></value>
+<value><name>Codeine Phosphate, Chlorcyclizine Hcl</name></value>
+<value><name>Codeine Phosphate, Guaifenesin</name></value>
+<value><name>Codeine Phosphate, Pseudoephedrine Hcl, Chlorcyclizine Hcl</name></value>
+<value><name>Codeine Sulfate</name></value>
+<value><name>Codeinum</name></value>
+<value><name>Cogentin</name></value>
+<value><name>Co-Gesic</name></value>
+<value><name>Colazal</name></value>
+<value><name>Colchicine</name></value>
+<value><name>Colcrys</name></value>
+<value><name>Colesevelam Hydrochloride</name></value>
+<value><name>Colestid</name></value>
+<value><name>Colestipol Hydrochloride</name></value>
+<value><name>Colistimethate</name></value>
+<value><name>Colistimethate Sodium</name></value>
+<value><name>Collagenase Santyl</name></value>
+<value><name>Colocort</name></value>
+<value><name>Colocynthis Homaccord</name></value>
+<value><name>Coly-Mycin</name></value>
+<value><name>Coly-Mycin S</name></value>
+<value><name>Combigan</name></value>
+<value><name>Combipatch</name></value>
+<value><name>Combivent</name></value>
+<value><name>Combivent Respimat</name></value>
+<value><name>Combivir</name></value>
+<value><name>Complera</name></value>
+<value><name>Compressed Oxygen</name></value>
+<value><name>Compro</name></value>
+<value><name>Comtan</name></value>
+<value><name>Concerta</name></value>
+<value><name>Condylox</name></value>
+<value><name>Conivaptan Hydrochloride</name></value>
+<value><name>Conjugated Estrogens</name></value>
+<value><name>Conjugated Estrogens And Medroxyprogesterone Acetate</name></value>
+<value><name>Constulose</name></value>
+<value><name>Controlrx</name></value>
+<value><name>Controlrx Multi</name></value>
+<value><name>Conzip</name></value>
+<value><name>Copaxone</name></value>
+<value><name>Copegus</name></value>
+<value><name>Copper</name></value>
+<value><name>Cordarone</name></value>
+<value><name>Cordran</name></value>
+<value><name>Coreg</name></value>
+<value><name>Coreg Cr</name></value>
+<value><name>Corgard</name></value>
+<value><name>Corifact</name></value>
+<value><name>Corlopam</name></value>
+<value><name>Cormax</name></value>
+<value><name>Cortalo</name></value>
+<value><name>Cortef</name></value>
+<value><name>Cortenema</name></value>
+<value><name>Corticorelin Ovine Triflutate</name></value>
+<value><name>Cortisone Acetate</name></value>
+<value><name>Cortisporin</name></value>
+<value><name>Cortisporin-Tc</name></value>
+<value><name>Cortomycin</name></value>
+<value><name>Cortrosyn</name></value>
+<value><name>Corvert</name></value>
+<value><name>Corzide</name></value>
+<value><name>Cosmegen</name></value>
+<value><name>Cosopt</name></value>
+<value><name>Cosopt Pf</name></value>
+<value><name>Cosyntropin</name></value>
+<value><name>Coumadin</name></value>
+<value><name>Covera-Hs</name></value>
+<value><name>Cozaar</name></value>
+<value><name>Creon</name></value>
+<value><name>Crestor</name></value>
+<value><name>Crinone</name></value>
+<value><name>Crixivan</name></value>
+<value><name>Crizotinib</name></value>
+<value><name>Crolom</name></value>
+<value><name>Cromolyn Sodium</name></value>
+<value><name>Cryselle</name></value>
+<value><name>Cubicin</name></value>
+<value><name>Cupric Chloride</name></value>
+<value><name>Cupric Sulfate</name></value>
+<value><name>Cuprimine</name></value>
+<value><name>Curosurf</name></value>
+<value><name>Cutivate</name></value>
+<value><name>Cuvposa</name></value>
+<value><name>Cyanocobalamin</name></value>
+<value><name>Cyanokit</name></value>
+<value><name>Cyclafem 1/35</name></value>
+<value><name>Cyclafem 7/7/7</name></value>
+<value><name>Cyclessa</name></value>
+<value><name>Cyclo/Mag</name></value>
+<value><name>Cyclo/Mag 10Mg/200Mg</name></value>
+<value><name>Cyclobenzaprine Hydrochloride</name></value>
+<value><name>Cyclogyl</name></value>
+<value><name>Cyclomydril</name></value>
+<value><name>Cyclopentolate Hydrochloride</name></value>
+<value><name>Cyclopentolate Hydrochloride And Phenylephrine Hydrochloride</name></value>
+<value><name>Cyclophosphamide</name></value>
+<value><name>Cycloserine</name></value>
+<value><name>Cycloset</name></value>
+<value><name>Cyclosporine</name></value>
+<value><name>Cyklokapron</name></value>
+<value><name>Cymbalta</name></value>
+<value><name>Cyproheptadine Hydrochloride</name></value>
+<value><name>Cystadane</name></value>
+<value><name>Cystagon</name></value>
+<value><name>Cysteamine Bitartrate</name></value>
+<value><name>Cysview</name></value>
+<value><name>Cytarabine</name></value>
+<value><name>Cytogam</name></value>
+<value><name>Cytomel</name></value>
+<value><name>Cytotec</name></value>
+<value><name>Cytovene Iv</name></value>
+<value><name>Cytra</name></value>
+<value><name>Cytra-2</name></value>
+<value><name>Cytra-K</name></value>
+<value><name>Cytra-K Cystrals</name></value>
+<value><name>D.H.E. 45</name></value>
+<value><name>Dabigatran Etexilate Mesylate</name></value>
+<value><name>Dacarbazine</name></value>
+<value><name>Dacogen</name></value>
+<value><name>Dactinomycin</name></value>
+<value><name>Dalfampridine</name></value>
+<value><name>Daliresp</name></value>
+<value><name>Dalteparin Sodium</name></value>
+<value><name>Danazol</name></value>
+<value><name>Dantrium</name></value>
+<value><name>Dantrolene Sodium</name></value>
+<value><name>Dapsone</name></value>
+<value><name>Daptomycin</name></value>
+<value><name>Daranide</name></value>
+<value><name>Daraprim</name></value>
+<value><name>Darbepoetin Alfa</name></value>
+<value><name>Darifenacin</name></value>
+<value><name>Darunavir</name></value>
+<value><name>Darunavir Ethanolate</name></value>
+<value><name>Darvon-N</name></value>
+<value><name>Dasatinib</name></value>
+<value><name>Dasetta 1/35</name></value>
+<value><name>Dasetta 7/7/7</name></value>
+<value><name>Datscan</name></value>
+<value><name>Daunorubicin Citrate</name></value>
+<value><name>Daunorubicin Hydrochloride</name></value>
+<value><name>Daunoxome</name></value>
+<value><name>Daypro</name></value>
+<value><name>Daytrana</name></value>
+<value><name>Ddavp</name></value>
+<value><name>Ddavp Rhinal Tube</name></value>
+<value><name>Decitabine</name></value>
+<value><name>Deferasirox</name></value>
+<value><name>Deferiprone</name></value>
+<value><name>Deferoxamine</name></value>
+<value><name>Deferoxamine Mesylate</name></value>
+<value><name>Degarelix</name></value>
+<value><name>Dehydrated Alcohol</name></value>
+<value><name>Delatestryl</name></value>
+<value><name>Delavirdine Mesylate</name></value>
+<value><name>Delestrogen</name></value>
+<value><name>Delos</name></value>
+<value><name>Demadex</name></value>
+<value><name>Demeclocycline Hydrochloride</name></value>
+<value><name>Demerol</name></value>
+<value><name>Demser</name></value>
+<value><name>Denavir</name></value>
+<value><name>Denileukin Diftitox</name></value>
+<value><name>Denosumab</name></value>
+<value><name>Denta 5000 Plus</name></value>
+<value><name>Dentagel</name></value>
+<value><name>Depacon</name></value>
+<value><name>Depakene</name></value>
+<value><name>Depakote</name></value>
+<value><name>Depakote Er</name></value>
+<value><name>Depen</name></value>
+<value><name>Depocyt</name></value>
+<value><name>Depo-Estradiol</name></value>
+<value><name>Depo-Medrol</name></value>
+<value><name>Depo-Provera</name></value>
+<value><name>Depo-Subq Provera</name></value>
+<value><name>Depo-Testosterone</name></value>
+<value><name>Deprizine</name></value>
+<value><name>Derma-Smoothe/Fs</name></value>
+<value><name>Dermatop</name></value>
+<value><name>Dermazene</name></value>
+<value><name>Dermotic</name></value>
+<value><name>Desferal</name></value>
+<value><name>Desflurane</name></value>
+<value><name>Desipramine Hydrochloride</name></value>
+<value><name>Desirudin</name></value>
+<value><name>Desloratadine</name></value>
+<value><name>Desloratadine And Pseudoephedrine Sulfate</name></value>
+<value><name>Desmopressin Acetate</name></value>
+<value><name>Desogen</name></value>
+<value><name>Desogestrel And Ethinyl Estradiol</name></value>
+<value><name>Desonate</name></value>
+<value><name>Desonide</name></value>
+<value><name>Desonide Lotion</name></value>
+<value><name>Desonide Lotion 0.05%</name></value>
+<value><name>Desowen</name></value>
+<value><name>Desoximetasone</name></value>
+<value><name>Desoxyn</name></value>
+<value><name>Desquam-X</name></value>
+<value><name>Desquam-X Wash</name></value>
+<value><name>Desvenlafaxine Succinate</name></value>
+<value><name>Detrol</name></value>
+<value><name>Detrol La</name></value>
+<value><name>Dexamethasone</name></value>
+<value><name>Dexamethasone Intensol</name></value>
+<value><name>Dexamethasone Phosphate</name></value>
+<value><name>Dexamethasone Sodium Phosphate</name></value>
+<value><name>Dexedrine</name></value>
+<value><name>Dexferrum</name></value>
+<value><name>Dexilant</name></value>
+<value><name>Dexlansoprazole</name></value>
+<value><name>Dexmethylphenidate Hydrochloride</name></value>
+<value><name>Dexpanthenol</name></value>
+<value><name>Dexrazoxane</name></value>
+<value><name>Dexrazoxane Hydrochloride</name></value>
+<value><name>Dextran 40</name></value>
+<value><name>Dextroamphetamine</name></value>
+<value><name>Dextroamphetamine Sulfate</name></value>
+<value><name>Dextroamphetamine Sulfate Er</name></value>
+<value><name>Dextromethorphan Hydrobromide And Promethazine Hydrochloride</name></value>
+<value><name>Dextromethorphan Hydrobromide And Quinidine Sulfate</name></value>
+<value><name>Dextrose</name></value>
+<value><name>Dextrose Monohydrate</name></value>
+<value><name>Diabeta</name></value>
+<value><name>Diamox Sequels</name></value>
+<value><name>Diazepam</name></value>
+<value><name>Diazepam Intensol</name></value>
+<value><name>Diazoxide</name></value>
+<value><name>Dibenzyline</name></value>
+<value><name>Dichlorphenamide</name></value>
+<value><name>Diclofenac</name></value>
+<value><name>Diclofenac Epolamine</name></value>
+<value><name>Diclofenac Potassium</name></value>
+<value><name>Diclofenac Sodium</name></value>
+<value><name>Diclofenac Sodium And Misoprostol</name></value>
+<value><name>Diclofenac Sodium Dr</name></value>
+<value><name>Diclofenac Sodium Extended Release Tablets</name></value>
+<value><name>Dicloxacillin Sodium</name></value>
+<value><name>Dicyclomine</name></value>
+<value><name>Dicyclomine Hydrochloride</name></value>
+<value><name>Didanosine</name></value>
+<value><name>Didanosine Enteric-Coated Beadlets</name></value>
+<value><name>Didrex</name></value>
+<value><name>Didronel</name></value>
+<value><name>Diethylpropion Hydrochloride</name></value>
+<value><name>Difenoxin Hydrochloride</name></value>
+<value><name>Differin</name></value>
+<value><name>Dificid</name></value>
+<value><name>Diflorasone Diacetate</name></value>
+<value><name>Diflorasone Diacetate Ointment</name></value>
+<value><name>Diflucan</name></value>
+<value><name>Diflunisal</name></value>
+<value><name>Digibind</name></value>
+<value><name>Digifab</name></value>
+<value><name>Digox</name></value>
+<value><name>Digoxin</name></value>
+<value><name>Digoxin Immune Fab Ovine</name></value>
+<value><name>Dihydroergotamine Mesylate</name></value>
+<value><name>Dilacor</name></value>
+<value><name>Dilacor Xr</name></value>
+<value><name>Dilantin</name></value>
+<value><name>Dilantin Infatabs</name></value>
+<value><name>Dilantin-125</name></value>
+<value><name>Dilatrate Sr</name></value>
+<value><name>Dilaudid</name></value>
+<value><name>Dilaudid Hp</name></value>
+<value><name>Dilt-Cd</name></value>
+<value><name>Diltiazem</name></value>
+<value><name>Diltiazem Cd</name></value>
+<value><name>Diltiazem Hydrochloride</name></value>
+<value><name>Diltzac</name></value>
+<value><name>Diluent</name></value>
+<value><name>Dimenhydrinate</name></value>
+<value><name>Dimercaprol</name></value>
+<value><name>Dimethyl Sulfoxide</name></value>
+<value><name>Dinoprostone</name></value>
+<value><name>Diovan</name></value>
+<value><name>Diovan Hct</name></value>
+<value><name>Diphenhydramine</name></value>
+<value><name>Diphenhydramine / Pseudoephedrine Hcl</name></value>
+<value><name>Diphenhydramine Hydrochloride</name></value>
+<value><name>Diphenhydramine, Lidocaine, Nystatin</name></value>
+<value><name>Diphenoxylate Hcl And Atropine Sulfate</name></value>
+<value><name>Diphenoxylate Hydrochloride</name></value>
+<value><name>Diphenoxylate Hydrochloride And Atropine Sulfate</name></value>
+<value><name>Dipridamole</name></value>
+<value><name>Diprivan</name></value>
+<value><name>Diprolene</name></value>
+<value><name>Diprolene Af</name></value>
+<value><name>Dipyridamole</name></value>
+<value><name>Diskets</name></value>
+<value><name>Disopyramide Phosphate</name></value>
+<value><name>Disulfiram</name></value>
+<value><name>Ditropan</name></value>
+<value><name>Ditropan Xl</name></value>
+<value><name>Diuril</name></value>
+<value><name>Divalproex Sodium</name></value>
+<value><name>Divalproex Sodium Delayed Release</name></value>
+<value><name>Divalproex Sodium Extended Release</name></value>
+<value><name>Divigel</name></value>
+<value><name>Dobutamine</name></value>
+<value><name>Dobutamine Hydrochloride</name></value>
+<value><name>Dobutamine Hydrochloride In Dextrose</name></value>
+<value><name>Docefrez</name></value>
+<value><name>Docetaxel</name></value>
+<value><name>Docetaxel Anhydrous</name></value>
+<value><name>Docosavit</name></value>
+<value><name>Dofetilide</name></value>
+<value><name>Dolasetron Mesylate</name></value>
+<value><name>Dolgic Plus</name></value>
+<value><name>Dolophine</name></value>
+<value><name>Dolophine Hydrochloride</name></value>
+<value><name>Donepezil</name></value>
+<value><name>Donepezil Hydrochloride</name></value>
+<value><name>Donepezil Hydrochloride Odt</name></value>
+<value><name>Donnatal</name></value>
+<value><name>Donnatal Extentabs</name></value>
+<value><name>Dopamine</name></value>
+<value><name>Dopamine Hydrochloride</name></value>
+<value><name>Dopamine Hydrochloride And Dextrose</name></value>
+<value><name>Dopram</name></value>
+<value><name>Doribax</name></value>
+<value><name>Doripenem</name></value>
+<value><name>Dornase Alfa</name></value>
+<value><name>Doryx</name></value>
+<value><name>Dorzolamide Hcl</name></value>
+<value><name>Dorzolamide Hydrochloride</name></value>
+<value><name>Dorzolamide Hydrochloride And Timolol Maleate</name></value>
+<value><name>Dovonex</name></value>
+<value><name>Doxapram Hydrochloride</name></value>
+<value><name>Doxazosin</name></value>
+<value><name>Doxazosin Mesylate</name></value>
+<value><name>Doxepin Hydrochloride</name></value>
+<value><name>Doxercalciferol</name></value>
+<value><name>Doxil</name></value>
+<value><name>Doxorubicin Hydrochloride</name></value>
+<value><name>Doxy 100</name></value>
+<value><name>Doxycyclate Hyclate</name></value>
+<value><name>Doxycycline</name></value>
+<value><name>Doxycycline Calcium</name></value>
+<value><name>Doxycycline Hyclate</name></value>
+<value><name>Doxycycline Monohydrate</name></value>
+<value><name>Drisdol</name></value>
+<value><name>Dronabinol</name></value>
+<value><name>Dronedarone</name></value>
+<value><name>Droperidol</name></value>
+<value><name>Drospirenone And Ethinyl Estradiol</name></value>
+<value><name>Droxia</name></value>
+<value><name>Duac</name></value>
+<value><name>Duetact</name></value>
+<value><name>Duexis</name></value>
+<value><name>Dulera</name></value>
+<value><name>Duloxetine Hydrochloride</name></value>
+<value><name>Duodote</name></value>
+<value><name>Duoneb</name></value>
+<value><name>Duraclon</name></value>
+<value><name>Duragesic</name></value>
+<value><name>Duramorph</name></value>
+<value><name>Durezol</name></value>
+<value><name>Dutasteride</name></value>
+<value><name>Dutasteride And Tamsulosin Hydrochloride</name></value>
+<value><name>Dutoprol</name></value>
+<value><name>Dyazide</name></value>
+<value><name>Dymista</name></value>
+<value><name>Dynacin</name></value>
+<value><name>Dynacirc</name></value>
+<value><name>Dynacirc Cr</name></value>
+<value><name>Dyphylline</name></value>
+<value><name>Dyphylline And Guaifenesin</name></value>
+<value><name>Dyrenium</name></value>
+<value><name>Dysport</name></value>
+<value><name>E.E.S</name></value>
+<value><name>E.E.S.</name></value>
+<value><name>Ecallantide</name></value>
+<value><name>Echothiophate Iodide</name></value>
+<value><name>Ec-Naprosyn</name></value>
+<value><name>Econazole Nitrate</name></value>
+<value><name>Eculizumab</name></value>
+<value><name>Eczemol</name></value>
+<value><name>Edarbi</name></value>
+<value><name>Edarbyclor</name></value>
+<value><name>Edecrin</name></value>
+<value><name>Edetate Calcium Disodium</name></value>
+<value><name>Edex</name></value>
+<value><name>Edluar</name></value>
+<value><name>Edrophonium Chloride</name></value>
+<value><name>Edrophonium Chloride And Atrophine Sulfate</name></value>
+<value><name>Ed-Spaz</name></value>
+<value><name>Edurant</name></value>
+<value><name>Eemt H.S.</name></value>
+<value><name>Efavirenz</name></value>
+<value><name>Effexor</name></value>
+<value><name>Effexor Xr</name></value>
+<value><name>Effient</name></value>
+<value><name>Eflornithine Hydrochloride</name></value>
+<value><name>Efudex</name></value>
+<value><name>Egrifta</name></value>
+<value><name>Elaprase</name></value>
+<value><name>Eldepryl</name></value>
+<value><name>Elelyso</name></value>
+<value><name>Elestat</name></value>
+<value><name>Elestrin</name></value>
+<value><name>Eletriptan Hydrobromide</name></value>
+<value><name>Elidel</name></value>
+<value><name>Eligard</name></value>
+<value><name>Elinest</name></value>
+<value><name>Eliphos</name></value>
+<value><name>Elitek</name></value>
+<value><name>Elixophyllin</name></value>
+<value><name>Ella</name></value>
+<value><name>Ellence</name></value>
+<value><name>Elliotts B</name></value>
+<value><name>Elmiron</name></value>
+<value><name>Elocon</name></value>
+<value><name>Eloxatin</name></value>
+<value><name>Elspar</name></value>
+<value><name>Eltrombopag Olamine</name></value>
+<value><name>Emadine</name></value>
+<value><name>Embeda</name></value>
+<value><name>Emcyt</name></value>
+<value><name>Emedastine Difumarate</name></value>
+<value><name>Emend</name></value>
+<value><name>Emla</name></value>
+<value><name>Emoquette</name></value>
+<value><name>Emsam</name></value>
+<value><name>Emtricitabine</name></value>
+<value><name>Emtricitabine And Tenofovir Disoproxil Fumarate</name></value>
+<value><name>Emtriva</name></value>
+<value><name>Enablex</name></value>
+<value><name>Enalapril Maleate</name></value>
+<value><name>Enalapril Maleate And Hydrochlorothiazide</name></value>
+<value><name>Enalaprilat</name></value>
+<value><name>Enbrel</name></value>
+<value><name>Endal Cd</name></value>
+<value><name>Endocet</name></value>
+<value><name>Endodan</name></value>
+<value><name>Endometrin</name></value>
+<value><name>Enflurane</name></value>
+<value><name>Enfuvirtide</name></value>
+<value><name>Engerix-B</name></value>
+<value><name>Enjuvia</name></value>
+<value><name>Enlon</name></value>
+<value><name>Enlon Plus</name></value>
+<value><name>Enoxaparin Sodium</name></value>
+<value><name>Enpresse</name></value>
+<value><name>Entacapone</name></value>
+<value><name>Entecavir</name></value>
+<value><name>Entereg</name></value>
+<value><name>Entocort</name></value>
+<value><name>Entocort Ec</name></value>
+<value><name>Entre-B</name></value>
+<value><name>Entre-S</name></value>
+<value><name>Enulose</name></value>
+<value><name>Enzalutamide</name></value>
+<value><name>Eovist</name></value>
+<value><name>Ephedrine Sulfate</name></value>
+<value><name>Ephinephrine</name></value>
+<value><name>Epiduo</name></value>
+<value><name>Epiflur</name></value>
+<value><name>Epiklor</name></value>
+<value><name>Epiklor/25</name></value>
+<value><name>Epinastine Hydrochloride</name></value>
+<value><name>Epinephrine</name></value>
+<value><name>Epionce Active Shield</name></value>
+<value><name>Epipen</name></value>
+<value><name>Epipen Jr</name></value>
+<value><name>Epiquin Micro</name></value>
+<value><name>Epirubicin Hydrochloride</name></value>
+<value><name>Epitol</name></value>
+<value><name>Epivir</name></value>
+<value><name>Epivir Hbv</name></value>
+<value><name>Eplerenone</name></value>
+<value><name>Epoetin Alfa</name></value>
+<value><name>Epogen</name></value>
+<value><name>Epoprostenol</name></value>
+<value><name>Epoprostenol Sodium</name></value>
+<value><name>Eprosartan Mesylate</name></value>
+<value><name>Eprosartan Mesylate And Hydrochlorothiazide</name></value>
+<value><name>Eptifibatide</name></value>
+<value><name>Epzicom</name></value>
+<value><name>Equetro</name></value>
+<value><name>Equine Thymocyte Immune Globulin</name></value>
+<value><name>Eraxis</name></value>
+<value><name>Erbitux</name></value>
+<value><name>Ergocalciferol</name></value>
+<value><name>Ergomar</name></value>
+<value><name>Ergotamine Tartrate</name></value>
+<value><name>Ergotamine Tartrate And Caffeine</name></value>
+<value><name>Eribulin Mesylate</name></value>
+<value><name>Erivedge</name></value>
+<value><name>Erlotinib Hydrochloride</name></value>
+<value><name>Errin</name></value>
+<value><name>Ertaczo</name></value>
+<value><name>Ertapenem Sodium</name></value>
+<value><name>Erwinaze</name></value>
+<value><name>Ery</name></value>
+<value><name>Ery-Ped</name></value>
+<value><name>Eryped 200</name></value>
+<value><name>Eryped 400</name></value>
+<value><name>Ery-Tab</name></value>
+<value><name>Erythra-Derm</name></value>
+<value><name>Erythrocin Lactobionate</name></value>
+<value><name>Erythrocin Stearate</name></value>
+<value><name>Erythromycin</name></value>
+<value><name>Erythromycin And Benzoyl Peroxide</name></value>
+<value><name>Erythromycin Base Filmtab</name></value>
+<value><name>Erythromycin Ethylsuccinate</name></value>
+<value><name>Erythromycin Lactobionate</name></value>
+<value><name>Erythromycin Stearate</name></value>
+<value><name>Erythromycin and Bacitracin Ointment</name></value>
+<value><name>Erythropoietin</name></value>
+<value><name>Escitalopram</name></value>
+<value><name>Escitalopram Oxalate</name></value>
+<value><name>Esgic</name></value>
+<value><name>Esgic-Plus</name></value>
+<value><name>Esmolol</name></value>
+<value><name>Esmolol Hydrochloride</name></value>
+<value><name>Esomeprazole Magnesium</name></value>
+<value><name>Esomeprazole Sodium</name></value>
+<value><name>Estazolam</name></value>
+<value><name>Esterified Estrogens</name></value>
+<value><name>Esterified Estrogens And Methyltestosterone</name></value>
+<value><name>Estrace</name></value>
+<value><name>Estradiol</name></value>
+<value><name>Estradiol Acetate</name></value>
+<value><name>Estradiol And Levonorgestrel</name></value>
+<value><name>Estradiol And Norethindrone Acetate</name></value>
+<value><name>Estradiol Cypionate</name></value>
+<value><name>Estradiol Hemihydrate</name></value>
+<value><name>Estradiol Transdermal System</name></value>
+<value><name>Estradiol Valerate</name></value>
+<value><name>Estradiol Valerate And Estradiol Valerate/Dienogest</name></value>
+<value><name>Estradiol/Norgestimate</name></value>
+<value><name>Estramustine Phosphate Sodium</name></value>
+<value><name>Estrasorb</name></value>
+<value><name>Estring</name></value>
+<value><name>Estrogel</name></value>
+<value><name>Estrone Sodium Sulfate And Methyltestosterone</name></value>
+<value><name>Estropipate</name></value>
+<value><name>Estrostep Fe</name></value>
+<value><name>Eszopiclone</name></value>
+<value><name>Etanercept</name></value>
+<value><name>Ethacrynate Sodium</name></value>
+<value><name>Ethacrynic Acid</name></value>
+<value><name>Ethambutol</name></value>
+<value><name>Ethambutol Hydrochloride</name></value>
+<value><name>Ethamolin</name></value>
+<value><name>Ethanolamine Oleate</name></value>
+<value><name>Ethionamide</name></value>
+<value><name>Ethosuximide</name></value>
+<value><name>Ethotoin</name></value>
+<value><name>Ethynodiol Diacetate And Ethinyl Estradiol</name></value>
+<value><name>Etidronate Disodium</name></value>
+<value><name>Etodolac</name></value>
+<value><name>Etomidate</name></value>
+<value><name>Etonogestrel</name></value>
+<value><name>Etonogestrel And Ethinyl Estradiol</name></value>
+<value><name>Etopophos</name></value>
+<value><name>Etoposide</name></value>
+<value><name>Etoposide Phosphate</name></value>
+<value><name>Etravirine</name></value>
+<value><name>Eurax</name></value>
+<value><name>Evamist</name></value>
+<value><name>Everolimus</name></value>
+<value><name>Evista</name></value>
+<value><name>Evoclin</name></value>
+<value><name>Evoxac</name></value>
+<value><name>Exactacain Topical</name></value>
+<value><name>Exalgo</name></value>
+<value><name>Execlear C</name></value>
+<value><name>Exefen Ir</name></value>
+<value><name>Exelderm</name></value>
+<value><name>Exelon</name></value>
+<value><name>Exemestane</name></value>
+<value><name>Exenatide</name></value>
+<value><name>Exforge</name></value>
+<value><name>Exforge Hct</name></value>
+<value><name>Exjade</name></value>
+<value><name>Exparel</name></value>
+<value><name>Expectuss Liquid</name></value>
+<value><name>Extavia</name></value>
+<value><name>Extended Phenytoin Sodium</name></value>
+<value><name>Extina</name></value>
+<value><name>Extraneal</name></value>
+<value><name>Eylea</name></value>
+<value><name>Ezetimibe</name></value>
+<value><name>Ezetimibe And Simvastatin</name></value>
+<value><name>E-Z-Hd</name></value>
+<value><name>Ezogabine</name></value>
+<value><name>Ez-Ox</name></value>
+<value><name>Ez-Ox Plus</name></value>
+<value><name>Fabb Tablets</name></value>
+<value><name>Fabrazyme</name></value>
+<value><name>Factive</name></value>
+<value><name>Factor Ix Complex</name></value>
+<value><name>Factor XIII Concentrate (Human)</name></value>
+<value><name>Falmina</name></value>
+<value><name>Famciclovir</name></value>
+<value><name>Famotidine</name></value>
+<value><name>Famvir</name></value>
+<value><name>Fanapt</name></value>
+<value><name>Fanatrex</name></value>
+<value><name>Fareston</name></value>
+<value><name>Faslodex</name></value>
+<value><name>Fazaclo</name></value>
+<value><name>Fe C Tab</name></value>
+<value><name>Fe C Tab Plus</name></value>
+<value><name>Febuxostat</name></value>
+<value><name>Feiba</name></value>
+<value><name>Feiba Nf</name></value>
+<value><name>Felbamate</name></value>
+<value><name>Felbatol</name></value>
+<value><name>Feldene</name></value>
+<value><name>Felodipine</name></value>
+<value><name>Felodipine Extended-Release Tablets</name></value>
+<value><name>Femara</name></value>
+<value><name>Femcon Fe</name></value>
+<value><name>Femhrt</name></value>
+<value><name>Femring</name></value>
+<value><name>Femtrace</name></value>
+<value><name>Fenofibrate</name></value>
+<value><name>Fenofibric Acid</name></value>
+<value><name>Fenoglide</name></value>
+<value><name>Fenoldopam Mesylate</name></value>
+<value><name>Fenoprofen Calcium</name></value>
+<value><name>Fentanyl</name></value>
+<value><name>Fentanyl Buccal</name></value>
+<value><name>Fentanyl Citrate</name></value>
+<value><name>Fentanyl Citrate, Bupivacaine Hcl</name></value>
+<value><name>Fentanyl Transdermal System</name></value>
+<value><name>Fentora</name></value>
+<value><name>Feraheme</name></value>
+<value><name>Ferotrin</name></value>
+<value><name>Ferralet 90</name></value>
+<value><name>Ferrex 150</name></value>
+<value><name>Ferric Subsulfate</name></value>
+<value><name>Ferriprox</name></value>
+<value><name>Ferrlecit</name></value>
+<value><name>Ferrogels Forte</name></value>
+<value><name>Ferrous Fumarate And Polysaccharide Iron</name></value>
+<value><name>Ferrous Sulfate</name></value>
+<value><name>Ferumoxytol</name></value>
+<value><name>Fesoterodine Fumarate</name></value>
+<value><name>Fexmid</name></value>
+<value><name>Fexofenadine And Pseudoephedrine</name></value>
+<value><name>Fexofenadine Hydrochloride</name></value>
+<value><name>Fibricor</name></value>
+<value><name>Fibrinogen</name></value>
+<value><name>Fibrinogen Human And Thrombin Human</name></value>
+<value><name>Fidaxomicin</name></value>
+<value><name>Filgrastim</name></value>
+<value><name>Finacea</name></value>
+<value><name>Finasteride</name></value>
+<value><name>Fingolimod Hcl</name></value>
+<value><name>Fioricet</name></value>
+<value><name>Fioricet With Codeine</name></value>
+<value><name>Fiorinal</name></value>
+<value><name>Fiorinal With Codeine</name></value>
+<value><name>Firazyr</name></value>
+<value><name>Firmagon</name></value>
+<value><name>Flagyl</name></value>
+<value><name>Flagyl Er</name></value>
+<value><name>Flarex</name></value>
+<value><name>Flavored Colestid</name></value>
+<value><name>Flavoxate Hydrochloride</name></value>
+<value><name>Flebogamma</name></value>
+<value><name>Flebogamma Dif</name></value>
+<value><name>Flecainide</name></value>
+<value><name>Flecainide Acetate</name></value>
+<value><name>Flector</name></value>
+<value><name>Flexbumin</name></value>
+<value><name>Flexeril</name></value>
+<value><name>Flolan</name></value>
+<value><name>Flomax</name></value>
+<value><name>Flonase</name></value>
+<value><name>Flo-Pred</name></value>
+<value><name>Florbetapir F 18</name></value>
+<value><name>Flovent</name></value>
+<value><name>Flovent Diskus</name></value>
+<value><name>Flovent Hfa</name></value>
+<value><name>Floxin</name></value>
+<value><name>Floxuridine</name></value>
+<value><name>Flucaine</name></value>
+<value><name>Fluconazole</name></value>
+<value><name>Flucytosine</name></value>
+<value><name>Fludarabine</name></value>
+<value><name>Fludarabine Phosphate</name></value>
+<value><name>Fludeoxyglucose F 18</name></value>
+<value><name>Fludeoxyglucose F18</name></value>
+<value><name>Fludeoxyglucose F-18</name></value>
+<value><name>Fludrocortisone Acetate</name></value>
+<value><name>Flumadine</name></value>
+<value><name>Flumazenil</name></value>
+<value><name>Flunisolide</name></value>
+<value><name>Fluocinolone Acetonide</name></value>
+<value><name>Fluocinolone Acetonide, Hydroquinone, And Tretinoin</name></value>
+<value><name>Fluocinonide</name></value>
+<value><name>Fluor-A-Day</name></value>
+<value><name>Fluorescein Sodium</name></value>
+<value><name>Fluorescein Sodium And Benoxinate Hydrochloride</name></value>
+<value><name>Fluorescein Sodium And Proparacaine Hydrochloride</name></value>
+<value><name>Fluorescite</name></value>
+<value><name>Fluoride</name></value>
+<value><name>Fluorishield</name></value>
+<value><name>Fluorometholone</name></value>
+<value><name>Fluorometholone Acetate</name></value>
+<value><name>Fluoroplex</name></value>
+<value><name>Fluorouracil</name></value>
+<value><name>Fluoxetine</name></value>
+<value><name>Fluoxetine Capsules</name></value>
+<value><name>Fluoxetine Hydrochloride</name></value>
+<value><name>Fluoxymesterone</name></value>
+<value><name>Fluphenazine Decanoate</name></value>
+<value><name>Fluphenazine Hydrochloride</name></value>
+<value><name>Flurandrenolide</name></value>
+<value><name>Flurazepam</name></value>
+<value><name>Flurazepam Hydrochloride</name></value>
+<value><name>Flurbiprofen</name></value>
+<value><name>Flurbiprofen Sodium</name></value>
+<value><name>Fluress</name></value>
+<value><name>Flutamide</name></value>
+<value><name>Fluticasone</name></value>
+<value><name>Fluticasone Furoate</name></value>
+<value><name>Fluticasone Propionate</name></value>
+<value><name>Fluticasone Propionate And Salmeterol</name></value>
+<value><name>Fluvastatin</name></value>
+<value><name>Fluvastatin Sodium</name></value>
+<value><name>Fluvastatin Sodium Er</name></value>
+<value><name>Fluvoxamine Maleate</name></value>
+<value><name>Fml</name></value>
+<value><name>Fml Forte</name></value>
+<value><name>Focalin</name></value>
+<value><name>Focalin Xr</name></value>
+<value><name>Folbic</name></value>
+<value><name>Folic Acid</name></value>
+<value><name>Follistim Aq</name></value>
+<value><name>Follitropin</name></value>
+<value><name>Follitropin Alfa</name></value>
+<value><name>Folotyn</name></value>
+<value><name>Foltabs 800</name></value>
+<value><name>Foltabs Prenatal</name></value>
+<value><name>Foltabs Prenatal Plus Dha</name></value>
+<value><name>Fomepizole</name></value>
+<value><name>Fondaparinux Sodium</name></value>
+<value><name>Foradil</name></value>
+<value><name>Forane</name></value>
+<value><name>Formadon</name></value>
+<value><name>Formalaz</name></value>
+<value><name>Formaldehyde</name></value>
+<value><name>Forma-Ray</name></value>
+<value><name>Formoterol Fumarate</name></value>
+<value><name>Formoterol Fumarate Dihydrate</name></value>
+<value><name>Fortamet</name></value>
+<value><name>Fortaz</name></value>
+<value><name>Forteo</name></value>
+<value><name>Fortesta</name></value>
+<value><name>Fortical</name></value>
+<value><name>Fosamax</name></value>
+<value><name>Fosamax Plus D</name></value>
+<value><name>Fosamprenavir Calcium</name></value>
+<value><name>Fosaprepitant Dimeglumine</name></value>
+<value><name>Foscarnet Sodium</name></value>
+<value><name>Foscavir</name></value>
+<value><name>Foscavir Uk</name></value>
+<value><name>Fosfomycin Tromethamine</name></value>
+<value><name>Fosinopril Sodium</name></value>
+<value><name>Fosinopril Sodium And Hydrochlorothiazide</name></value>
+<value><name>Fosphenytoin</name></value>
+<value><name>Fosphenytoin Sodium</name></value>
+<value><name>Fospropofol Disodium</name></value>
+<value><name>Fosrenol</name></value>
+<value><name>Fragmin</name></value>
+<value><name>Frova</name></value>
+<value><name>Frovatriptan Succinate</name></value>
+<value><name>Ful-Glo</name></value>
+<value><name>Fulvestrant</name></value>
+<value><name>Furadantin</name></value>
+<value><name>Furosemide</name></value>
+<value><name>Fusilev</name></value>
+<value><name>Fuzeon</name></value>
+<value><name>Gabapentin</name></value>
+<value><name>Gabapentin Enacarbil</name></value>
+<value><name>Gabitril</name></value>
+<value><name>Gablofen</name></value>
+<value><name>Gadavist</name></value>
+<value><name>Gadobutrol</name></value>
+<value><name>Gadodiamide</name></value>
+<value><name>Gadopentetate Dimeglumine</name></value>
+<value><name>Gadoxetate Disodium</name></value>
+<value><name>Galantamine</name></value>
+<value><name>Galantamine Hydrobromide</name></value>
+<value><name>Galantamine Hydrobromide Oral Solution</name></value>
+<value><name>Gallium Nitrate</name></value>
+<value><name>Galsulfase</name></value>
+<value><name>Galzin</name></value>
+<value><name>Gamastan S/D</name></value>
+<value><name>Gammagard Liquid</name></value>
+<value><name>Gammagard S/D</name></value>
+<value><name>Gammaked</name></value>
+<value><name>Gammaplex</name></value>
+<value><name>Gamunex-C</name></value>
+<value><name>Ganciclovir</name></value>
+<value><name>Ganciclovir Sodium</name></value>
+<value><name>Ganirelix Acetate</name></value>
+<value><name>Ganite</name></value>
+<value><name>Garamycin</name></value>
+<value><name>Gastrocrom</name></value>
+<value><name>Gatifloxacin</name></value>
+<value><name>Gefitinib</name></value>
+<value><name>Gelnique</name></value>
+<value><name>Gemcitabine</name></value>
+<value><name>Gemcitabine Hydrochloride</name></value>
+<value><name>Gemfibrozil</name></value>
+<value><name>Gemifloxacin Mesylate</name></value>
+<value><name>Gemtuzumab Ozogamicin</name></value>
+<value><name>Gemzar</name></value>
+<value><name>Generess Fe</name></value>
+<value><name>Generlac</name></value>
+<value><name>Gengraf</name></value>
+<value><name>Genotropin</name></value>
+<value><name>Gentak</name></value>
+<value><name>Gentamicin</name></value>
+<value><name>Gentamicin Sulfate</name></value>
+<value><name>Gentamicin Sulfate And Prednisolone Acetate</name></value>
+<value><name>Gentamicin Sulfate In Sodium Chloride</name></value>
+<value><name>Geodon</name></value>
+<value><name>Gesticare Dha</name></value>
+<value><name>Gianvi</name></value>
+<value><name>Giazo</name></value>
+<value><name>Gildess 1.5/30</name></value>
+<value><name>Gildess 1/20</name></value>
+<value><name>Gildess Fe 1.5/30</name></value>
+<value><name>Gildess Fe 1/20</name></value>
+<value><name>Gilenya</name></value>
+<value><name>Gingimed</name></value>
+<value><name>Glassia</name></value>
+<value><name>Glatiramer Acetate</name></value>
+<value><name>Gleevec</name></value>
+<value><name>Gliadel</name></value>
+<value><name>Glimepiride</name></value>
+<value><name>Glipizide</name></value>
+<value><name>Glipizide And Metformin Hydrochloride</name></value>
+<value><name>Glipizide Er</name></value>
+<value><name>Glipizide Xl</name></value>
+<value><name>Glipizideer</name></value>
+<value><name>Glucagen</name></value>
+<value><name>Glucagen Hypokit</name></value>
+<value><name>Glucagon</name></value>
+<value><name>Glucagon Hydrochloride</name></value>
+<value><name>Glucarpidase</name></value>
+<value><name>Glucophage</name></value>
+<value><name>Glucophage Xr</name></value>
+<value><name>Glucotrol</name></value>
+<value><name>Glucotrol Xl</name></value>
+<value><name>Glucovance</name></value>
+<value><name>Glumetza</name></value>
+<value><name>Glutamine</name></value>
+<value><name>Glyburide</name></value>
+<value><name>Glyburide And Metformin</name></value>
+<value><name>Glycopyrrolate</name></value>
+<value><name>Glynase</name></value>
+<value><name>Glyset</name></value>
+<value><name>Glytone Clarifying</name></value>
+<value><name>Gold Sodium Thiomalate</name></value>
+<value><name>Golimumab</name></value>
+<value><name>Golytely</name></value>
+<value><name>Gonak Hypromellose</name></value>
+<value><name>Gonal-F</name></value>
+<value><name>Gonal-F Rff</name></value>
+<value><name>Gordons Urea 40</name></value>
+<value><name>Goserelin Acetate</name></value>
+<value><name>Gralise</name></value>
+<value><name>Gralise Starter Pack</name></value>
+<value><name>Granisetron</name></value>
+<value><name>Granisetron Hydrochloride</name></value>
+<value><name>Granisol</name></value>
+<value><name>Greenglo</name></value>
+<value><name>Griseofulvin</name></value>
+<value><name>Griseofulvin (Microsize)</name></value>
+<value><name>Gris-Peg</name></value>
+<value><name>Guaifenesin</name></value>
+<value><name>Guaifenesin And Pseudoephedrine Hydrochloride</name></value>
+<value><name>Guanabenz Acetate</name></value>
+<value><name>Guanfacine</name></value>
+<value><name>Guanfacine Hydrochloride</name></value>
+<value><name>Guanidine Hydrochloride</name></value>
+<value><name>Guna-Beta-Estradiol</name></value>
+<value><name>Gynazole-1</name></value>
+<value><name>H.P. Acthar</name></value>
+<value><name>Halaven</name></value>
+<value><name>Halcinonide</name></value>
+<value><name>Halcinonide Cream</name></value>
+<value><name>Halcion</name></value>
+<value><name>Haldol</name></value>
+<value><name>Haldol Decanoate</name></value>
+<value><name>Halobetasol Propionate</name></value>
+<value><name>Halog</name></value>
+<value><name>Haloperidol</name></value>
+<value><name>Haloperidol Decanoate</name></value>
+<value><name>Haloperidol Lactate</name></value>
+<value><name>Heather</name></value>
+<value><name>Hecoria</name></value>
+<value><name>Hectorol</name></value>
+<value><name>Heliox</name></value>
+<value><name>Helium Oxygen Mix</name></value>
+<value><name>Helium Oxygen Mix 70/30</name></value>
+<value><name>Helium Oxygen Mix 80/20</name></value>
+<value><name>Helium/Oxygen Mixture 70/30</name></value>
+<value><name>Helium/Oxygen Mixture 80/20</name></value>
+<value><name>Helixate Fs</name></value>
+<value><name>Hemabate</name></value>
+<value><name>Hematinic Concentrate With Intrinsic Factor</name></value>
+<value><name>Hematogen</name></value>
+<value><name>Hematogen Fa</name></value>
+<value><name>Hematogen Forte</name></value>
+<value><name>Hemin</name></value>
+<value><name>Hemofil M</name></value>
+<value><name>Hepagam B</name></value>
+<value><name>Heparin</name></value>
+<value><name>Heparin Lock Flush</name></value>
+<value><name>Heparin Sodium</name></value>
+<value><name>Heparin Sodium And Dextrose</name></value>
+<value><name>Hepatitis B Immune Globulin (Human)</name></value>
+<value><name>Hepatitis B Vaccine (Recombinant)</name></value>
+<value><name>Hepsera</name></value>
+<value><name>Herceptin</name></value>
+<value><name>Hetastarch</name></value>
+<value><name>Hexabrix</name></value>
+<value><name>Hexachlorophene</name></value>
+<value><name>Hexalen</name></value>
+<value><name>Hexaminolevulinate Hydrochloride</name></value>
+<value><name>Hicon</name></value>
+<value><name>Hiprex</name></value>
+<value><name>Histrelin Acetate</name></value>
+<value><name>Hizentra</name></value>
+<value><name>Homatropine</name></value>
+<value><name>Homatropine Hydrobromide</name></value>
+<value><name>Homepathic Rx</name></value>
+<value><name>Horizant</name></value>
+<value><name>Humalog</name></value>
+<value><name>Humalog Kwik Pen</name></value>
+<value><name>Humalog Mix 50/50</name></value>
+<value><name>Humalog Mix 75/25</name></value>
+<value><name>Humalog Pen</name></value>
+<value><name>Human Albumin Grifols</name></value>
+<value><name>Human C1 Esterase Inhibitor</name></value>
+<value><name>Human Cytomegalovirus Immune Globulin</name></value>
+<value><name>Human Hepatitis B Virus Immune Globulin</name></value>
+<value><name>Human Immunoglobulin G</name></value>
+<value><name>Human Rabies Virus Immune Globulin</name></value>
+<value><name>Human Rho(D) Immune Globulin</name></value>
+<value><name>Humate-P</name></value>
+<value><name>Humatrope</name></value>
+<value><name>Humira</name></value>
+<value><name>Humulin 70/30</name></value>
+<value><name>Humulin N</name></value>
+<value><name>Humulin R U-500</name></value>
+<value><name>Hyaluronidase</name></value>
+<value><name>Hyaluronidase Recombinant Human</name></value>
+<value><name>Hyaluronidase, Ovine</name></value>
+<value><name>Hybrisil</name></value>
+<value><name>Hycamtin</name></value>
+<value><name>Hycet</name></value>
+<value><name>Hydorcortisone And Acetic Acid</name></value>
+<value><name>Hydoxyzine Pamoate</name></value>
+<value><name>Hydralazine</name></value>
+<value><name>Hydralazine Hydrochloride</name></value>
+<value><name>Hydralazine Hydrochloride And Isosorbide Dinitrate</name></value>
+<value><name>Hydrea</name></value>
+<value><name>Hydrochlorothiazide</name></value>
+<value><name>Hydrochlorothiazide And Triamterene</name></value>
+<value><name>Hydrochlorothiazide and Valsartan</name></value>
+<value><name>Hydrocodone Acetaminophen</name></value>
+<value><name>Hydrocodone Bit/Apap</name></value>
+<value><name>Hydrocodone Bitartrate</name></value>
+<value><name>Hydrocodone Bitartrate And Acetaminophen</name></value>
+<value><name>Hydrocodone Bitartrate And Chlorpheniramine Maleate</name></value>
+<value><name>Hydrocodone Bitartrate And Homatropine Methylbromide</name></value>
+<value><name>Hydrocodone Bitartrate And Ibuprofen</name></value>
+<value><name>Hydrocodone Polistirex And Chlorpheniramine Polistirex</name></value>
+<value><name>Hydrocodone, Acetaminophen</name></value>
+<value><name>Hydrocortisone</name></value>
+<value><name>Hydrocortisone / Chloroxylenol / Pramoxine Hcl</name></value>
+<value><name>Hydrocortisone Acetate</name></value>
+<value><name>Hydrocortisone Acetate And Pramoxine Hydrochloride</name></value>
+<value><name>Hydrocortisone Acetate With Aloe</name></value>
+<value><name>Hydrocortisone And Acetic Acid</name></value>
+<value><name>Hydrocortisone And Iodoquinol</name></value>
+<value><name>Hydrocortisone Butyrate</name></value>
+<value><name>Hydrocortisone Probutate</name></value>
+<value><name>Hydrocortisone Sodium Succinate</name></value>
+<value><name>Hydrocortisone Valerate</name></value>
+<value><name>Hydromorphone</name></value>
+<value><name>Hydromorphone Hydrochloride</name></value>
+<value><name>Hydroquinone</name></value>
+<value><name>Hydroquinone Time Release</name></value>
+<value><name>Hydroxocobalamin</name></value>
+<value><name>Hydroxyamphetamine Hydrobromide, Tropicamide</name></value>
+<value><name>Hydroxychloroquine Sulfate</name></value>
+<value><name>Hydroxyethyl Starch 130/0.4</name></value>
+<value><name>Hydroxyprogesterone Caproate</name></value>
+<value><name>Hydroxyquinoline Sulfate Sodium Lauryl Sulfate</name></value>
+<value><name>Hydroxyurea</name></value>
+<value><name>Hydroxyzine</name></value>
+<value><name>Hydroxyzine Hydrochloride</name></value>
+<value><name>Hydroxyzine Pamoate</name></value>
+<value><name>Hylase Wound</name></value>
+<value><name>Hylatopic Emollient</name></value>
+<value><name>Hylenex Recombinant</name></value>
+<value><name>Hyomax-Dt</name></value>
+<value><name>Hyomax-Sl</name></value>
+<value><name>Hyomax-Sr</name></value>
+<value><name>Hyophen</name></value>
+<value><name>Hyoscyamine</name></value>
+<value><name>Hyoscyamine Sulfate</name></value>
+<value><name>Hyoscyamine Sulfate Extended-Release</name></value>
+<value><name>Hyoscyamine Sulfate Sl</name></value>
+<value><name>Hyosyne</name></value>
+<value><name>Hypercare</name></value>
+<value><name>Hyperhep B S/D</name></value>
+<value><name>Hypericum, Arnica Montana</name></value>
+<value><name>Hyperrab S/D</name></value>
+<value><name>Hyperrho S/D Full Dose</name></value>
+<value><name>Hypertet</name></value>
+<value><name>Hyzaar</name></value>
+<value><name>Ibandronate Sodium</name></value>
+<value><name>Ibritumomab Tiuxetan</name></value>
+<value><name>Ibu</name></value>
+<value><name>Ibudone</name></value>
+<value><name>Ibuprofen</name></value>
+<value><name>Ibuprofen And Famotidine</name></value>
+<value><name>Ibuprofen Lysine</name></value>
+<value><name>Ibutilide Fumarate</name></value>
+<value><name>Icatibant Acetate</name></value>
+<value><name>Ic-Green</name></value>
+<value><name>Idamycin Pfs</name></value>
+<value><name>Idarubicin Hydrochloride</name></value>
+<value><name>Idkit Hp One</name></value>
+<value><name>Idursulfase</name></value>
+<value><name>Ifex</name></value>
+<value><name>Ifosfamide</name></value>
+<value><name>Ilaris</name></value>
+<value><name>Iloperidone</name></value>
+<value><name>Iloprost</name></value>
+<value><name>Ilotycin</name></value>
+<value><name>Imatinib Mesylate</name></value>
+<value><name>Imdur</name></value>
+<value><name>Imiglucerase</name></value>
+<value><name>Imipenem And Cilastatin</name></value>
+<value><name>Imipramine Hydrochloride</name></value>
+<value><name>Imipramine Pamoate</name></value>
+<value><name>Imiquimod</name></value>
+<value><name>Imitrex</name></value>
+<value><name>Immune Globulin</name></value>
+<value><name>Immune Globulin (Human)</name></value>
+<value><name>Implanon</name></value>
+<value><name>Imuran</name></value>
+<value><name>Inapsine</name></value>
+<value><name>Inatal Advance</name></value>
+<value><name>Inatal Ultra</name></value>
+<value><name>Incivek</name></value>
+<value><name>Increlex</name></value>
+<value><name>Indacaterol Maleate</name></value>
+<value><name>Indapamide</name></value>
+<value><name>Inderal</name></value>
+<value><name>Inderal La</name></value>
+<value><name>Indigo Carmine</name></value>
+<value><name>Indigotindisulfonate Sodium</name></value>
+<value><name>Indinavir Sulfate</name></value>
+<value><name>Indocin</name></value>
+<value><name>Indocyanine Green</name></value>
+<value><name>Indomethacin</name></value>
+<value><name>Indomethacin Extended-Release</name></value>
+<value><name>Infant Dextrose</name></value>
+<value><name>Infasurf</name></value>
+<value><name>Infed</name></value>
+<value><name>Infergen</name></value>
+<value><name>Infliximab</name></value>
+<value><name>Infumorph 200</name></value>
+<value><name>Infumorph 500</name></value>
+<value><name>Inlyta</name></value>
+<value><name>Innohep</name></value>
+<value><name>Innopran</name></value>
+<value><name>Innopran Xl</name></value>
+<value><name>Inomax</name></value>
+<value><name>Inspra</name></value>
+<value><name>Insulin Aspart</name></value>
+<value><name>Insulin Detemir</name></value>
+<value><name>Insulin Glargine</name></value>
+<value><name>Insulin Glulisine</name></value>
+<value><name>Insulin Human</name></value>
+<value><name>Insulin Lispro</name></value>
+<value><name>Integrilin</name></value>
+<value><name>Intelence</name></value>
+<value><name>Interferon Alfa-2B</name></value>
+<value><name>Interferon Alfacon-1</name></value>
+<value><name>Interferon Beta-1A</name></value>
+<value><name>Interferon Beta-1B</name></value>
+<value><name>Interferon Gamma-1B</name></value>
+<value><name>Intermezzo</name></value>
+<value><name>Intron A</name></value>
+<value><name>Introvale</name></value>
+<value><name>Intuniv</name></value>
+<value><name>Invanz</name></value>
+<value><name>Invega</name></value>
+<value><name>Invega Sustenna</name></value>
+<value><name>Invirase</name></value>
+<value><name>Iodine Potassium Iodide</name></value>
+<value><name>Iodixanol</name></value>
+<value><name>Ioflupane I-123 And Iodine</name></value>
+<value><name>Iohexol</name></value>
+<value><name>Iopamidol</name></value>
+<value><name>Iopidine</name></value>
+<value><name>Iopromide</name></value>
+<value><name>Ioxaglate Meglumine And Ioxaglate Sodium</name></value>
+<value><name>Ioxilan Injection</name></value>
+<value><name>Ipilimumab</name></value>
+<value><name>Ipratropium Bromide</name></value>
+<value><name>Ipratropium Bromide And Albuterol</name></value>
+<value><name>Iprivask</name></value>
+<value><name>Iq Dental Mepivacaine</name></value>
+<value><name>Iquix</name></value>
+<value><name>Irbesartan</name></value>
+<value><name>Irbesartan And Hydrochlorothiazide</name></value>
+<value><name>Iressa</name></value>
+<value><name>Irinotecan</name></value>
+<value><name>Irinotecan Hydrochloride</name></value>
+<value><name>Iron Chews</name></value>
+<value><name>Iron Dextran</name></value>
+<value><name>Iron Sucrose</name></value>
+<value><name>Irospan 24/6</name></value>
+<value><name>Isentress</name></value>
+<value><name>Isocaine</name></value>
+<value><name>Isocarboxazid</name></value>
+<value><name>Isoditrate</name></value>
+<value><name>Isoflurane</name></value>
+<value><name>Isometheptene Mucate, Caffeine, And Acetaminophen</name></value>
+<value><name>Isonarif</name></value>
+<value><name>Isoniazid</name></value>
+<value><name>Isoproterenol Hydrochloride</name></value>
+<value><name>Isopto Atropine</name></value>
+<value><name>Isopto Carbachol</name></value>
+<value><name>Isopto Carpine</name></value>
+<value><name>Isopto Homatropine</name></value>
+<value><name>Isopto Hyoscine</name></value>
+<value><name>Isordil</name></value>
+<value><name>Isosorbdie Dinitrate</name></value>
+<value><name>Isosorbide</name></value>
+<value><name>Isosorbide Dinitrate</name></value>
+<value><name>Isosorbide Mononitrate</name></value>
+<value><name>Isosorbide Mononitrate Er</name></value>
+<value><name>Isosorbide Sublingual</name></value>
+<value><name>Isosulfan Blue</name></value>
+<value><name>Isotretinoin</name></value>
+<value><name>Isovue-M 200</name></value>
+<value><name>Isoxsuprine Hydrochloride</name></value>
+<value><name>Isradipine</name></value>
+<value><name>Istalol</name></value>
+<value><name>Istodax</name></value>
+<value><name>Isuprel</name></value>
+<value><name>Itraconazole</name></value>
+<value><name>Ivacaftor</name></value>
+<value><name>Ivermectin</name></value>
+<value><name>Ixabepilone</name></value>
+<value><name>Ixempra</name></value>
+<value><name>Jakafi</name></value>
+<value><name>Jalyn</name></value>
+<value><name>Jantoven</name></value>
+<value><name>Janumet</name></value>
+<value><name>Janumet Xr</name></value>
+<value><name>Januvia</name></value>
+<value><name>Jay-Phyl</name></value>
+<value><name>Jentadueto</name></value>
+<value><name>Jevantique</name></value>
+<value><name>Jevtana</name></value>
+<value><name>Jinteli</name></value>
+<value><name>Jolessa</name></value>
+<value><name>Jolivette</name></value>
+<value><name>Junel 1.5/30</name></value>
+<value><name>Junel 1/20</name></value>
+<value><name>Junel Fe 1.5/30</name></value>
+<value><name>Junel Fe 1/20</name></value>
+<value><name>Juvisync</name></value>
+<value><name>Kadian</name></value>
+<value><name>Kadian Er</name></value>
+<value><name>Kalbitor</name></value>
+<value><name>Kaletra</name></value>
+<value><name>Kalexate</name></value>
+<value><name>Kalydeco</name></value>
+<value><name>Kanamycin</name></value>
+<value><name>Kanamycin A Sulfate</name></value>
+<value><name>Kapidex</name></value>
+<value><name>Kapvay</name></value>
+<value><name>Kariva</name></value>
+<value><name>Kayexalate</name></value>
+<value><name>Kedbumin</name></value>
+<value><name>Keflex</name></value>
+<value><name>Kelnor 1/35</name></value>
+<value><name>Kenalog</name></value>
+<value><name>Kenalog-10</name></value>
+<value><name>Kenalog-40</name></value>
+<value><name>Kepivance</name></value>
+<value><name>Keppra</name></value>
+<value><name>Keppra Xr</name></value>
+<value><name>Keralyt</name></value>
+<value><name>Keratol 45</name></value>
+<value><name>Ketalar</name></value>
+<value><name>Ketamine Hydrochloride</name></value>
+<value><name>Ketek</name></value>
+<value><name>Ketoconazole</name></value>
+<value><name>Ketodan</name></value>
+<value><name>Ketoprofen</name></value>
+<value><name>Ketorolac</name></value>
+<value><name>Ketorolac Tromethamine</name></value>
+<value><name>Kineret</name></value>
+<value><name>Kinevac</name></value>
+<value><name>Kionex</name></value>
+<value><name>Klaron</name></value>
+<value><name>Klonopin</name></value>
+<value><name>Klor Con M</name></value>
+<value><name>Klor-Con</name></value>
+<value><name>Klor-Con M10</name></value>
+<value><name>Klor-Con M20</name></value>
+<value><name>Koate</name></value>
+<value><name>Kogenate Fs</name></value>
+<value><name>Kolorz</name></value>
+<value><name>Kombiglyze</name></value>
+<value><name>Kombiglyze Xr</name></value>
+<value><name>Korlym</name></value>
+<value><name>Krystexxa</name></value>
+<value><name>K-Tab</name></value>
+<value><name>Kuvan</name></value>
+<value><name>K-Vescent</name></value>
+<value><name>Kyprolis</name></value>
+<value><name>Labetalol</name></value>
+<value><name>Labetalol Hydrochloride</name></value>
+<value><name>Lac Hydrin Cream</name></value>
+<value><name>Lac Hydrin</name></value>
+<value><name>Laclotion</name></value>
+<value><name>Lacosamide</name></value>
+<value><name>Lactic Acid</name></value>
+<value><name>Lactulose</name></value>
+<value><name>Lamictal</name></value>
+<value><name>Lamictal Odt</name></value>
+<value><name>Lamictal Xr</name></value>
+<value><name>Lamisil</name></value>
+<value><name>Lamivudine</name></value>
+<value><name>Lamivudine And Zidovudine</name></value>
+<value><name>Lamotrigine</name></value>
+<value><name>Lanoxin</name></value>
+<value><name>Lanreotide Acetate</name></value>
+<value><name>Lansoprazole</name></value>
+<value><name>Lansoprazole, Amoxicillin And Clarithromycin</name></value>
+<value><name>Lanthanum Carbonate</name></value>
+<value><name>Lantus</name></value>
+<value><name>Lapatinib</name></value>
+<value><name>Large Molecule Fluorescein</name></value>
+<value><name>Larkadrin</name></value>
+<value><name>Laronidase</name></value>
+<value><name>Lasix</name></value>
+<value><name>Lastacaft</name></value>
+<value><name>Latanoprost</name></value>
+<value><name>Latisse</name></value>
+<value><name>Latrix</name></value>
+<value><name>Latuda</name></value>
+<value><name>Leena</name></value>
+<value><name>Leflunomide</name></value>
+<value><name>Lenalidomide</name></value>
+<value><name>Lepirudin</name></value>
+<value><name>Lescol</name></value>
+<value><name>Lescol Xl</name></value>
+<value><name>Lessina</name></value>
+<value><name>Letairis</name></value>
+<value><name>Letrozole</name></value>
+<value><name>Leucovorin</name></value>
+<value><name>Leucovorin Calcium</name></value>
+<value><name>Leukeran</name></value>
+<value><name>Leukine</name></value>
+<value><name>Leuprolide Acetate</name></value>
+<value><name>Leuprorelin Acetate</name></value>
+<value><name>Leustatin</name></value>
+<value><name>Levalbuterol Hydrochloride</name></value>
+<value><name>Levalbuterol Tartrate</name></value>
+<value><name>Levaquin</name></value>
+<value><name>Levatol</name></value>
+<value><name>Levemir</name></value>
+<value><name>Levetiracetam</name></value>
+<value><name>Levetiracetam Extended-Release</name></value>
+<value><name>Levitra</name></value>
+<value><name>Levobunolol Hydrochloride</name></value>
+<value><name>Levocarnitine</name></value>
+<value><name>Levocetirizine Dihydrochloride</name></value>
+<value><name>Levofloxacin</name></value>
+<value><name>Levoleucovorin</name></value>
+<value><name>Levonest</name></value>
+<value><name>Levonogestrel And Ethinyl Estradiol</name></value>
+<value><name>Levonorgestrel</name></value>
+<value><name>Levonorgestrel And Ethinyl Estradiol</name></value>
+<value><name>Levonorgestrel And Ethinyl Estradiol Tablets</name></value>
+<value><name>Levophed</name></value>
+<value><name>Levora</name></value>
+<value><name>Levorphanol Tartrate</name></value>
+<value><name>Levothroid</name></value>
+<value><name>Levothyroxine Sodium Tablets</name></value>
+<value><name>Levothyroxine and Liothyronine</name></value>
+<value><name>Levoxyl</name></value>
+<value><name>Levulan Kerastick</name></value>
+<value><name>Lexapro</name></value>
+<value><name>Lexiscan</name></value>
+<value><name>Lexiva</name></value>
+<value><name>Lexuss 210</name></value>
+<value><name>Lialda</name></value>
+<value><name>Librax</name></value>
+<value><name>Lidocaine</name></value>
+<value><name>Lidocaine And Prilocaine</name></value>
+<value><name>Lidocaine And Tetracaine</name></value>
+<value><name>Lidocaine Hydrochloride</name></value>
+<value><name>Lidocaine Hydrochloride And Epinephrine Bitartrate</name></value>
+<value><name>Lidocaine Hydrochloride Benzocaine</name></value>
+<value><name>Lidoderm</name></value>
+<value><name>Lidoderm 5</name></value>
+<value><name>Lignospan Forte</name></value>
+<value><name>Lignospan Standard</name></value>
+<value><name>Linaclotide</name></value>
+<value><name>Linagliptin</name></value>
+<value><name>Lincocin</name></value>
+<value><name>Lincomycin</name></value>
+<value><name>Lindane</name></value>
+<value><name>Linezolid</name></value>
+<value><name>Linzess</name></value>
+<value><name>Lioresal</name></value>
+<value><name>Liothyronine Sodium</name></value>
+<value><name>Lipitor</name></value>
+<value><name>Lipodox</name></value>
+<value><name>Lipodox 50</name></value>
+<value><name>Liposyn II</name></value>
+<value><name>Liposyn III</name></value>
+<value><name>Liquid E-Z-Paque</name></value>
+<value><name>Liquid Oxygen</name></value>
+<value><name>Lisdexamfetamine Dimesylate</name></value>
+<value><name>Lisinopril</name></value>
+<value><name>Lisinopril And Hydrochlorothiazide</name></value>
+<value><name>Lissamine Green</name></value>
+<value><name>Lithium</name></value>
+<value><name>Lithium Carbonate</name></value>
+<value><name>Lithium Carbonate Er</name></value>
+<value><name>Lithium Citrate</name></value>
+<value><name>Lithium Hydroxide Monohydrate</name></value>
+<value><name>Lithobid</name></value>
+<value><name>Livalo</name></value>
+<value><name>Lmd In Dextrose</name></value>
+<value><name>Lmd In Sodium Chloride</name></value>
+<value><name>Lo Loestrin Fe</name></value>
+<value><name>Lo/Ovral-28</name></value>
+<value><name>Locoid</name></value>
+<value><name>Locoid Lipocream</name></value>
+<value><name>Lodine</name></value>
+<value><name>Lodosyn</name></value>
+<value><name>Lodoxamide Tromethamine</name></value>
+<value><name>Loestrin 1.5/30</name></value>
+<value><name>Loestrin 1/20</name></value>
+<value><name>Loestrin 24 Fe</name></value>
+<value><name>Loestrin Fe 1.5/30</name></value>
+<value><name>Loestrin Fe 1/20</name></value>
+<value><name>Lofibra</name></value>
+<value><name>Lokara</name></value>
+<value><name>Lomotil</name></value>
+<value><name>Lomustine</name></value>
+<value><name>Loperamide Hydrochloride</name></value>
+<value><name>Lopid</name></value>
+<value><name>Lopinavir And Ritonavir</name></value>
+<value><name>Lopressor</name></value>
+<value><name>Lopressor Hct</name></value>
+<value><name>Loprox</name></value>
+<value><name>Lorazepam</name></value>
+<value><name>Lorcet</name></value>
+<value><name>Lorcet 10/650</name></value>
+<value><name>Lorcet Plus</name></value>
+<value><name>Lortab</name></value>
+<value><name>Loryna (Drospirenone And Ethinyl Estradiol)</name></value>
+<value><name>Lorzone</name></value>
+<value><name>Losartan Potassium</name></value>
+<value><name>Losartan Potassium And Hydrochlorothiazide</name></value>
+<value><name>Loseasonique</name></value>
+<value><name>Lotemax</name></value>
+<value><name>Lotensin</name></value>
+<value><name>Lotensin Hct</name></value>
+<value><name>Loteprednol Etabonate</name></value>
+<value><name>Loteprednol Etabonate And Tobramycin</name></value>
+<value><name>Lotrel</name></value>
+<value><name>Lotrisone</name></value>
+<value><name>Lotronex</name></value>
+<value><name>Lovastatin</name></value>
+<value><name>Lovaza</name></value>
+<value><name>Lovenox</name></value>
+<value><name>Low-Ogestrel</name></value>
+<value><name>Loxapine</name></value>
+<value><name>Loxapine Succinate</name></value>
+<value><name>Loxitane</name></value>
+<value><name>Lubiprostone</name></value>
+<value><name>Lucentis</name></value>
+<value><name>Ludent</name></value>
+<value><name>Lufyllin</name></value>
+<value><name>Lufyllin Tabs</name></value>
+<value><name>Lumicain</name></value>
+<value><name>Lumigan</name></value>
+<value><name>Lumizyme</name></value>
+<value><name>Lunesta</name></value>
+<value><name>Lupron Depot</name></value>
+<value><name>Lupron Depot-Ped</name></value>
+<value><name>Lurasidone Hydrochloride</name></value>
+<value><name>Lusedra</name></value>
+<value><name>Lustra</name></value>
+<value><name>Lustra-Af</name></value>
+<value><name>Lutera</name></value>
+<value><name>Lutropin Alfa</name></value>
+<value><name>Luveris</name></value>
+<value><name>Luxiq</name></value>
+<value><name>Lybrel</name></value>
+<value><name>Lymphazurin</name></value>
+<value><name>Lyrica</name></value>
+<value><name>Lysodren</name></value>
+<value><name>Lysteda</name></value>
+<value><name>Macrobid</name></value>
+<value><name>Macrodantin</name></value>
+<value><name>Macugen</name></value>
+<value><name>Mafenide Acetate</name></value>
+<value><name>Magnacet</name></value>
+<value><name>Magnesium</name></value>
+<value><name>Magnevist</name></value>
+<value><name>Makena</name></value>
+<value><name>Malarone</name></value>
+<value><name>Malathion</name></value>
+<value><name>Malathion Lotion, 0.5%</name></value>
+<value><name>Manganese</name></value>
+<value><name>Manganese Chloride</name></value>
+<value><name>Manganese Sulfate</name></value>
+<value><name>Mannitol</name></value>
+<value><name>Maprotiline Hydrochloride</name></value>
+<value><name>Maraviroc</name></value>
+<value><name>Marcaine</name></value>
+<value><name>Marcaine Spinal</name></value>
+<value><name>Marcaine With Epinephrine</name></value>
+<value><name>Margesic</name></value>
+<value><name>Marinol</name></value>
+<value><name>Marlissa</name></value>
+<value><name>Marplan</name></value>
+<value><name>Matulane</name></value>
+<value><name>Matzim La</name></value>
+<value><name>Mavik</name></value>
+<value><name>Maxair Autohaler</name></value>
+<value><name>Maxalt</name></value>
+<value><name>Maxalt-Mlt</name></value>
+<value><name>Maxidex</name></value>
+<value><name>Maxidone</name></value>
+<value><name>Maxipime</name></value>
+<value><name>Maxitrol</name></value>
+<value><name>Maxzide</name></value>
+<value><name>Maxzide-25</name></value>
+<value><name>Mebendazole</name></value>
+<value><name>Mebrofenin</name></value>
+<value><name>Mecasermin</name></value>
+<value><name>Mechlorethamine Hydrochloride</name></value>
+<value><name>Meclizine</name></value>
+<value><name>Meclizine Hydrochloride</name></value>
+<value><name>Meclofenamate Sodium</name></value>
+<value><name>Medical Air</name></value>
+<value><name>Medrol</name></value>
+<value><name>Medroxyprogesterone Acetate</name></value>
+<value><name>Mefenamic Acid</name></value>
+<value><name>Mefloquine Hydrochloride</name></value>
+<value><name>Mefoxin</name></value>
+<value><name>Megace</name></value>
+<value><name>Megace Es</name></value>
+<value><name>Megesterol Acetate</name></value>
+<value><name>Megestol</name></value>
+<value><name>Meloxicam</name></value>
+<value><name>Melphalan</name></value>
+<value><name>Melphalan Hydrochloride</name></value>
+<value><name>Memantine Hydrochloride</name></value>
+<value><name>Menest</name></value>
+<value><name>Menopur</name></value>
+<value><name>Menostar</name></value>
+<value><name>Menotropins</name></value>
+<value><name>Mentax</name></value>
+<value><name>Mepenzolate Bromide</name></value>
+<value><name>Meperidine</name></value>
+<value><name>Meperidine Hcl And Promethazine Hcl</name></value>
+<value><name>Meperidine Hydrochloride</name></value>
+<value><name>Mephyton</name></value>
+<value><name>Mepivacaine</name></value>
+<value><name>Mepivacaine Hydrochloride</name></value>
+<value><name>Mepivacaine Hydrochloride And Levonordefrin</name></value>
+<value><name>Meprobamate</name></value>
+<value><name>Mepron</name></value>
+<value><name>Mercaptopurine</name></value>
+<value><name>Meridia</name></value>
+<value><name>Meropenem</name></value>
+<value><name>Merrem</name></value>
+<value><name>Merrem Iv</name></value>
+<value><name>Mesalamine</name></value>
+<value><name>Mesna</name></value>
+<value><name>Mesnex</name></value>
+<value><name>Mestinon</name></value>
+<value><name>Metadate Cd</name></value>
+<value><name>Metadate Er</name></value>
+<value><name>Metaglip</name></value>
+<value><name>Metaproterenol Sulfate</name></value>
+<value><name>Metaxalone</name></value>
+<value><name>Metformin</name></value>
+<value><name>Metformin Hydrochloride</name></value>
+<value><name>Metformin Hydrochloride Extended Release</name></value>
+<value><name>Methadone Hydrochloride</name></value>
+<value><name>Methadose</name></value>
+<value><name>Methadose Dispersible</name></value>
+<value><name>Methamphetamine Hydrochloride</name></value>
+<value><name>Methazolamide</name></value>
+<value><name>Methazolamide Tablets</name></value>
+<value><name>Methedex</name></value>
+<value><name>Methenamine Hippurate</name></value>
+<value><name>Methenamine Mandelate</name></value>
+<value><name>Methergine</name></value>
+<value><name>Methimazole</name></value>
+<value><name>Methitest</name></value>
+<value><name>Methocarbamol</name></value>
+<value><name>Methohexital Sodium</name></value>
+<value><name>Methotrexate</name></value>
+<value><name>Methotrexate Sodium</name></value>
+<value><name>Methoxsalen</name></value>
+<value><name>Methscopolamine</name></value>
+<value><name>Methscopolamine Bromide</name></value>
+<value><name>Methsuximide</name></value>
+<value><name>Methyclothiazide</name></value>
+<value><name>Methyl Aminolevulinate</name></value>
+<value><name>Methyldopa</name></value>
+<value><name>Methyldopa And Hydrochlorothiazide</name></value>
+<value><name>Methyldopate Hydrochloride</name></value>
+<value><name>Methylene Blue</name></value>
+<value><name>Methylergonovine Maleate</name></value>
+<value><name>Methylin</name></value>
+<value><name>Methylin Er</name></value>
+<value><name>Methylnaltrexone Bromide</name></value>
+<value><name>Methylphenidate</name></value>
+<value><name>Methylphenidate Hydrochloride</name></value>
+<value><name>Methylphenidate Hydrochloride Er</name></value>
+<value><name>Methylphenidate Hydrochloride Sr</name></value>
+<value><name>Methylprednisole</name></value>
+<value><name>Methylprednisolone</name></value>
+<value><name>Methylprednisolone Acetate</name></value>
+<value><name>Methylprednisolone Sodium Succinate</name></value>
+<value><name>Methyltestosterone</name></value>
+<value><name>Metipranolol</name></value>
+<value><name>Metoclopramide</name></value>
+<value><name>Metoclopramide Hydrochloride</name></value>
+<value><name>Metolazone</name></value>
+<value><name>Metopirone</name></value>
+<value><name>Metoprolol</name></value>
+<value><name>Metoprolol Succinate</name></value>
+<value><name>Metoprolol Succinate And Hydrochlorothiazide</name></value>
+<value><name>Metoprolol Succinate Er</name></value>
+<value><name>Metoprolol Tartrate</name></value>
+<value><name>Metoprolol Tartrate And Hydrochlorothiazide</name></value>
+<value><name>Metozolv</name></value>
+<value><name>Metozolv Odt</name></value>
+<value><name>Metrocream</name></value>
+<value><name>Metrogel</name></value>
+<value><name>Metrogel-Vaginal</name></value>
+<value><name>Metrolotion</name></value>
+<value><name>Metronidazole</name></value>
+<value><name>Metronidazole Lotion</name></value>
+<value><name>Metronidazole Lotion 0.75%</name></value>
+<value><name>Metronidazole Topical Cream</name></value>
+<value><name>Metronidazole Topical Cream 0.75%</name></value>
+<value><name>Metvixia</name></value>
+<value><name>Metyrapone</name></value>
+<value><name>Metyrosine</name></value>
+<value><name>Mevacor</name></value>
+<value><name>Mexiletine Hydrochloride</name></value>
+<value><name>Miacalcin</name></value>
+<value><name>Micafungin Sodium</name></value>
+<value><name>Micardis</name></value>
+<value><name>Micardis Hct</name></value>
+<value><name>Miconazole</name></value>
+<value><name>Miconazole Nitrate</name></value>
+<value><name>Micrhogam Ultra-Filtered Plus</name></value>
+<value><name>Microgestin</name></value>
+<value><name>Microgestin Fe</name></value>
+<value><name>Micro-K 10 Extencaps</name></value>
+<value><name>Micro-K Extencaps</name></value>
+<value><name>Micronase</name></value>
+<value><name>Micronor</name></value>
+<value><name>Microzide</name></value>
+<value><name>Midazolam</name></value>
+<value><name>Midazolam Hydrochloride</name></value>
+<value><name>Midazolam Hydrochloride Syrup</name></value>
+<value><name>Midodrine Hcl</name></value>
+<value><name>Midodrine Hydrochloride</name></value>
+<value><name>Mifepristone</name></value>
+<value><name>Migergot</name></value>
+<value><name>Miglitol</name></value>
+<value><name>Miglustat</name></value>
+<value><name>Migranal</name></value>
+<value><name>Millipred</name></value>
+<value><name>Milnacipran Hydrochloride</name></value>
+<value><name>Mimvey</name></value>
+<value><name>Mineral Tablet</name></value>
+<value><name>Minipress</name></value>
+<value><name>Minitran</name></value>
+<value><name>Minocin</name></value>
+<value><name>Minocycline</name></value>
+<value><name>Minocycline Hydrochloride</name></value>
+<value><name>Minoxidil</name></value>
+<value><name>Miochol E</name></value>
+<value><name>Mi-Omega Nf</name></value>
+<value><name>Miostat</name></value>
+<value><name>Mirabegron</name></value>
+<value><name>Mirapex</name></value>
+<value><name>Mirapex Er</name></value>
+<value><name>Mircette</name></value>
+<value><name>Mirena</name></value>
+<value><name>Mirtazapine</name></value>
+<value><name>Misoprostol</name></value>
+<value><name>Mitomycin</name></value>
+<value><name>Mitosol</name></value>
+<value><name>Mitotane</name></value>
+<value><name>Mitoxantrone</name></value>
+<value><name>Mitoxantrone Hydrochloride</name></value>
+<value><name>Mobic</name></value>
+<value><name>Modafinil</name></value>
+<value><name>Modicon</name></value>
+<value><name>Moexipril Hydrochloride</name></value>
+<value><name>Moexipril Hydrochloride And Hydrochlorothiazide</name></value>
+<value><name>Mometasone Furoate</name></value>
+<value><name>Mometasone Furoate And Formoterol Fumarate Dihydrate</name></value>
+<value><name>Mometasone Furoate Monohydrate</name></value>
+<value><name>Monoclate-P</name></value>
+<value><name>Monodox</name></value>
+<value><name>Monoket</name></value>
+<value><name>Mono-Linyah</name></value>
+<value><name>Mononessa</name></value>
+<value><name>Mononine</name></value>
+<value><name>Monsels Solution</name></value>
+<value><name>Montelukast</name></value>
+<value><name>Montelukast Sodium</name></value>
+<value><name>Monurol</name></value>
+<value><name>Morgidox</name></value>
+<value><name>Morphine</name></value>
+<value><name>Morphine (Anhydrous)</name></value>
+<value><name>Morphine Base</name></value>
+<value><name>Morphine Hydrochloride</name></value>
+<value><name>Morphine Sulfate</name></value>
+<value><name>Morphine Sulfate And Naltrexone Hydrochloride</name></value>
+<value><name>Morphine Sulfate Extended Release</name></value>
+<value><name>Morphine Sulfate Injection</name></value>
+<value><name>Morphine Tincture</name></value>
+<value><name>Morphinum</name></value>
+<value><name>Morphinum Muriaticum</name></value>
+<value><name>Motofen</name></value>
+<value><name>Moviprep</name></value>
+<value><name>Moxatag</name></value>
+<value><name>Moxeza</name></value>
+<value><name>Moxifloxacin Hydrochloride</name></value>
+<value><name>Mozobil</name></value>
+<value><name>Ms Contin</name></value>
+<value><name>Ms Contin Cr</name></value>
+<value><name>Mucinex D</name></value>
+<value><name>Multaq</name></value>
+<value><name>Mupirocin</name></value>
+<value><name>Mupirocin Calcium</name></value>
+<value><name>Muromonab-Cd3</name></value>
+<value><name>Muse</name></value>
+<value><name>Mustargen</name></value>
+<value><name>Myambutol</name></value>
+<value><name>Mycamine</name></value>
+<value><name>Mycobutin</name></value>
+<value><name>Mycophenolate Mofetil</name></value>
+<value><name>Mycophenolate Mofetil Hydrochloride</name></value>
+<value><name>Mycophenolic Acid</name></value>
+<value><name>Mydfrin</name></value>
+<value><name>Mydriacyl</name></value>
+<value><name>Myfortic</name></value>
+<value><name>Myleran</name></value>
+<value><name>Mylotarg</name></value>
+<value><name>Myobloc</name></value>
+<value><name>Myochrysine</name></value>
+<value><name>Myorisan</name></value>
+<value><name>Myoview</name></value>
+<value><name>Myozyme</name></value>
+<value><name>Myrbetriq</name></value>
+<value><name>Mysoline</name></value>
+<value><name>Mytelase</name></value>
+<value><name>Mytrophene</name></value>
+<value><name>Myzilra</name></value>
+<value><name>Nabi-Hb</name></value>
+<value><name>Nabilone</name></value>
+<value><name>Nabumetone</name></value>
+<value><name>Nadolol</name></value>
+<value><name>Nadolol And Bendroflumethiazide</name></value>
+<value><name>Nafarelin Acetate</name></value>
+<value><name>Nafcillin</name></value>
+<value><name>Nafcillin Sodium</name></value>
+<value><name>Naftifine Hydrochloride</name></value>
+<value><name>Naftin</name></value>
+<value><name>Naglazyme</name></value>
+<value><name>Nalbuphine Hydrochloride</name></value>
+<value><name>Nalfon</name></value>
+<value><name>Naloxone Hydrochloride</name></value>
+<value><name>Naltrexone</name></value>
+<value><name>Naltrexone Hydrochloride</name></value>
+<value><name>Namenda</name></value>
+<value><name>Namenda Xr</name></value>
+<value><name>Nandrolone Decanoate</name></value>
+<value><name>Naphazoline</name></value>
+<value><name>Naphazoline Hydrochloride</name></value>
+<value><name>Naprelan</name></value>
+<value><name>Naprosyn</name></value>
+<value><name>Naproxen</name></value>
+<value><name>Naproxen And Esomeprazole Magnesium</name></value>
+<value><name>Naproxen Dr</name></value>
+<value><name>Naproxen Sodium</name></value>
+<value><name>Naratriptan</name></value>
+<value><name>Naratriptan Hydrochloride</name></value>
+<value><name>Nardil</name></value>
+<value><name>Naropin</name></value>
+<value><name>Nasacort Aq</name></value>
+<value><name>Nascobal</name></value>
+<value><name>Nasonex</name></value>
+<value><name>Natacyn</name></value>
+<value><name>Natafort</name></value>
+<value><name>Natalizumab</name></value>
+<value><name>Natamycin</name></value>
+<value><name>Natazia</name></value>
+<value><name>Nateglinide</name></value>
+<value><name>Natelle One</name></value>
+<value><name>Natrecor</name></value>
+<value><name>Natroba</name></value>
+<value><name>Navane</name></value>
+<value><name>Navelbine</name></value>
+<value><name>Nebivolol Hydrochloride</name></value>
+<value><name>Nebupent</name></value>
+<value><name>Necon</name></value>
+<value><name>Necon 0.5/35</name></value>
+<value><name>Necon 1/35</name></value>
+<value><name>Necon 10/11</name></value>
+<value><name>Necon 777</name></value>
+<value><name>Nedocromil Sodium</name></value>
+<value><name>Nefazodone Hydrochloride</name></value>
+<value><name>Nelarabine</name></value>
+<value><name>Nelfinavir Mesylate</name></value>
+<value><name>Nembutal Sodium</name></value>
+<value><name>Neobenz Micro Plus Pack</name></value>
+<value><name>Neobenz Micro Sd</name></value>
+<value><name>Neobenz Micro Wash</name></value>
+<value><name>Neobenz Micro Wash Plus Pack</name></value>
+<value><name>Neocidin</name></value>
+<value><name>Neomycin And Polymyxin B Sulfates</name></value>
+<value><name>Neomycin And Polymyxin B Sulfates And Bacitracin Zinc</name></value>
+<value><name>Neomycin And Polymyxin B Sulfates And Dexamethasone</name></value>
+<value><name>Neomycin And Polymyxin B Sulfates And Gramicidin</name></value>
+<value><name>Neomycin Sulfate And Polymyxin B Sulfate, Bacitracin Zinc And Hydrocortisone</name></value>
+<value><name>Neo-Poly-Bac</name></value>
+<value><name>Neo-Poly-Bac Hydro</name></value>
+<value><name>Neo-Polycin</name></value>
+<value><name>Neo-Polycin Hc</name></value>
+<value><name>Neo-Poly-Dex</name></value>
+<value><name>Neoprofen</name></value>
+<value><name>Neoral</name></value>
+<value><name>Neosporin</name></value>
+<value><name>Neosporin G.U.</name></value>
+<value><name>Neostigmine Methylsulfate</name></value>
+<value><name>Neo-Synephrine</name></value>
+<value><name>Neova</name></value>
+<value><name>Nepafenac</name></value>
+<value><name>Neptazane</name></value>
+<value><name>Nesacaine</name></value>
+<value><name>Nesacaine Mpf</name></value>
+<value><name>Nesiritide</name></value>
+<value><name>Neulasta</name></value>
+<value><name>Neumega</name></value>
+<value><name>Neupogen</name></value>
+<value><name>Neupro</name></value>
+<value><name>Neurontin</name></value>
+<value><name>Neuropathy Therapy Oil</name></value>
+<value><name>Neutra Maxx 5000</name></value>
+<value><name>Neutral Sodium Fluoride 0.2%</name></value>
+<value><name>Neutramaxx 5000 Plus Turbo</name></value>
+<value><name>Neutramaxx 5000 Tcp</name></value>
+<value><name>Nevanac</name></value>
+<value><name>Nevirapine</name></value>
+<value><name>Nevirapine Oral</name></value>
+<value><name>Nexa Plus</name></value>
+<value><name>Nexa Select</name></value>
+<value><name>Nexavar</name></value>
+<value><name>Nexiclon</name></value>
+<value><name>Nexiclon Xr</name></value>
+<value><name>Nexium</name></value>
+<value><name>Nexium Iv</name></value>
+<value><name>Nexplanon</name></value>
+<value><name>Nexterone</name></value>
+<value><name>Niacin</name></value>
+<value><name>Niacin And Lovastatin</name></value>
+<value><name>Niacin And Simvastatin</name></value>
+<value><name>Niacor</name></value>
+<value><name>Niaspan</name></value>
+<value><name>Niaspan Er</name></value>
+<value><name>Nicardipine</name></value>
+<value><name>Nicardipine Hydrochloride</name></value>
+<value><name>Nicotine</name></value>
+<value><name>Nicotine Polacrilex</name></value>
+<value><name>Nicotine Tartrate</name></value>
+<value><name>Nicotine Un1654</name></value>
+<value><name>Nicotrol</name></value>
+<value><name>Nifediac Cc</name></value>
+<value><name>Nifedical</name></value>
+<value><name>Nifedical Xl</name></value>
+<value><name>Nifedipine</name></value>
+<value><name>Nifedipine Er</name></value>
+<value><name>Nilandron</name></value>
+<value><name>Nilotinib</name></value>
+<value><name>Nilutamide</name></value>
+<value><name>Nimbex</name></value>
+<value><name>Nimodipine</name></value>
+<value><name>Nipent</name></value>
+<value><name>Niravam</name></value>
+<value><name>Nisoldipine</name></value>
+<value><name>Nitazoxanide</name></value>
+<value><name>Nithiodote</name></value>
+<value><name>Nitisinone</name></value>
+<value><name>Nitro-Bid</name></value>
+<value><name>Nitro-Dur</name></value>
+<value><name>Nitrofurantion Macrocrystals</name></value>
+<value><name>Nitrofurantoin</name></value>
+<value><name>Nitrofurantoin Monohydrate/Macrocrystalline</name></value>
+<value><name>Nitrogen</name></value>
+<value><name>Nitrogen, Refrigerated</name></value>
+<value><name>Nitroglycerin</name></value>
+<value><name>Nitroglycerin Lingual</name></value>
+<value><name>Nitroglycerin Slocaps</name></value>
+<value><name>Nitroglycerin Sustained-Release Capsules</name></value>
+<value><name>Nitroglycerin Transdermal Delivery System</name></value>
+<value><name>Nitrolingual</name></value>
+<value><name>Nitrolingual Pumpspray</name></value>
+<value><name>Nitromist</name></value>
+<value><name>Nitropress</name></value>
+<value><name>Nitrostat</name></value>
+<value><name>Nitro-Time</name></value>
+<value><name>Nitrous Oxide</name></value>
+<value><name>Nizatidine</name></value>
+<value><name>Nizoral</name></value>
+<value><name>Nor Qd</name></value>
+<value><name>Nora Be</name></value>
+<value><name>Norco</name></value>
+<value><name>Nordette</name></value>
+<value><name>Norditropin</name></value>
+<value><name>Norelgestromin And Ethinyl Estradiol</name></value>
+<value><name>Norepinephrine</name></value>
+<value><name>Norepinephrine Bitartrate</name></value>
+<value><name>Norethindrone</name></value>
+<value><name>Norethindrone Acetate</name></value>
+<value><name>Norethindrone And Ethinyl Estradiol</name></value>
+<value><name>Norethindrone And Ethinyl Estradiol And Ferrous Fumarate</name></value>
+<value><name>Norethindrone And Mestranol</name></value>
+<value><name>Norflex</name></value>
+<value><name>Norfloxacin</name></value>
+<value><name>Norgestimate And Ethinyl Estradiol</name></value>
+<value><name>Norgestrel And Ethinyl Estradiol</name></value>
+<value><name>Norinyl</name></value>
+<value><name>Noritate</name></value>
+<value><name>Normosol-R</name></value>
+<value><name>Noroxin</name></value>
+<value><name>Norpace</name></value>
+<value><name>Norpramin</name></value>
+<value><name>Nortiptyline Hydrochloride</name></value>
+<value><name>Nortrel</name></value>
+<value><name>Nortrel 21 Day</name></value>
+<value><name>Nortrel 28 Day</name></value>
+<value><name>Nortrel 7/7/7</name></value>
+<value><name>Nortriptyline Hydrochloride</name></value>
+<value><name>Norvasc</name></value>
+<value><name>Norvir</name></value>
+<value><name>Notuss-Nx</name></value>
+<value><name>Notuss-Nxd</name></value>
+<value><name>Novacort</name></value>
+<value><name>Novacort 2% Hydrocortisone - 1% Pramixine Hci</name></value>
+<value><name>Novaferrum</name></value>
+<value><name>Novamine</name></value>
+<value><name>Novarel</name></value>
+<value><name>Novolog</name></value>
+<value><name>Novolog Mix 70/30</name></value>
+<value><name>Novoseven</name></value>
+<value><name>Novoseven Rt</name></value>
+<value><name>Noxafil</name></value>
+<value><name>Np Thyroid 30</name></value>
+<value><name>Np Thyroid 60</name></value>
+<value><name>Np Thyroid 90</name></value>
+<value><name>Nplate</name></value>
+<value><name>Nucynta</name></value>
+<value><name>Nucynta Er</name></value>
+<value><name>Nuedexta</name></value>
+<value><name>Nulecit</name></value>
+<value><name>Nulojix</name></value>
+<value><name>Nulytely</name></value>
+<value><name>Nutrestore</name></value>
+<value><name>Nutricel Additive System - As-3</name></value>
+<value><name>Nutricel Additive System - Cp2D</name></value>
+<value><name>Nutropin</name></value>
+<value><name>Nutropin Aq</name></value>
+<value><name>Nutropin Aq Nuspin 10</name></value>
+<value><name>Nutropin Aq Nuspin 20</name></value>
+<value><name>Nutropin Aq Nuspin 5</name></value>
+<value><name>Nutropin Aq Pen 10</name></value>
+<value><name>Nutropin Aq Pen 20</name></value>
+<value><name>Nuvaring</name></value>
+<value><name>Nuvigil</name></value>
+<value><name>Nyamyc</name></value>
+<value><name>Nystatin</name></value>
+<value><name>Nystatin And Triamcinolone</name></value>
+<value><name>Nystop</name></value>
+<value><name>Ocella</name></value>
+<value><name>Octagam Immune Globulin (Human)</name></value>
+<value><name>Octocaine 100</name></value>
+<value><name>Octocaine 50</name></value>
+<value><name>Octreotide</name></value>
+<value><name>Octreotide Acetate</name></value>
+<value><name>Ocudox</name></value>
+<value><name>Ocufen</name></value>
+<value><name>Ocuflox</name></value>
+<value><name>Ofatumumab</name></value>
+<value><name>Ofirmev</name></value>
+<value><name>Ofloxacin</name></value>
+<value><name>Ofloxacin Ophthalmic</name></value>
+<value><name>Ofloxacin Otic</name></value>
+<value><name>Oforta</name></value>
+<value><name>Ogestrel 0.5/50</name></value>
+<value><name>Okt3</name></value>
+<value><name>Olanzapine</name></value>
+<value><name>Olanzapine And Fluoxetine</name></value>
+<value><name>Olanzapine Pamoate</name></value>
+<value><name>Oleptro</name></value>
+<value><name>Olmesartan Medoxomil</name></value>
+<value><name>Olmesartan Medoxomil / Amlodipine Besylate / Hydrochlorothiazide</name></value>
+<value><name>Olmesartan Medoxomil And Hydrochlorothiazide</name></value>
+<value><name>Olopatadine Hydrochloride</name></value>
+<value><name>Olux</name></value>
+<value><name>Olux-E</name></value>
+<value><name>Omalizumab</name></value>
+<value><name>Omeclamox-Pak</name></value>
+<value><name>Omega-3-Acid Ethyl Esters</name></value>
+<value><name>Omeprazole</name></value>
+<value><name>Omeprazole And Sodium Bicarbonate</name></value>
+<value><name>Omeprazole Delayed Release</name></value>
+<value><name>Omeprazole Magnesium</name></value>
+<value><name>Omeprazole, Clarithromycin, Amoxicillin</name></value>
+<value><name>Omeprazole, Sodium Bicarbonate</name></value>
+<value><name>Omnaris</name></value>
+<value><name>Omnipaque</name></value>
+<value><name>Omnipred</name></value>
+<value><name>Omniscan</name></value>
+<value><name>Omnitrope</name></value>
+<value><name>Omontys</name></value>
+<value><name>Onabotulinumtoxina</name></value>
+<value><name>Oncaspar</name></value>
+<value><name>Oncospray Blue</name></value>
+<value><name>Ondansetron</name></value>
+<value><name>Ondansetron Hydrochloride</name></value>
+<value><name>Onfi</name></value>
+<value><name>Onglyza</name></value>
+<value><name>Onmel</name></value>
+<value><name>Onsolis</name></value>
+<value><name>Ontak</name></value>
+<value><name>Opana</name></value>
+<value><name>Opana Er</name></value>
+<value><name>Opium</name></value>
+<value><name>Opium Tincture Deodorized</name></value>
+<value><name>Oprelvekin</name></value>
+<value><name>Optipranolol</name></value>
+<value><name>Optivar</name></value>
+<value><name>Orabloc</name></value>
+<value><name>Oracea</name></value>
+<value><name>Oralone</name></value>
+<value><name>Orap</name></value>
+<value><name>Orapred</name></value>
+<value><name>Orapred Odt</name></value>
+<value><name>Oraqix</name></value>
+<value><name>Oraverse</name></value>
+<value><name>Oravig</name></value>
+<value><name>Orbivan</name></value>
+<value><name>Orbivan Cf</name></value>
+<value><name>Orencia</name></value>
+<value><name>Orfadin</name></value>
+<value><name>Organidin Nr</name></value>
+<value><name>Orlistat</name></value>
+<value><name>Orsythia</name></value>
+<value><name>Ortho Cept</name></value>
+<value><name>Ortho Cyclen</name></value>
+<value><name>Ortho Evra</name></value>
+<value><name>Ortho Guard</name></value>
+<value><name>Ortho Micronor</name></value>
+<value><name>Ortho Novum</name></value>
+<value><name>Ortho Tri Cyclen</name></value>
+<value><name>Ortho Tri Cyclen Lo</name></value>
+<value><name>Oscimin</name></value>
+<value><name>Oseltamivir Phosphate</name></value>
+<value><name>Osmoprep</name></value>
+<value><name>Otic Edge</name></value>
+<value><name>Oticin</name></value>
+<value><name>Oticin Hc Ear Drops</name></value>
+<value><name>Oto End 10</name></value>
+<value><name>Otozin</name></value>
+<value><name>Ovcon 35</name></value>
+<value><name>Ovcon 50</name></value>
+<value><name>Ovide</name></value>
+<value><name>Ovidrel</name></value>
+<value><name>Ovine Digoxin Immune Fab</name></value>
+<value><name>Oxacillin</name></value>
+<value><name>Oxaliplatin</name></value>
+<value><name>Oxandrolone</name></value>
+<value><name>Oxaprozin</name></value>
+<value><name>Oxazepam</name></value>
+<value><name>Oxcarbazepine</name></value>
+<value><name>Oxecta</name></value>
+<value><name>Oxiconazole Nitrate</name></value>
+<value><name>Oxilan</name></value>
+<value><name>Oxistat</name></value>
+<value><name>Oxsoralen</name></value>
+<value><name>Oxsoralen-Ultra</name></value>
+<value><name>Oxybutynin</name></value>
+<value><name>Oxybutynin Chloride</name></value>
+<value><name>Oxycodone And Acetaminophen</name></value>
+<value><name>Oxycodone And Aspirin</name></value>
+<value><name>Oxycodone Hydrochloride</name></value>
+<value><name>Oxycodone Hydrochloride And Acetaminophen</name></value>
+<value><name>Oxycodone Hydrochloride And Aspirin</name></value>
+<value><name>Oxycontin</name></value>
+<value><name>Oxygen</name></value>
+<value><name>Oxygen Carbon Dioxide Mix</name></value>
+<value><name>Oxygen Compressed</name></value>
+<value><name>Oxygen Helium Mixture</name></value>
+<value><name>Oxygen Helium Mixture 40/60</name></value>
+<value><name>Oxygen, Carbon Dioxide</name></value>
+<value><name>Oxygen, Compressed</name></value>
+<value><name>Oxymorphone Hydrochloride</name></value>
+<value><name>Oxytocin</name></value>
+<value><name>Oxytrol</name></value>
+<value><name>Ozurdex</name></value>
+<value><name>Pacerone</name></value>
+<value><name>Paclitaxel</name></value>
+<value><name>Pacnex</name></value>
+<value><name>Paire Ob Plus Dha</name></value>
+<value><name>Palgic</name></value>
+<value><name>Palifermin</name></value>
+<value><name>Paliperidone</name></value>
+<value><name>Paliperidone Palmitate</name></value>
+<value><name>Palivizumab</name></value>
+<value><name>Palonosetron Hydrochloride</name></value>
+<value><name>Pamelor</name></value>
+<value><name>Pamidronate Disodium</name></value>
+<value><name>Pamine</name></value>
+<value><name>Pamine Forte</name></value>
+<value><name>Pancreaze</name></value>
+<value><name>Pancrelipase</name></value>
+<value><name>Pancuronium Bromide</name></value>
+<value><name>Pandel</name></value>
+<value><name>Panhematin</name></value>
+<value><name>Panitumumab</name></value>
+<value><name>Panretin</name></value>
+<value><name>Pantoprazoel Sodium</name></value>
+<value><name>Pantoprazole</name></value>
+<value><name>Pantoprazole Sodium</name></value>
+<value><name>Pantoprazole Sodium Delayed Release</name></value>
+<value><name>Papaverine Hydrochloride</name></value>
+<value><name>Parafon Dsc</name></value>
+<value><name>Parafon Forte Dsc</name></value>
+<value><name>Paragard T380A</name></value>
+<value><name>Parcopa</name></value>
+<value><name>Paregoric</name></value>
+<value><name>Paremyd</name></value>
+<value><name>Paricalcitol</name></value>
+<value><name>Parlodel</name></value>
+<value><name>Parnate</name></value>
+<value><name>Paromomycin Sulfate</name></value>
+<value><name>Paroxetine</name></value>
+<value><name>Paroxetine Hydrochloride</name></value>
+<value><name>Paroxetine Hydrochloride Hemihydrate</name></value>
+<value><name>Paroxetine Mesylate</name></value>
+<value><name>Paser</name></value>
+<value><name>Pataday</name></value>
+<value><name>Patanase</name></value>
+<value><name>Patanol</name></value>
+<value><name>Paxil</name></value>
+<value><name>Paxil Cr</name></value>
+<value><name>Pazopanib Hydrochloride</name></value>
+<value><name>Pb Hyos</name></value>
+<value><name>Pearson Mepivacaine</name></value>
+<value><name>Pediaderm Hc</name></value>
+<value><name>Pediaderm Ta</name></value>
+<value><name>Pediapred</name></value>
+<value><name>Pedi-Dri</name></value>
+<value><name>Peg-3350 And Electrolytes</name></value>
+<value><name>Pegademase Bovine</name></value>
+<value><name>Peganone</name></value>
+<value><name>Pegaptanib Sodium</name></value>
+<value><name>Pegaspargase</name></value>
+<value><name>Pegasys</name></value>
+<value><name>Pegfilgrastim</name></value>
+<value><name>Peginesatide Injection</name></value>
+<value><name>Peginterferon Alfa-2A</name></value>
+<value><name>Peginterferon Alfa-2B</name></value>
+<value><name>Pegintron</name></value>
+<value><name>Pegloticase</name></value>
+<value><name>Pegvisomant</name></value>
+<value><name>Pemetrexed Disodium</name></value>
+<value><name>Pemirolast Potassium</name></value>
+<value><name>Penbutolol Sulfate</name></value>
+<value><name>Penciclovir</name></value>
+<value><name>Penicillamine</name></value>
+<value><name>Penicillin G</name></value>
+<value><name>Penicillin G Benzathine</name></value>
+<value><name>Penicillin G Potassium</name></value>
+<value><name>Penicillin G Procaine</name></value>
+<value><name>Penicillin G Sodium</name></value>
+<value><name>Penicillin V Potassium</name></value>
+<value><name>Pennacaine</name></value>
+<value><name>Pennsaid</name></value>
+<value><name>Pentagastrin</name></value>
+<value><name>Pentam 300</name></value>
+<value><name>Pentamidine Isethionate</name></value>
+<value><name>Pentasa</name></value>
+<value><name>Pentazocine And Naloxone</name></value>
+<value><name>Pentazocine Hydrochloride And Acetaminophen</name></value>
+<value><name>Pentazocine Hydrochloride And Naloxone Hydrochloride</name></value>
+<value><name>Pentazocine Lactate</name></value>
+<value><name>Pentetic Acid</name></value>
+<value><name>Pentobarbital Sodium</name></value>
+<value><name>Pentosan Polysulfate Sodium</name></value>
+<value><name>Pentostatin</name></value>
+<value><name>Pentoxifylline</name></value>
+<value><name>Pepcid</name></value>
+<value><name>Percocet</name></value>
+<value><name>Percodan</name></value>
+<value><name>Perforomist</name></value>
+<value><name>Peridex</name></value>
+<value><name>Perindopril Erbumine</name></value>
+<value><name>Periochip</name></value>
+<value><name>Perjeta</name></value>
+<value><name>Permethrin</name></value>
+<value><name>Peroderm 7</name></value>
+<value><name>Perphenazine</name></value>
+<value><name>Perphenazine And Amitriptyline Hydrochloride</name></value>
+<value><name>Perrigo Citalopram</name></value>
+<value><name>Perrigo Ibuprofen</name></value>
+<value><name>Perrigo Prednisone</name></value>
+<value><name>Perrigo Seb Prev</name></value>
+<value><name>Perrigo Sodium Sulfacetamide And Sulfur</name></value>
+<value><name>Persantine</name></value>
+<value><name>Pertuzumab</name></value>
+<value><name>Pertzye</name></value>
+<value><name>Pexeva</name></value>
+<value><name>Pfizerpen</name></value>
+<value><name>Phenadoz</name></value>
+<value><name>Phenazopyridine</name></value>
+<value><name>Phenazopyridine Hydrochloride</name></value>
+<value><name>Phendimetrazine Tartrate</name></value>
+<value><name>Phenelzine Sulfate</name></value>
+<value><name>Phenergan</name></value>
+<value><name>Phenobarbital</name></value>
+<value><name>Phenobarbital Elixir</name></value>
+<value><name>Phenobarbital Sodium</name></value>
+<value><name>Phenobarbitol</name></value>
+<value><name>Phenoxybenzamine Hydrochloride</name></value>
+<value><name>Phentermine Hydrochloride</name></value>
+<value><name>Phentermine Resin</name></value>
+<value><name>Phentermine Resin Er</name></value>
+<value><name>Phentolamine Mesylate</name></value>
+<value><name>Phenylephrine</name></value>
+<value><name>Phenylephrine Hydrochloride</name></value>
+<value><name>Phenylephrine Hydrochloride / Dexchlorpheniramine Maleate</name></value>
+<value><name>Phenylephrine Hydrochloride Opthalmic</name></value>
+<value><name>Phenylephrine Tannate And Chlorpheniramine Tannate</name></value>
+<value><name>Phenytek</name></value>
+<value><name>Phenytoin</name></value>
+<value><name>Phenytoin Er</name></value>
+<value><name>Phenytoin Infatabs</name></value>
+<value><name>Phenytoin Sodium</name></value>
+<value><name>Philith</name></value>
+<value><name>Phisohex</name></value>
+<value><name>Phoslo</name></value>
+<value><name>Phosphasal</name></value>
+<value><name>Phospholine Iodide Opthalmic</name></value>
+<value><name>Photofrin</name></value>
+<value><name>Phrenilin</name></value>
+<value><name>Phrenilin Forte</name></value>
+<value><name>Physiosol</name></value>
+<value><name>Physostigmine Salicylate</name></value>
+<value><name>Phytonadione</name></value>
+<value><name>Pilocarpine</name></value>
+<value><name>Pilocarpine Hydrochloride</name></value>
+<value><name>Pilopine Hs</name></value>
+<value><name>Pimecrolimus</name></value>
+<value><name>Pimecrolimus Cream</name></value>
+<value><name>Pimozide</name></value>
+<value><name>Pindolol</name></value>
+<value><name>Pioglitazone</name></value>
+<value><name>Pioglitazone Hydrochloride</name></value>
+<value><name>Pioglitazone Hydrochloride And Glimepiride</name></value>
+<value><name>Pioglitazone Hydrochloride And Metformin Hydrochloride</name></value>
+<value><name>Piperacillin And Tazobactam</name></value>
+<value><name>Pirbuterol Acetate</name></value>
+<value><name>Piroxicam</name></value>
+<value><name>Pitavastatin Calcium</name></value>
+<value><name>Pitocin</name></value>
+<value><name>Plan B</name></value>
+<value><name>Plan B One-Step</name></value>
+<value><name>Plaquenil</name></value>
+<value><name>Plasbumin</name></value>
+<value><name>Plasma Protein Fraction (Human)</name></value>
+<value><name>Plasmanate</name></value>
+<value><name>Platinol</name></value>
+<value><name>Platinol-Aq</name></value>
+<value><name>Plavix</name></value>
+<value><name>Plendil</name></value>
+<value><name>Plerixafor</name></value>
+<value><name>Pletal</name></value>
+<value><name>Pliaglis</name></value>
+<value><name>Podofilox</name></value>
+<value><name>Podofilox Topical Solution 0.5%</name></value>
+<value><name>Polibar Acb</name></value>
+<value><name>Polidocanol</name></value>
+<value><name>Polifeprosan 20 With Carmustine Implant</name></value>
+<value><name>Polocaine</name></value>
+<value><name>Polocaine-Mpf</name></value>
+<value><name>Poly Hist</name></value>
+<value><name>Polycin</name></value>
+<value><name>Polymyxin B</name></value>
+<value><name>Polymyxin B Sulfate</name></value>
+<value><name>Polymyxin B Sulfate And Trimethoprim</name></value>
+<value><name>Polytrim</name></value>
+<value><name>Poly-Tussin</name></value>
+<value><name>Ponstel</name></value>
+<value><name>Poractant Alfa</name></value>
+<value><name>Porfimer Sodium</name></value>
+<value><name>Portia</name></value>
+<value><name>Posaconazole</name></value>
+<value><name>Potassium</name></value>
+<value><name>Potassium Acetate</name></value>
+<value><name>Potassium Bicarbonate</name></value>
+<value><name>Potassium Bromide, Nickel Sulfate, And Sulfur</name></value>
+<value><name>Potassium Bromide, Nickel Sulfate, And Zinc Bromide</name></value>
+<value><name>Potassium Chloride</name></value>
+<value><name>Potassium Citrate</name></value>
+<value><name>Potassium Citrate And Citric Acid</name></value>
+<value><name>Potassium Hydroxide</name></value>
+<value><name>Potassium Phosphates</name></value>
+<value><name>Potiga</name></value>
+<value><name>Povidone-Iodine</name></value>
+<value><name>Pr Benzoyl Peroxide Wash</name></value>
+<value><name>Pradaxa</name></value>
+<value><name>Pralatrexate</name></value>
+<value><name>Pralidoxime Chloride</name></value>
+<value><name>Pramcort</name></value>
+<value><name>Pramipexole Dihydrochloride</name></value>
+<value><name>Pramlintide Acetate</name></value>
+<value><name>Pramosone</name></value>
+<value><name>Pramosone E</name></value>
+<value><name>Pramoxine Hcl / Hydrocortisone / Chloroxylenol</name></value>
+<value><name>Pranactin-Citric</name></value>
+<value><name>Prandimet</name></value>
+<value><name>Prandin</name></value>
+<value><name>Prasugrel Hydrochloride</name></value>
+<value><name>Pravachol</name></value>
+<value><name>Pravastatin</name></value>
+<value><name>Pravastatin Sodium</name></value>
+<value><name>Praziquantel</name></value>
+<value><name>Prazosin Hydrochloride</name></value>
+<value><name>Precedex</name></value>
+<value><name>Precose</name></value>
+<value><name>Pred Forte</name></value>
+<value><name>Pred Mild</name></value>
+<value><name>Pred-G</name></value>
+<value><name>Prednicarbate</name></value>
+<value><name>Prednisolone</name></value>
+<value><name>Prednisolone Acetate</name></value>
+<value><name>Prednisolone Sodium Phosphate</name></value>
+<value><name>Prednisone</name></value>
+<value><name>Prednisone Intensol</name></value>
+<value><name>Prefest</name></value>
+<value><name>Pregabalin</name></value>
+<value><name>Pregnyl</name></value>
+<value><name>Premarin</name></value>
+<value><name>Premarin Vaginal</name></value>
+<value><name>Premphase</name></value>
+<value><name>Prempro</name></value>
+<value><name>Prenaissance</name></value>
+<value><name>Prenaissance Plus</name></value>
+<value><name>Prenexa</name></value>
+<value><name>Prepidil</name></value>
+<value><name>Prepopik</name></value>
+<value><name>Preque 10</name></value>
+<value><name>Prevacid</name></value>
+<value><name>Prevacid Solutab</name></value>
+<value><name>Prevalite</name></value>
+<value><name>Previfem</name></value>
+<value><name>Prevpac</name></value>
+<value><name>Prezista</name></value>
+<value><name>Prialt</name></value>
+<value><name>Priftin</name></value>
+<value><name>Prilocaine And Epinephrine</name></value>
+<value><name>Prilocaine Hydrochloride</name></value>
+<value><name>Prilosec</name></value>
+<value><name>Primaquine Phosphate</name></value>
+<value><name>Primaxin</name></value>
+<value><name>Primaxin Im</name></value>
+<value><name>Primaxin Iv</name></value>
+<value><name>Primidone</name></value>
+<value><name>Primlev</name></value>
+<value><name>Primsol</name></value>
+<value><name>Prinivil</name></value>
+<value><name>Prinzide</name></value>
+<value><name>Pristiq</name></value>
+<value><name>Pristiq Extended-Release</name></value>
+<value><name>Privigen</name></value>
+<value><name>Proair</name></value>
+<value><name>Proair Hfa</name></value>
+<value><name>Proamatine</name></value>
+<value><name>Probenecid</name></value>
+<value><name>Probenecid And Colchicine</name></value>
+<value><name>Procainamide Hydrochloride</name></value>
+<value><name>Procarbazine Hydrochloride</name></value>
+<value><name>Procardia</name></value>
+<value><name>Procardia Xl</name></value>
+<value><name>Procentra</name></value>
+<value><name>Prochieve</name></value>
+<value><name>Prochlorperazine</name></value>
+<value><name>Prochlorperazine Edisylate</name></value>
+<value><name>Prochlorperazine Maleate</name></value>
+<value><name>Procrit</name></value>
+<value><name>Proctocort</name></value>
+<value><name>Proctofoam Hc</name></value>
+<value><name>Procto-Kit</name></value>
+<value><name>Procto-Pak</name></value>
+<value><name>Proctozone</name></value>
+<value><name>Profilnine Sd</name></value>
+<value><name>Progesterone</name></value>
+<value><name>Progesterone Injection</name></value>
+<value><name>Proglycem</name></value>
+<value><name>Prograf</name></value>
+<value><name>Prolastin-C</name></value>
+<value><name>Proleukin</name></value>
+<value><name>Prolia</name></value>
+<value><name>Promacta</name></value>
+<value><name>Promethazine</name></value>
+<value><name>Promethazine And Codeine</name></value>
+<value><name>Promethazine Dm</name></value>
+<value><name>Promethazine Hydrochloride</name></value>
+<value><name>Promethazine Hydrochloride And Phenylephrine Hydrochloride</name></value>
+<value><name>Promethazine Vc</name></value>
+<value><name>Promethazine Vc With Codeine</name></value>
+<value><name>Promethazine With Codeine</name></value>
+<value><name>Promethegan</name></value>
+<value><name>Prometrium</name></value>
+<value><name>Propafenone</name></value>
+<value><name>Propafenone Hydrochloride</name></value>
+<value><name>Propantheline Bromide</name></value>
+<value><name>Proparacaine Hydrochloride</name></value>
+<value><name>Propecia</name></value>
+<value><name>Propofol</name></value>
+<value><name>Propoven</name></value>
+<value><name>Propoxyphene</name></value>
+<value><name>Propoxyphene And Acetaminophen</name></value>
+<value><name>Propoxyphene Hydrochloride</name></value>
+<value><name>Propoxyphene Napsylate</name></value>
+<value><name>Propoxyphene Napsylate And Acetaminophen</name></value>
+<value><name>Propranolol</name></value>
+<value><name>Propranolol Hydrochloride</name></value>
+<value><name>Propranolol Hydrochloride And Hydrochlorothiazide</name></value>
+<value><name>Propranolol Hydrochloride Er</name></value>
+<value><name>Propylthiouracil</name></value>
+<value><name>Proquin Xr</name></value>
+<value><name>Proscar</name></value>
+<value><name>Prosed/Ds</name></value>
+<value><name>Prostin Vr Pediatric</name></value>
+<value><name>Protamine Sulfate</name></value>
+<value><name>Protein C Concentrate Human</name></value>
+<value><name>Protonix</name></value>
+<value><name>Protonix Delayed-Release</name></value>
+<value><name>Protonix Iv</name></value>
+<value><name>Protopam Chloride</name></value>
+<value><name>Protopic</name></value>
+<value><name>Protriptyline Hydrochloride</name></value>
+<value><name>Proventil Hfa</name></value>
+<value><name>Provera</name></value>
+<value><name>Provigil</name></value>
+<value><name>Prozac</name></value>
+<value><name>Prozac Weekly</name></value>
+<value><name>Prudoxin</name></value>
+<value><name>Pseudoephedrine Hcl, Guaifenesin, And Dextromethorphan Hbr</name></value>
+<value><name>Pseudoephedrine Hydrochloride</name></value>
+<value><name>Pseudoephedrine Hydrochloride And Guaifenesin</name></value>
+<value><name>Pseudoephedrine Hydrochloride Methscopolamine Nitrate</name></value>
+<value><name>Psorizide Forte</name></value>
+<value><name>Psorizide Ultra</name></value>
+<value><name>Pulmicort</name></value>
+<value><name>Pulmicort Flexhaler</name></value>
+<value><name>Pulmicort Respules</name></value>
+<value><name>Pulmozyme</name></value>
+<value><name>Purinethol</name></value>
+<value><name>Pylera</name></value>
+<value><name>Pyrazinamide</name></value>
+<value><name>Pyridostigmine Bromide</name></value>
+<value><name>Pyridoxine And Cyanocobalamin And Folic Acid</name></value>
+<value><name>Pyridoxine Hydrochloride</name></value>
+<value><name>Pyrimethamine</name></value>
+<value><name>Pytest</name></value>
+<value><name>Qnasl</name></value>
+<value><name>Quadramet</name></value>
+<value><name>Quadrapax</name></value>
+<value><name>Qualaquin</name></value>
+<value><name>Quasense</name></value>
+<value><name>Quelicin</name></value>
+<value><name>Questran</name></value>
+<value><name>Quetiapine Fumarate</name></value>
+<value><name>Quinapril</name></value>
+<value><name>Quinapril Hydrochloride</name></value>
+<value><name>Quinapril Hydrochloride And Hydrochlorothiazide</name></value>
+<value><name>Quinidine Gluconate</name></value>
+<value><name>Quinidine Sulfate</name></value>
+<value><name>Quinine Sulfate</name></value>
+<value><name>Quinupristin And Dalfopristin</name></value>
+<value><name>Quixin</name></value>
+<value><name>Qvar</name></value>
+<value><name>Rabeprazole Sodium</name></value>
+<value><name>Raloxifene Hydrochloride</name></value>
+<value><name>Raltegravir</name></value>
+<value><name>Ramelteon</name></value>
+<value><name>Ramipril</name></value>
+<value><name>Ranexa</name></value>
+<value><name>Ranibizumab</name></value>
+<value><name>Ranitidine</name></value>
+<value><name>Ranitidine Hydrochloride</name></value>
+<value><name>Ranolazine</name></value>
+<value><name>Rapaflo</name></value>
+<value><name>Rapamune</name></value>
+<value><name>Rasagiline Mesylate</name></value>
+<value><name>Rasburicase</name></value>
+<value><name>Raw Opium Gum</name></value>
+<value><name>Rayos</name></value>
+<value><name>Razadyne</name></value>
+<value><name>Reaphirm Plant Source Dha</name></value>
+<value><name>Rebetol</name></value>
+<value><name>Rebif</name></value>
+<value><name>Recal D</name></value>
+<value><name>Recede</name></value>
+<value><name>Reclast</name></value>
+<value><name>Reclipsen</name></value>
+<value><name>Recombinate</name></value>
+<value><name>Recothrom</name></value>
+<value><name>Rectiv</name></value>
+<value><name>Refissa</name></value>
+<value><name>Refludan</name></value>
+<value><name>Regadenoson</name></value>
+<value><name>Reglan</name></value>
+<value><name>Regonol</name></value>
+<value><name>Regranex</name></value>
+<value><name>Regular Strength Qpap</name></value>
+<value><name>Relagesic</name></value>
+<value><name>Relenza</name></value>
+<value><name>Relistor</name></value>
+<value><name>Relnate Dha</name></value>
+<value><name>Relpax</name></value>
+<value><name>Remeron</name></value>
+<value><name>Remeronsoltab</name></value>
+<value><name>Remeven</name></value>
+<value><name>Remicade</name></value>
+<value><name>Remifentanil Hydrochloride</name></value>
+<value><name>Remodulin</name></value>
+<value><name>Renagel</name></value>
+<value><name>Renal Caps</name></value>
+<value><name>Reno Caps</name></value>
+<value><name>Renova</name></value>
+<value><name>Renvela</name></value>
+<value><name>Reopro</name></value>
+<value><name>Repaglinide</name></value>
+<value><name>Repaglinide And Metformin Hydrochloride</name></value>
+<value><name>Re-Pb Hyos Elixir</name></value>
+<value><name>Repository Corticotropin</name></value>
+<value><name>Reprexain</name></value>
+<value><name>Repronex</name></value>
+<value><name>Requip</name></value>
+<value><name>Requip Xl</name></value>
+<value><name>Rescon</name></value>
+<value><name>Rescon Mx</name></value>
+<value><name>Rescriptor</name></value>
+<value><name>Reserpine</name></value>
+<value><name>Restasis</name></value>
+<value><name>Restoril</name></value>
+<value><name>Retapamulin</name></value>
+<value><name>Retavase</name></value>
+<value><name>Reteplase</name></value>
+<value><name>Retin-A</name></value>
+<value><name>Retin-A Micro</name></value>
+<value><name>Retisert</name></value>
+<value><name>Retrovir</name></value>
+<value><name>Revatio</name></value>
+<value><name>Revia</name></value>
+<value><name>Revlimid</name></value>
+<value><name>Revonto</name></value>
+<value><name>Reyataz</name></value>
+<value><name>Rezira</name></value>
+<value><name>R-Gene</name></value>
+<value><name>Rheumatrex</name></value>
+<value><name>Rhinocort Aqua</name></value>
+<value><name>Rhinoflex-650</name></value>
+<value><name>Rho (D) Immune Globulin</name></value>
+<value><name>Rho(D) Immune Globulin (Human)</name></value>
+<value><name>Rhogam Ultra-Filtered Plus</name></value>
+<value><name>Rhophylac</name></value>
+<value><name>Riastap</name></value>
+<value><name>Ribasphere</name></value>
+<value><name>Ribasphere Ribapak</name></value>
+<value><name>Ribavirin</name></value>
+<value><name>Ridaura</name></value>
+<value><name>Rifabutin</name></value>
+<value><name>Rifadin</name></value>
+<value><name>Rifadin Iv</name></value>
+<value><name>Rifamate</name></value>
+<value><name>Rifampin</name></value>
+<value><name>Rifampin And Isoniazid</name></value>
+<value><name>Rifampin, Isoniazid And Pyrazinamide</name></value>
+<value><name>Rifapentine</name></value>
+<value><name>Rifater</name></value>
+<value><name>Rifaximin</name></value>
+<value><name>Rilonacept</name></value>
+<value><name>Rilpivirine Hydrochloride</name></value>
+<value><name>Rilutek</name></value>
+<value><name>Riluzole</name></value>
+<value><name>Rimabotulinumtoxinb</name></value>
+<value><name>Rimantadine Hydrochloride</name></value>
+<value><name>Rimexolone</name></value>
+<value><name>Rimso-50</name></value>
+<value><name>Riomet</name></value>
+<value><name>Risedronate Sodium</name></value>
+<value><name>Risperdal</name></value>
+<value><name>Risperdal Consta</name></value>
+<value><name>Risperdal M-Tab</name></value>
+<value><name>Risperidone</name></value>
+<value><name>Risperidone M-Tab</name></value>
+<value><name>Risperidone Oral Disintegrate Tablets</name></value>
+<value><name>Ritalin</name></value>
+<value><name>Ritalin La</name></value>
+<value><name>Ritalin Sr</name></value>
+<value><name>Ritonavir</name></value>
+<value><name>Rituxan</name></value>
+<value><name>Rituximab</name></value>
+<value><name>Rivaroxaban</name></value>
+<value><name>Rivastigmine</name></value>
+<value><name>Rizatriptan Benzoate</name></value>
+<value><name>Robaxin</name></value>
+<value><name>Robinul</name></value>
+<value><name>Robinul Forte</name></value>
+<value><name>Rocaltrol</name></value>
+<value><name>Rocephin</name></value>
+<value><name>Rocuronium</name></value>
+<value><name>Rocuronium Bromide</name></value>
+<value><name>Roflumilast</name></value>
+<value><name>Romazicon</name></value>
+<value><name>Romidepsin</name></value>
+<value><name>Romiplostim</name></value>
+<value><name>Ropinirole</name></value>
+<value><name>Ropinirole Hydrochloride</name></value>
+<value><name>Ropivacaine</name></value>
+<value><name>Ropivacaine Hydrochloride</name></value>
+<value><name>Ropivacaine Hydrochloride Monohydrate</name></value>
+<value><name>Rosadan</name></value>
+<value><name>Rosaderm</name></value>
+<value><name>Rosanil</name></value>
+<value><name>Rose Bengal</name></value>
+<value><name>Roseglo</name></value>
+<value><name>Rosiglitazone Maleate</name></value>
+<value><name>Rosiglitazone Maleate And Glimepiride</name></value>
+<value><name>Rosiglitazone Maleate And Metformin Hydrochloride</name></value>
+<value><name>Rosula</name></value>
+<value><name>Rosuvastatin Calcium</name></value>
+<value><name>Rotigotine</name></value>
+<value><name>Roxicet</name></value>
+<value><name>Roxicodone</name></value>
+<value><name>Rozerem</name></value>
+<value><name>R-Tanna</name></value>
+<value><name>Rufinamide</name></value>
+<value><name>Ruxolitinib</name></value>
+<value><name>Rybix Odt</name></value>
+<value><name>Rynatan</name></value>
+<value><name>Rynatan Chewable</name></value>
+<value><name>Ryneze Liquid</name></value>
+<value><name>Rythmol</name></value>
+<value><name>Rythmol Sr</name></value>
+<value><name>Ryzolt</name></value>
+<value><name>Sabril</name></value>
+<value><name>Sacrosidase</name></value>
+<value><name>Safyral</name></value>
+<value><name>Saizen</name></value>
+<value><name>Saizen Clickeasy</name></value>
+<value><name>Salacyn</name></value>
+<value><name>Salagen</name></value>
+<value><name>Salex</name></value>
+<value><name>Salicylic Acid</name></value>
+<value><name>Salicylic Acid And Benzoyl Peroxide</name></value>
+<value><name>Salmeterol Xinafoate</name></value>
+<value><name>Salsalate</name></value>
+<value><name>Samarium Sm 153 Lexidronam</name></value>
+<value><name>Samsca</name></value>
+<value><name>Sanctura</name></value>
+<value><name>Sanctura Xr</name></value>
+<value><name>Sancuso</name></value>
+<value><name>Sandimmune</name></value>
+<value><name>Sandostatin</name></value>
+<value><name>Sandostatin Lar Depot</name></value>
+<value><name>Saphris</name></value>
+<value><name>Sapropterin Dihydrochloride</name></value>
+<value><name>Saquinavir Mesylate</name></value>
+<value><name>Sarafem</name></value>
+<value><name>Sargramostim</name></value>
+<value><name>Savella</name></value>
+<value><name>Saxagliptin</name></value>
+<value><name>Saxagliptin And Metformin Hydrochloride</name></value>
+<value><name>Scopolamine</name></value>
+<value><name>Scopolamine Hydrobromide</name></value>
+<value><name>Seasonale</name></value>
+<value><name>Seasonique</name></value>
+<value><name>Sectral</name></value>
+<value><name>Selegiline</name></value>
+<value><name>Selegiline Hydrochloride</name></value>
+<value><name>Selenium Sulfide</name></value>
+<value><name>Selzentry</name></value>
+<value><name>Semprex D</name></value>
+<value><name>Senna-Lax</name></value>
+<value><name>Sennosides A And B</name></value>
+<value><name>Sensipar</name></value>
+<value><name>Sensorcaine</name></value>
+<value><name>Sensorcaine Mpf</name></value>
+<value><name>Septocaine And Epinephrine</name></value>
+<value><name>Septra</name></value>
+<value><name>Septra Ds</name></value>
+<value><name>Serevent</name></value>
+<value><name>Serevent Diskus</name></value>
+<value><name>Seromycin</name></value>
+<value><name>Serophene</name></value>
+<value><name>Seroquel</name></value>
+<value><name>Seroquel Xr</name></value>
+<value><name>Serostim</name></value>
+<value><name>Sertaconazole Nitrate</name></value>
+<value><name>Sertraline</name></value>
+<value><name>Sertraline Hydrochloride</name></value>
+<value><name>Se-Tan Dha</name></value>
+<value><name>Sevelamer Carbonate</name></value>
+<value><name>Sevelamer Hydrochloride</name></value>
+<value><name>Sevoflurane</name></value>
+<value><name>Sibutramine Hydrochloride</name></value>
+<value><name>Sildec Pe Dm</name></value>
+<value><name>Sildenafil Citrate</name></value>
+<value><name>Silenor</name></value>
+<value><name>Silodosin</name></value>
+<value><name>Silvadene</name></value>
+<value><name>Silver Nitrate</name></value>
+<value><name>Silver Sulfadiazene</name></value>
+<value><name>Simcor</name></value>
+<value><name>Simponi</name></value>
+<value><name>Simulect</name></value>
+<value><name>Simvastatin</name></value>
+<value><name>Simvastatin And Niacin</name></value>
+<value><name>Sincalide</name></value>
+<value><name>Sinecatechins</name></value>
+<value><name>Sinemet</name></value>
+<value><name>Sinemet Cr</name></value>
+<value><name>Singulair</name></value>
+<value><name>Sirolimus</name></value>
+<value><name>Sitagliptin</name></value>
+<value><name>Sitagliptin And Metformin Hydrochloride</name></value>
+<value><name>Sitagliptin And Simvastatin</name></value>
+<value><name>Skelaxin</name></value>
+<value><name>Skelid</name></value>
+<value><name>Sledgehammer</name></value>
+<value><name>Softglo</name></value>
+<value><name>Sojourn</name></value>
+<value><name>Solaraze</name></value>
+<value><name>Solia</name></value>
+<value><name>Solifenacin Succinate</name></value>
+<value><name>Soliris</name></value>
+<value><name>Solodyn</name></value>
+<value><name>Solu-Cortef</name></value>
+<value><name>Solu-Medrol</name></value>
+<value><name>Soma</name></value>
+<value><name>Somatropin</name></value>
+<value><name>Somatropin (Rdna Origin)</name></value>
+<value><name>Somatuline Depot</name></value>
+<value><name>Somavert</name></value>
+<value><name>Somnote</name></value>
+<value><name>Sonahist</name></value>
+<value><name>Sonahist Dm</name></value>
+<value><name>Sonata</name></value>
+<value><name>Sorafenib</name></value>
+<value><name>Soriatane</name></value>
+<value><name>Sorilux</name></value>
+<value><name>Sorine</name></value>
+<value><name>Sotalol Hydrochloride</name></value>
+<value><name>Sotradecol</name></value>
+<value><name>Spectracef</name></value>
+<value><name>Spinosad</name></value>
+<value><name>Spiriva</name></value>
+<value><name>Spironolactone</name></value>
+<value><name>Spironolactone And Hydrochlorothiazide</name></value>
+<value><name>Sporanox</name></value>
+<value><name>Sprintec</name></value>
+<value><name>Sprix</name></value>
+<value><name>Sprycel</name></value>
+<value><name>Sronyx</name></value>
+<value><name>SSD</name></value>
+<value><name>SSD Cream</name></value>
+<value><name>Stagesic</name></value>
+<value><name>Stalevo</name></value>
+<value><name>Starlix</name></value>
+<value><name>Stavudine</name></value>
+<value><name>Stavzor</name></value>
+<value><name>Staxyn</name></value>
+<value><name>Stelara</name></value>
+<value><name>Sterile Vancomycin Hydrochloride</name></value>
+<value><name>Stimate</name></value>
+<value><name>Strattera</name></value>
+<value><name>Streptomycin</name></value>
+<value><name>Streptozocin</name></value>
+<value><name>Striant</name></value>
+<value><name>Stribild</name></value>
+<value><name>Stromectol</name></value>
+<value><name>Strontium Chloride Sr-89</name></value>
+<value><name>Sublimaze</name></value>
+<value><name>Suboxone</name></value>
+<value><name>Subsys</name></value>
+<value><name>Succimer</name></value>
+<value><name>Succinylcholine Chloride</name></value>
+<value><name>Sucraid</name></value>
+<value><name>Sucralfate</name></value>
+<value><name>Sudatex - Dm</name></value>
+<value><name>Sudogest</name></value>
+<value><name>Sufenta</name></value>
+<value><name>Sufentanil Citrate</name></value>
+<value><name>Sular</name></value>
+<value><name>Sulconazole Nitrate</name></value>
+<value><name>Sulfaccetamide Sodium</name></value>
+<value><name>Sulfacetamide Sodium</name></value>
+<value><name>Sulfacetamide Sodium And Prednisolone Acetate</name></value>
+<value><name>Sulfacetamide Sodium And Prednisolone Sodium Phosphate</name></value>
+<value><name>Sulfacetamide Sodium And Sulfur</name></value>
+<value><name>Sulfacleanse 8/4</name></value>
+<value><name>Sulfadiazine</name></value>
+<value><name>Sulfamethoxazole And Trimethoprim</name></value>
+<value><name>Sulfamethoxazole And Trimethoprim Ds</name></value>
+<value><name>Sulfamylon</name></value>
+<value><name>Sulfanilamide</name></value>
+<value><name>Sulfasalazine</name></value>
+<value><name>Sulfasalazine Delayed Release</name></value>
+<value><name>Sulindac</name></value>
+<value><name>Sumadan</name></value>
+<value><name>Sumadan Wash</name></value>
+<value><name>Sumatriptan</name></value>
+<value><name>Sumatriptan And Naproxen Sodium</name></value>
+<value><name>Sumatriptan Injection</name></value>
+<value><name>Sumatriptan Succinate</name></value>
+<value><name>Sumavel Dosepro</name></value>
+<value><name>Sumaxin</name></value>
+<value><name>Sumaxin Cp</name></value>
+<value><name>Sunitinib Malate</name></value>
+<value><name>Sunvanish</name></value>
+<value><name>Supprelin</name></value>
+<value><name>Suprane</name></value>
+<value><name>Suprax</name></value>
+<value><name>Suprenza</name></value>
+<value><name>Surmontil</name></value>
+<value><name>Survanta</name></value>
+<value><name>Sustiva</name></value>
+<value><name>Sutent</name></value>
+<value><name>Syeda</name></value>
+<value><name>Sylatron</name></value>
+<value><name>Symax Duotab</name></value>
+<value><name>Symax Fastab</name></value>
+<value><name>Symax Sl</name></value>
+<value><name>Symax Sr</name></value>
+<value><name>Symbicort</name></value>
+<value><name>Symbyax</name></value>
+<value><name>Symlin</name></value>
+<value><name>Symlinpen</name></value>
+<value><name>Synagis</name></value>
+<value><name>Synalar</name></value>
+<value><name>Synalar Ts</name></value>
+<value><name>Synalgos</name></value>
+<value><name>Synapryn</name></value>
+<value><name>Synarel</name></value>
+<value><name>Synera</name></value>
+<value><name>Synercid</name></value>
+<value><name>Synthetic Conjugated Estrogens, A</name></value>
+<value><name>Synthetic Conjugated Estrogens, B</name></value>
+<value><name>Synthroid</name></value>
+<value><name>Syprine</name></value>
+<value><name>Tabloid</name></value>
+<value><name>Tabradol</name></value>
+<value><name>Tachosil</name></value>
+<value><name>Taclonex</name></value>
+<value><name>Taclonex Scalp</name></value>
+<value><name>Tacrolimus</name></value>
+<value><name>Tadalafil</name></value>
+<value><name>Tafluprost</name></value>
+<value><name>Taliglucerase Alfa</name></value>
+<value><name>Talwin</name></value>
+<value><name>Tambocor</name></value>
+<value><name>Tamiflu</name></value>
+<value><name>Tamoxifen Citrate</name></value>
+<value><name>Tamsulosin Hydrochloride</name></value>
+<value><name>Tandem</name></value>
+<value><name>Tandem Plus</name></value>
+<value><name>Tannate Suspension</name></value>
+<value><name>Tapazole</name></value>
+<value><name>Tapentadol</name></value>
+<value><name>Tapentadol Hydrochloride</name></value>
+<value><name>Tarceva</name></value>
+<value><name>Targretin</name></value>
+<value><name>Tarka</name></value>
+<value><name>Tasigna</name></value>
+<value><name>Tasmar</name></value>
+<value><name>Taxotere</name></value>
+<value><name>Tazarotene</name></value>
+<value><name>Tazicef</name></value>
+<value><name>Tazorac</name></value>
+<value><name>Taztia</name></value>
+<value><name>Taztia Xt</name></value>
+<value><name>Technetium Tc 99M Medronate</name></value>
+<value><name>Teflaro</name></value>
+<value><name>Tegretol</name></value>
+<value><name>Tegretol Xr</name></value>
+<value><name>Tekamlo</name></value>
+<value><name>Tekral</name></value>
+<value><name>Tekturna</name></value>
+<value><name>Tekturna Hct</name></value>
+<value><name>Telaprevir</name></value>
+<value><name>Telavancin Hydrochloride</name></value>
+<value><name>Telbivudine</name></value>
+<value><name>Telithromycin</name></value>
+<value><name>Telmisartan</name></value>
+<value><name>Telmisartan And Hydrochlorothiazide</name></value>
+<value><name>Telmisartan/Amlodipine</name></value>
+<value><name>Temazepam</name></value>
+<value><name>Temodar</name></value>
+<value><name>Temovate</name></value>
+<value><name>Temozolomide</name></value>
+<value><name>Temsirolimus</name></value>
+<value><name>Tencon</name></value>
+<value><name>Tenecteplase</name></value>
+<value><name>Tenex</name></value>
+<value><name>Teniposide</name></value>
+<value><name>Tenofovir Disoproxil Fumarate</name></value>
+<value><name>Tenoretic</name></value>
+<value><name>Tenormin</name></value>
+<value><name>Terazol 3</name></value>
+<value><name>Terazol 7</name></value>
+<value><name>Terazosin</name></value>
+<value><name>Terazosin Hydrochloride</name></value>
+<value><name>Terbinafine</name></value>
+<value><name>Terbinafine Hydrochloride</name></value>
+<value><name>Terbutaline Sulfate</name></value>
+<value><name>Terconazole</name></value>
+<value><name>Terconazole Vaginal Cream</name></value>
+<value><name>Teriparatide</name></value>
+<value><name>Terrell</name></value>
+<value><name>Tesamorelin</name></value>
+<value><name>Tessalon</name></value>
+<value><name>Testim</name></value>
+<value><name>Testopel</name></value>
+<value><name>Testosterone</name></value>
+<value><name>Testosterone Cypionate</name></value>
+<value><name>Testosterone Enanthate</name></value>
+<value><name>Testred C-Iii</name></value>
+<value><name>Tetanus Immune Globulin (Human)</name></value>
+<value><name>Tetrabenazine</name></value>
+<value><name>Tetracaine</name></value>
+<value><name>Tetracaine Hydrochloride</name></value>
+<value><name>Tetracycline Hydrochloride</name></value>
+<value><name>Tetradecyl Hydrogen Sulfate (Ester)</name></value>
+<value><name>Tetrahydrozoline Hydrochloride</name></value>
+<value><name>Tetravisc</name></value>
+<value><name>Tetravisc Forte</name></value>
+<value><name>Tetrofosmin</name></value>
+<value><name>Teveten</name></value>
+<value><name>Teveten Hct</name></value>
+<value><name>Tev-Tropin</name></value>
+<value><name>Texacort</name></value>
+<value><name>Thalidomide</name></value>
+<value><name>Thalitone</name></value>
+<value><name>Thalomid</name></value>
+<value><name>Tham</name></value>
+<value><name>Theo-24</name></value>
+<value><name>Theophylline</name></value>
+<value><name>Theophylline Extended Release</name></value>
+<value><name>Thermazene</name></value>
+<value><name>Thiamine</name></value>
+<value><name>Thiamine Hydrochloride</name></value>
+<value><name>Thioguanine</name></value>
+<value><name>Thioridazine Hydrochloride</name></value>
+<value><name>Thiotepa</name></value>
+<value><name>Thiothixene</name></value>
+<value><name>Thrombate III</name></value>
+<value><name>Thrombin Human</name></value>
+<value><name>Thrombin Human And Fibrinogen</name></value>
+<value><name>Thrombin, Topical (Bovine)</name></value>
+<value><name>Thrombin, Topical (Recombinant)</name></value>
+<value><name>Thrombin-Jmi</name></value>
+<value><name>Thryotropin Releasing Hormone</name></value>
+<value><name>Thymoglobulin</name></value>
+<value><name>Thyrogen</name></value>
+<value><name>Thyroid</name></value>
+<value><name>Thyroid, Porcine</name></value>
+<value><name>Thyrotropin Alfa</name></value>
+<value><name>Thyrotropin Releasing Hormone</name></value>
+<value><name>Tiagabine Hydrochloride</name></value>
+<value><name>Tiazac</name></value>
+<value><name>Tiazac Er</name></value>
+<value><name>Tiazac Extended Release</name></value>
+<value><name>Ticagrelor</name></value>
+<value><name>Ticarcillin Disodium And Clavulanate Potassium</name></value>
+<value><name>Tice Bcg</name></value>
+<value><name>Ticlopidine Hydrochloride</name></value>
+<value><name>Tigan</name></value>
+<value><name>Tigecycline</name></value>
+<value><name>Tikosyn</name></value>
+<value><name>Tilia Fe</name></value>
+<value><name>Tiludronate Disodium</name></value>
+<value><name>Timentin</name></value>
+<value><name>Timentin Add-Vantage</name></value>
+<value><name>Timolol</name></value>
+<value><name>Timolol Gfs</name></value>
+<value><name>Timolol Maleate</name></value>
+<value><name>Timoptic</name></value>
+<value><name>Timoptic-Xe</name></value>
+<value><name>Tindamax</name></value>
+<value><name>Tinidazole</name></value>
+<value><name>Tinzaparin Sodium</name></value>
+<value><name>Tiotropium Bromide</name></value>
+<value><name>Tiotropium Bromide Monohydrate</name></value>
+<value><name>Tipranavir</name></value>
+<value><name>Tirofiban</name></value>
+<value><name>Tirosint</name></value>
+<value><name>Tisseel</name></value>
+<value><name>Tisseel Frozen</name></value>
+<value><name>Tizanidine</name></value>
+<value><name>Tizanidine Hydrochloride</name></value>
+<value><name>Tnkase</name></value>
+<value><name>Tobi</name></value>
+<value><name>Tobradex</name></value>
+<value><name>Tobradex St</name></value>
+<value><name>Tobramycin</name></value>
+<value><name>Tobramycin And Dexamethasone</name></value>
+<value><name>Tobramycin In Sodium Chloride</name></value>
+<value><name>Tobrex</name></value>
+<value><name>Tocilizumab</name></value>
+<value><name>Tofranil</name></value>
+<value><name>Tofranil-Pm</name></value>
+<value><name>Tolazamide</name></value>
+<value><name>Tolbutamide</name></value>
+<value><name>Tolcapone</name></value>
+<value><name>Tolmetin Sodium</name></value>
+<value><name>Tolterodine Tartrate</name></value>
+<value><name>Tolvaptan</name></value>
+<value><name>Topamax</name></value>
+<value><name>Topicort</name></value>
+<value><name>Topiramate</name></value>
+<value><name>Topisulf</name></value>
+<value><name>Toposar</name></value>
+<value><name>Topotecan</name></value>
+<value><name>Topotecan Hydrochloride</name></value>
+<value><name>Toprol</name></value>
+<value><name>Toprol Xl</name></value>
+<value><name>Toremifene Citrate</name></value>
+<value><name>Torisel</name></value>
+<value><name>Torsemide</name></value>
+<value><name>Tositumomab</name></value>
+<value><name>Tositumomab I-131</name></value>
+<value><name>Toviaz</name></value>
+<value><name>Towerx Effervescent Potassium</name></value>
+<value><name>Tracleer</name></value>
+<value><name>Tradjenta</name></value>
+<value><name>Tramadol Er</name></value>
+<value><name>Tramadol Hydrochloride</name></value>
+<value><name>Tramadol Hydrochloride And Acetaminophen</name></value>
+<value><name>Tramapap</name></value>
+<value><name>Trandate</name></value>
+<value><name>Trandolapril</name></value>
+<value><name>Trandolapril And Verapamil Hydrochloride</name></value>
+<value><name>Tranexamic Acid</name></value>
+<value><name>Transderm Scop</name></value>
+<value><name>Transmucosal Fentanyl Citrate</name></value>
+<value><name>Tranxene</name></value>
+<value><name>Tranylcypromine Sulfate</name></value>
+<value><name>Tranzgel</name></value>
+<value><name>Trastuzumab</name></value>
+<value><name>Travatan Z</name></value>
+<value><name>Travoprost</name></value>
+<value><name>Trazodone</name></value>
+<value><name>Trazodone Hydrochloride</name></value>
+<value><name>Treanda</name></value>
+<value><name>Trecator</name></value>
+<value><name>Trelstar</name></value>
+<value><name>Trental</name></value>
+<value><name>Treprostinil</name></value>
+<value><name>Tretinoin</name></value>
+<value><name>Tretinoin Cream 0.025%</name></value>
+<value><name>Tretinoin Cream 0.05%</name></value>
+<value><name>Tretinoin Cream 0.1%</name></value>
+<value><name>Tretinoin Gel 0.01%</name></value>
+<value><name>Tretinoin Gel 0.025%</name></value>
+<value><name>Tretin-X</name></value>
+<value><name>Trexall</name></value>
+<value><name>Trexbrom</name></value>
+<value><name>Treximet</name></value>
+<value><name>Tri Previfem</name></value>
+<value><name>Triamcinolone Acetonide</name></value>
+<value><name>Triamcinolone Diacetate</name></value>
+<value><name>Triamcinolone Hexacetonide</name></value>
+<value><name>Triamterene</name></value>
+<value><name>Triamterene Hydrochlorothiazide</name></value>
+<value><name>Trianex</name></value>
+<value><name>Triazolam</name></value>
+<value><name>Tribenzor</name></value>
+<value><name>Tri-Chlor</name></value>
+<value><name>Trichloroacetic Acid</name></value>
+<value><name>Tricitrates</name></value>
+<value><name>Tricon</name></value>
+<value><name>Tricor</name></value>
+<value><name>Triderm</name></value>
+<value><name>Tridione</name></value>
+<value><name>Trientine Hydrochloride</name></value>
+<value><name>Triesence</name></value>
+<value><name>Trifluoperazine</name></value>
+<value><name>Trifluoperazine Hydrochloride</name></value>
+<value><name>Trifluridine</name></value>
+<value><name>Triglide</name></value>
+<value><name>Trihexyphenidyl Hydrochloride</name></value>
+<value><name>Tri-Legest Fe 28 Day</name></value>
+<value><name>Trileptal</name></value>
+<value><name>Trilipix</name></value>
+<value><name>Tri-Lo-Marzia</name></value>
+<value><name>Tri-Lo-Sprintec</name></value>
+<value><name>Tri-Luma</name></value>
+<value><name>Trimethadione</name></value>
+<value><name>Trimethobenzamide</name></value>
+<value><name>Trimethobenzamide Hydrochloride</name></value>
+<value><name>Trimethoprim</name></value>
+<value><name>Trimethoprim And Sulfamethoxazole</name></value>
+<value><name>Trimethoprim Hydrochloride</name></value>
+<value><name>Trimethoprim Sulfate And Polymyxin B Sulfate</name></value>
+<value><name>Trimipramine Maleate</name></value>
+<value><name>Trimo San</name></value>
+<value><name>Trinessa</name></value>
+<value><name>Trinessa Lo</name></value>
+<value><name>Tri-Norinyl</name></value>
+<value><name>Triostat</name></value>
+<value><name>Trioxin</name></value>
+<value><name>Triptorelin Pamoate</name></value>
+<value><name>Trisenox</name></value>
+<value><name>Tri-Sprintec</name></value>
+<value><name>Trivora</name></value>
+<value><name>Trizivir</name></value>
+<value><name>Tromethamine</name></value>
+<value><name>Tropicamide</name></value>
+<value><name>Trospium Chloride</name></value>
+<value><name>Trusopt</name></value>
+<value><name>Truvada</name></value>
+<value><name>Tuberculin Purified Protein Derivative</name></value>
+<value><name>Tudorza Pressair</name></value>
+<value><name>Tussicaps</name></value>
+<value><name>Tussicaps Er</name></value>
+<value><name>Tussigon</name></value>
+<value><name>Tussionex Pennkinetic Extended Release</name></value>
+<value><name>Twinject</name></value>
+<value><name>Twynsta</name></value>
+<value><name>Tygacil</name></value>
+<value><name>Tykerb</name></value>
+<value><name>Tylenol With Codeine</name></value>
+<value><name>Tylox</name></value>
+<value><name>Tysabri</name></value>
+<value><name>Tyvaso</name></value>
+<value><name>Tyzeka</name></value>
+<value><name>Tyzine</name></value>
+<value><name>Tyzine Pediatric</name></value>
+<value><name>U-Cort</name></value>
+<value><name>Ulesfia</name></value>
+<value><name>Ulipristal Acetate</name></value>
+<value><name>Uloric</name></value>
+<value><name>Ultane</name></value>
+<value><name>Ultiva</name></value>
+<value><name>Ultracet</name></value>
+<value><name>Ultram</name></value>
+<value><name>Ultram Er</name></value>
+<value><name>Ultravate</name></value>
+<value><name>Ultravate Pac</name></value>
+<value><name>Ultravate Pac-Cream</name></value>
+<value><name>Ultravist</name></value>
+<value><name>Ultresa</name></value>
+<value><name>Unasyn</name></value>
+<value><name>Uniphyl</name></value>
+<value><name>Uniretic</name></value>
+<value><name>Unithroid</name></value>
+<value><name>Univasc</name></value>
+<value><name>Ur N-C Urinary Antiseptic</name></value>
+<value><name>Uramaxin</name></value>
+<value><name>Uramaxin Gt</name></value>
+<value><name>Uramaxin Gt And Keradan</name></value>
+<value><name>Uramaxin Pads</name></value>
+<value><name>Urea</name></value>
+<value><name>Urea 50% Emulsion</name></value>
+<value><name>Urea C-13</name></value>
+<value><name>Urea Hydrating Topical</name></value>
+<value><name>Urea, C-14</name></value>
+<value><name>Urecholine</name></value>
+<value><name>Urocit-K</name></value>
+<value><name>Urofollitropin</name></value>
+<value><name>Urogesic Blue</name></value>
+<value><name>Uroxatral</name></value>
+<value><name>Urso</name></value>
+<value><name>Urso 250</name></value>
+<value><name>Urso Forte</name></value>
+<value><name>Ursodiol</name></value>
+<value><name>Ustekinumab</name></value>
+<value><name>Ustell</name></value>
+<value><name>Uta</name></value>
+<value><name>Utira-C</name></value>
+<value><name>Uvadex</name></value>
+<value><name>Vagifem</name></value>
+<value><name>Valacyclovir Hydrochloride</name></value>
+<value><name>Valcyte</name></value>
+<value><name>Valganciclovir Hydrochloride</name></value>
+<value><name>Valium</name></value>
+<value><name>Valproate</name></value>
+<value><name>Valproate Sodium</name></value>
+<value><name>Valproic</name></value>
+<value><name>Valproic Acid</name></value>
+<value><name>Valrubicin</name></value>
+<value><name>Valsartan</name></value>
+<value><name>Valsartan And Hydrochlorothiazide</name></value>
+<value><name>Valstar</name></value>
+<value><name>Valtrex</name></value>
+<value><name>Valturna</name></value>
+<value><name>Vancocin</name></value>
+<value><name>Vancomycin</name></value>
+<value><name>Vancomycin Hydrochloride</name></value>
+<value><name>Vandazole</name></value>
+<value><name>Vandetanib</name></value>
+<value><name>Vaniqa</name></value>
+<value><name>Vanos</name></value>
+<value><name>Vantas</name></value>
+<value><name>Vantin</name></value>
+<value><name>Vaprisol</name></value>
+<value><name>Vardenafil Hydrochloride</name></value>
+<value><name>Varenicline Tartrate</name></value>
+<value><name>Vaseretic</name></value>
+<value><name>Vasolex</name></value>
+<value><name>Vasopressin</name></value>
+<value><name>Vasotec</name></value>
+<value><name>V-Cof</name></value>
+<value><name>Vectibix</name></value>
+<value><name>Vectical</name></value>
+<value><name>Vecuronium</name></value>
+<value><name>Vecuronium Bromide</name></value>
+<value><name>Vecuronium Bromide For Injection</name></value>
+<value><name>Velaglucerase Alfa</name></value>
+<value><name>Velcade</name></value>
+<value><name>Veletri</name></value>
+<value><name>Velivet Triphasic</name></value>
+<value><name>Velivet Triphasic Regimen</name></value>
+<value><name>Veltin</name></value>
+<value><name>Vemurafenib</name></value>
+<value><name>Venelex</name></value>
+<value><name>Venlafaxine</name></value>
+<value><name>Venlafaxine Hydrochloride</name></value>
+<value><name>Venofer</name></value>
+<value><name>Ventavis</name></value>
+<value><name>Ventolin</name></value>
+<value><name>Ventolin Hfa</name></value>
+<value><name>Veramyst</name></value>
+<value><name>Verapamil</name></value>
+<value><name>Verapamil Hydrochloride</name></value>
+<value><name>Verapamil Hydrochloride Pm</name></value>
+<value><name>Verdeso</name></value>
+<value><name>Veregen</name></value>
+<value><name>Verelan</name></value>
+<value><name>Verelan Pm</name></value>
+<value><name>Veripred 20</name></value>
+<value><name>Verteporfin For Injection</name></value>
+<value><name>Vesicare</name></value>
+<value><name>Vestura</name></value>
+<value><name>Vexol</name></value>
+<value><name>Vfend</name></value>
+<value><name>Viagra</name></value>
+<value><name>Vibativ</name></value>
+<value><name>Vibramycin Calcium</name></value>
+<value><name>Vibramycin Hyclate</name></value>
+<value><name>Vibramycin Monohydrate</name></value>
+<value><name>Vibra-Tabs</name></value>
+<value><name>Vicodin</name></value>
+<value><name>Vicodin Es</name></value>
+<value><name>Vicodin Hp</name></value>
+<value><name>Vicoprofen</name></value>
+<value><name>Victoza</name></value>
+<value><name>Victrelis</name></value>
+<value><name>Vidaza</name></value>
+<value><name>Videx</name></value>
+<value><name>Videx Ec</name></value>
+<value><name>Vigabatrin</name></value>
+<value><name>Vigamox</name></value>
+<value><name>Viibryd</name></value>
+<value><name>Vilazodone Hydrochloride</name></value>
+<value><name>Vimovo</name></value>
+<value><name>Vimpat</name></value>
+<value><name>Vinblastine Sulfate</name></value>
+<value><name>Vincasar Pfs</name></value>
+<value><name>Vincristine Sulfate</name></value>
+<value><name>Vinorelbine</name></value>
+<value><name>Vinorelbine Tartrate</name></value>
+<value><name>Viokace</name></value>
+<value><name>Viorele</name></value>
+<value><name>Viracept</name></value>
+<value><name>Viramune</name></value>
+<value><name>Virasal</name></value>
+<value><name>Viravan P</name></value>
+<value><name>Viravan Pdm</name></value>
+<value><name>Virazole</name></value>
+<value><name>Viread</name></value>
+<value><name>Viroptic</name></value>
+<value><name>Visicol</name></value>
+<value><name>Visipaque</name></value>
+<value><name>Vismodegib</name></value>
+<value><name>Vistaril</name></value>
+<value><name>Vistide</name></value>
+<value><name>Visudyne</name></value>
+<value><name>Vitafol</name></value>
+<value><name>Vitamin B Complex</name></value>
+<value><name>Vitamin D</name></value>
+<value><name>Vitamin K1</name></value>
+<value><name>Vitamins A, C, D And Fluoride</name></value>
+<value><name>Vitazol</name></value>
+<value><name>Vitrase</name></value>
+<value><name>Vitrasert</name></value>
+<value><name>Vivacaine</name></value>
+<value><name>Vivactil</name></value>
+<value><name>Vivaglobin</name></value>
+<value><name>Vivelle Dot</name></value>
+<value><name>Vivitrol</name></value>
+<value><name>Vivotif-B</name></value>
+<value><name>Voltaren</name></value>
+<value><name>Voltaren Xr</name></value>
+<value><name>Voluven</name></value>
+<value><name>Voraxaze</name></value>
+<value><name>Voriconazole</name></value>
+<value><name>Vorinostat</name></value>
+<value><name>Vosol</name></value>
+<value><name>Vosol Hc</name></value>
+<value><name>Vospire</name></value>
+<value><name>Votrient</name></value>
+<value><name>Vpriv</name></value>
+<value><name>Vumon</name></value>
+<value><name>Vusion</name></value>
+<value><name>Vytorin</name></value>
+<value><name>Vyvanse</name></value>
+<value><name>Warfarin Sodium</name></value>
+<value><name>Welchol</name></value>
+<value><name>Wellbutrin</name></value>
+<value><name>Wellbutrin Sr</name></value>
+<value><name>Wellbutrin Xl</name></value>
+<value><name>Wera</name></value>
+<value><name>Westcort</name></value>
+<value><name>Winrho</name></value>
+<value><name>X Viate</name></value>
+<value><name>Xalatan</name></value>
+<value><name>Xalkori</name></value>
+<value><name>Xanax</name></value>
+<value><name>Xanax Xr</name></value>
+<value><name>Xarelto</name></value>
+<value><name>Xeloda</name></value>
+<value><name>Xenaderm</name></value>
+<value><name>Xenazine</name></value>
+<value><name>Xenical</name></value>
+<value><name>Xeomin</name></value>
+<value><name>Xerese</name></value>
+<value><name>Xgeva</name></value>
+<value><name>Xibrom</name></value>
+<value><name>Xifaxan</name></value>
+<value><name>Ximino</name></value>
+<value><name>Xodol</name></value>
+<value><name>Xolair</name></value>
+<value><name>Xolegel</name></value>
+<value><name>Xolox</name></value>
+<value><name>Xopenex</name></value>
+<value><name>Xopenex Hfa</name></value>
+<value><name>Xtandi</name></value>
+<value><name>Xylocaine</name></value>
+<value><name>Xyntha</name></value>
+<value><name>Xyzal</name></value>
+<value><name>Yasmin</name></value>
+<value><name>Yaz</name></value>
+<value><name>Yervoy</name></value>
+<value><name>Zafirlukast</name></value>
+<value><name>Zaleplon</name></value>
+<value><name>Zaltrap</name></value>
+<value><name>Zamicet</name></value>
+<value><name>Zanaflex</name></value>
+<value><name>Zanamivir</name></value>
+<value><name>Zanosar</name></value>
+<value><name>Zantac</name></value>
+<value><name>Zantac Efferdose</name></value>
+<value><name>Zarah</name></value>
+<value><name>Zarontin</name></value>
+<value><name>Zaroxolyn</name></value>
+<value><name>Zavesca</name></value>
+<value><name>Zazole</name></value>
+<value><name>Zebeta</name></value>
+<value><name>Zebutal</name></value>
+<value><name>Zegerid</name></value>
+<value><name>Zegesic</name></value>
+<value><name>Zelapar</name></value>
+<value><name>Zelboraf</name></value>
+<value><name>Zema Pak</name></value>
+<value><name>Zemaira</name></value>
+<value><name>Zemplar</name></value>
+<value><name>Zemuron</name></value>
+<value><name>Zenchent</name></value>
+<value><name>Zenchent Fe</name></value>
+<value><name>Zencia Wash</name></value>
+<value><name>Zenpep</name></value>
+<value><name>Zeosa</name></value>
+<value><name>Zerit</name></value>
+<value><name>Zestoretic</name></value>
+<value><name>Zestril</name></value>
+<value><name>Zetia</name></value>
+<value><name>Zetonna</name></value>
+<value><name>Zevalin</name></value>
+<value><name>Zflex</name></value>
+<value><name>Ziac</name></value>
+<value><name>Ziagen</name></value>
+<value><name>Ziana</name></value>
+<value><name>Ziconotide</name></value>
+<value><name>Zidovudine</name></value>
+<value><name>Zileuton</name></value>
+<value><name>Zinacef</name></value>
+<value><name>Zinc</name></value>
+<value><name>Zinc Acetate</name></value>
+<value><name>Zinc Chloride</name></value>
+<value><name>Zinc Sulfate</name></value>
+<value><name>Zinecard</name></value>
+<value><name>Zioptan</name></value>
+<value><name>Ziprasidone</name></value>
+<value><name>Ziprasidone Hydrochloride</name></value>
+<value><name>Ziprasidone Mesylate</name></value>
+<value><name>Zipsor</name></value>
+<value><name>Zirgan</name></value>
+<value><name>Zithranol</name></value>
+<value><name>Zithranol-Rr</name></value>
+<value><name>Zithromax</name></value>
+<value><name>Ziv-Aflibercept</name></value>
+<value><name>Zmax</name></value>
+<value><name>Zocor</name></value>
+<value><name>Zofran</name></value>
+<value><name>Zofran Odt</name></value>
+<value><name>Zoladex</name></value>
+<value><name>Zoledronic Acid</name></value>
+<value><name>Zolinza</name></value>
+<value><name>Zolmitriptan</name></value>
+<value><name>Zoloft</name></value>
+<value><name>Zolpidem</name></value>
+<value><name>Zolpidem Tartrate</name></value>
+<value><name>Zolpidem Tartrate Er</name></value>
+<value><name>Zolpimist</name></value>
+<value><name>Zolvit</name></value>
+<value><name>Zometa</name></value>
+<value><name>Zomig</name></value>
+<value><name>Zomig Zmt</name></value>
+<value><name>Zonalon</name></value>
+<value><name>Zonatuss</name></value>
+<value><name>Zonegran</name></value>
+<value><name>Zonisamide</name></value>
+<value><name>Zorbtive</name></value>
+<value><name>Zorcaine</name></value>
+<value><name>Zortress</name></value>
+<value><name>Zosyn</name></value>
+<value><name>Zotex-C</name></value>
+<value><name>Zovia 1/35E-28</name></value>
+<value><name>Zovia 1/50E-28</name></value>
+<value><name>Zovirax</name></value>
+<value><name>Zuplenz</name></value>
+<value><name>Zutripro</name></value>
+<value><name>Zyban</name></value>
+<value><name>Zyclara</name></value>
+<value><name>Zydone</name></value>
+<value><name>Zyflo</name></value>
+<value><name>Zyflo Cr</name></value>
+<value><name>Zylet</name></value>
+<value><name>Zyloprim</name></value>
+<value><name>Zymar</name></value>
+<value><name>Zymaxid</name></value>
+<value><name>Zypram</name></value>
+<value><name>Zyprexa</name></value>
+<value><name>Zyprexa Im</name></value>
+<value><name>Zyprexa Relprevv</name></value>
+<value><name>Zyprexa Zydis</name></value>
+<value><name>Zytiga</name></value>
+<value><name>Zyvox</name></value>

@@ -1,0 +1,444 @@
+#!/usr/bin/env python
+import re, math, pickle
+import os
+import csv
+import shutil
+from os import environ
+from os.path import dirname
+from os.path import join
+from os.path import exists
+from os.path import expanduser
+from os.path import isdir
+from os import listdir
+from os import makedirs
+import numpy as np
+import pylab as pl
+from scipy import interp
+from sklearn import datasets, svm
+from sklearn.feature_selection import SelectPercentile, f_classif, RFECV
+from sklearn.neighbors import NearestNeighbors as NN
+from sklearn.externals import joblib
+from sklearn import cross_validation
+from sklearn.cross_validation import StratifiedKFold
+from sklearn import metrics
+from sklearn.metrics import roc_curve, auc, zero_one
+from sklearn.datasets import make_classification
+from sklearn.naive_bayes import GaussianNB
+from sklearn import tree
+
+class Bunch(dict):
+	"""Container object for datasets: dictionary-like object that
+	   exposes its keys as attributes."""
+
+	def __init__(self, **kwargs):
+		dict.__init__(self, kwargs)
+		self.__dict__ = self
+
+
+def convert_file2dictionary(filename,dictKeyField):
+	fTasks=open(filename,"r")
+	original_lines=fTasks.readlines()
+	fTasks.close()
+	original_fields=map(lambda s:s.strip('"'),original_lines[0].strip("\n").strip("\r").split("\t"))
+	all_items=dict()
+	numrows = 0
+	for t in original_lines[1:]:
+		numrows += 1
+		#print "processing row %s" % numrows
+		item_dictionary={}
+		for k,v in map(None,original_fields,t.split('\t')):
+			item_dictionary[k]=v.strip("\n").strip("\r").strip('"')
+		all_items[item_dictionary["TargetID"]]=item_dictionary
+	print "processed %s rows" % numrows
+	return all_items
+
+def convert_file2dictionary2(filename,dictKeyField):
+	fTasks=open(filename,"r")
+	original_lines=fTasks.readlines()
+	fTasks.close()
+	original_fields=map(lambda s:s.strip('"'),original_lines[0].strip("\n").strip("\r").split("\t"))
+	all_items=dict()
+	for name in original_fields[1:]:
+		all_items[name] = dict()
+	numrows = 0
+	for t in original_lines[1:]:
+		numrows += 1
+		#print "processing row %s" % numrows
+		item_dictionary={}
+		for k,v in map(None,original_fields,t.split('\t')):
+			item_dictionary[k]=v.strip("\n").strip("\r").strip('"')
+		for k,v in all_items.iteritems():
+		  all_items[k][item_dictionary["TargetID"]] = item_dictionary[k]
+	print "processed %s rows" % numrows
+	return all_items
+
+# This function generates the data required for sklearn
+def genData():
+	result = convert_file2dictionary("train.tsv","TargetID") #row major
+	result2 = convert_file2dictionary2("train.tsv", "TargetID") #col major
+	print "dictionary has %s items" % len(result)
+	print "dictionary2 has %s items" % len(result2)
+   	cols = sorted(result.keys())  # this gives us gene names in order
+	rows = sorted(result2.keys())  # this gives us patient names in order
+
+	# We imputed data based on NN and now we can use that data
+	imputed = joblib.load("imputed_data.pkl")
+	# imputed contains a list of lists
+	# impute[patient#][gene#] gives value
+
+	# reprint the data into a new file, column major
+	# this now prints the data out to a .csv file that is suitable for sklearn
+	with open("skdata.csv", "w") as f:
+		firstline = "%s,%s,%s,%s\n"%(len(rows), len(cols), "AD", "CON")
+		f.write(firstline)
+		for i in xrange(len(rows)):
+			line = ""
+			row = result2["%s"%rows[i]]
+			for j in xrange(len(cols)):
+				line = "%s,%s" %(line,row["%s"%cols[j]].replace("NaN","%s"%imputed[i][j]))
+			line = line.lstrip(",") # we need to strip the leading comma
+			label = ""
+			if re.search("AD", rows[i]):
+				label = "0" # kind of a bad way to assign labels, but whatever
+			else:
+				label = "1"
+			line = "%s,%s\n" %(line,label)
+			f.write(line)
+	f.close()
+
+	# load the data using our modified load_data() function
+	# we must pass in the feature names for the Bunch data structure
+	data_matrix = load_data(fnames=cols)
+
+	# save the data matrix along with column and row names to file
+	# this uses the joblib dump function, for great justice
+	joblib.dump(data_matrix, 'datamatrix.pkl')
+	joblib.dump(cols, 'features.pkl')
+	joblib.dump(rows, 'samples.pkl')
+
+# This function reads the data from files and returns a 3 tuple
+def readData():
+	data_matrix = joblib.load('datamatrix.pkl')
+	features = joblib.load('features.pkl')
+	samples = joblib.load('samples.pkl')
+	return (data_matrix, features, samples)
+
+def run(classifier_type="tree", selection="Univariate", f="1"):
+
+	# "f" is the feature sparsity degree
+	# 1 - 1% ~87
+	# 2 - 5% ~433
+	# 3 - 25% ~2163
+	# The p and BIG_C numbers are set to fit these sparsity specs
+
+	if (f=="1"):
+		kc_fn = "GS_pickles\kmeans_Genes_87_1x_v3.pkl"
+		p = 1
+		BIG_C = 0.001
+	if (f=="2"):
+		kc_fn = "GS_pickles\kmeans_Genes_433_50x_v2.pkl"
+		p = 5
+		BIG_C = 0.1
+	if (f=="3"):
+		kc_fn = "GS_pickles\kmeans_Genes_2163_20x_v1.pkl"
+		p = 25
+		BIG_C = 2
+
+	# Misc params
+	dump_data = False
+	kernel_type = "linear"
+
+	# printing some stuff
+	print "FS: %s, sparsity: %s, CLF: %s" %(selection, f, classifier_type)
+	#genData()	 # generate data files; comment out if data already exist
+	(data_matrix, features, samples) = readData()   # extract data from data files
+
+	# Print the data we just read in
+	x = data_matrix.data
+	y = data_matrix.target
+	target_names = data_matrix.target_names
+##	print "data: %s\n" % x
+##	print "targets: %s\n" % y
+##   	print "target names: %s\n" % target_names
+
+	x_indices = np.arange(x.shape[-1])
+##	pl.figure(1)
+##	pl.clf()
+
+	trimmed_x = []
+
+	###############################################################################
+	# Univariate feature selection with F-test for feature scoring
+	# We use the default selection function: the x% most significant features
+	if (selection=="Univariate"):
+		selector = SelectPercentile(f_classif, percentile=p)
+		selector.fit(x, y)
+		# Trimming the matrix, now should contain x% of the 8650 features
+		trimmed_x = selector.transform(x)
+##	scores = -np.log10(selector._pvalues)
+##	scores /= scores.max()
+##	pl.bar(x_indices - .45, scores, width=.1,
+##			label=r'Univariate score ($-Log(p_{value})$)',
+##			color='g')
+
+	###############################################################################
+	# L1-based feature selection, based on SVM
+	if (selection=="SVM"):
+		trimmed_x = svm.LinearSVC(C=BIG_C, penalty="l1", dual=False).fit_transform(x, y)
+
+	###############################################################################
+	# Decision tree based feature selection
+	if (selection=="tree"):
+		clf_tree = tree.DecisionTreeClassifier(compute_importances=True).fit(x,y)
+		trimmed_x = clf_tree.transform(x, "mean")
+
+	###############################################################################
+	# Bonus: Using k-clusters feature selection
+	# This reads from our precomputed feature lists
+	if (selection=="kclusters"):
+		kcluster_flist = joblib.load(kc_fn)
+		trimmed_x = np.take(x, kcluster_flist, axis=1)
+
+
+	###############################################################################
+	n_samples, n_features = trimmed_x.shape # should be 330, xxx
+	#print "new data matrix: %s" % trimmed_x
+	#print "new matrix shape: (%s,%s)" % (n_samples,n_features)
+	#print "selected features: %s" %(selector.get_support(indices=True))
+##	# Storing this list of features to a variable
+##	if (dump_data):
+##		joblib.dump(selector.get_support(indices=True), "data\%s_features_%s.pkl"%(selection, n_features)
+
+	###############################################################################
+	# Linear SVM classifier
+	if (classifier_type=="SVM"):
+		clf = svm.SVC(kernel=kernel_type, degree=3, probability=True)
+	###############################################################################
+	# Gaussian Naive Bayes classifier
+	if (classifier_type=="NB"):
+		clf = GaussianNB()
+	###############################################################################
+	# Decision Tree Classifier
+	if (classifier_type == "tree"):
+		clf = tree.DecisionTreeClassifier()
+
+
+	###############################################################################
+	# Fitting the data
+	clf.fit(trimmed_x,y)
+	# Save this classifier to file, for future reference
+	if (dump_data):
+	   joblib.dump(clf, 'data\CLF_SVM_trimmed_%s.pkl'%n_features)
+
+	###############################################################################
+	# An example of cross-validation
+
+	# This gives us an iterator for stratified 10-fold
+	skf = cross_validation.StratifiedKFold(y, 10)
+
+	# We perform cv with this iterator, get scores
+	cv_scores = cross_validation.cross_val_score(clf, trimmed_x, y, cv=skf)
+	#print "%s Scores using stratified 10-fold cv using %s features: %s" % (classifier_type, n_features, cv_scores)
+	#print "Accuracy with %s features: %0.2f (+/- %0.2f)" % (n_features, cv_scores.mean(), cv_scores.std() / 2)
+
+	###############################################################################
+	# We use our cv result for the ROC analysis
+	cv = skf
+	classifier = clf
+	roc_x = trimmed_x
+
+	mean_tpr = 0.0
+	mean_fpr = np.linspace(0, 1, 100)
+	all_tpr = []
+
+	for i, (train, test) in enumerate(skf):
+		probas_ = classifier.fit(roc_x[train], y[train]).predict_proba(roc_x[test])
+		# Compute ROC curve and area under the curve
+		fpr, tpr, thresholds = roc_curve(y[test], probas_[:, 1])
+		mean_tpr += interp(mean_fpr, fpr, tpr)
+		mean_tpr[0] = 0.0
+		roc_auc = auc(fpr, tpr)
+		pl.plot(fpr, tpr, lw=1, label='ROC fold %d (area = %0.2f)' % (i, roc_auc))
+
+	pl.plot([0, 1], [0, 1], '--', color=(0.6, 0.6, 0.6), label='Luck')
+
+	mean_tpr /= len(cv)
+	mean_tpr[-1] = 1.0
+	mean_auc = auc(mean_fpr, mean_tpr)
+	joblib.dump(mean_tpr,"data\PLOT_mean_tpr_%s_%s_%s.pkl"%(classifier_type,selection,f))
+
+	pl.plot(mean_fpr, mean_tpr, 'k--',
+			label='Mean ROC (area = %0.2f)' % mean_auc, lw=2)
+
+	print "Avg accuracy: %0.2f, ROC area: %0.2f" %(cv_scores.mean(),mean_auc)
+	return "%0.2f/%0.2f" % (cv_scores.mean(), mean_auc)
+
+##	pl.xlim([-0.05, 1.05])
+##	pl.ylim([-0.05, 1.05])
+##	pl.xlabel('False Positive Rate')
+##	pl.ylabel('True Positive Rate')
+##	pl.title('ROC Plot for 10-fold CV using %s, %s features' %(classifier_type, n_features))
+##	pl.legend(loc="lower right")
+##	pl.show()
+
+
+# stuff below is pretty obsolete
+##	# computes mean and std of the values of AD vs CON for each GI
+##	with open("stats.txt", "w") as f:
+##		f.write("TargetID\tmeanAD\tsdAD\tmeanCON\tsdCON\tdiff\n")
+##		stats = []
+##		for k,row in result.iteritems():
+##			# each row corresponds to data from one GI
+##			valuesAD = []
+##			valuesCON = []
+##			for (k,v) in row.iteritems():
+##				if re.search("AD", k):
+##					valuesAD.append(v)
+##				elif re.search("CON", k):
+##					valuesCON.append(v)
+##			row_dict = dict()
+##			row_dict["meanAD"] = getMean(valuesAD)
+##			row_dict["sdAD"] = getSD(valuesAD)
+##			row_dict["meanCON"] = getMean(valuesCON)
+##			row_dict["sdCON"] = getSD(valuesCON)
+##			row_dict["TargetID"] = row["TargetID"]
+##			row_dict["diff"] = diff(valuesAD, valuesCON)
+##			stats.append(row_dict)
+##			f.write("%s\t%s\t%s\t%s\t%s\t%s\n" % (row_dict["TargetID"],row_dict["meanAD"],row_dict["sdAD"],row_dict["meanCON"],row_dict["sdCON"],row_dict["diff"]))
+##		print "computed stats for %s GIs" % len(stats)
+##	f.close()
+
+
+
+##	top = shrink(stats, size=20)
+##	top_names = map(lambda x: x["TargetID"], top)
+##	print top_names
+##
+##	lean_results = []
+##	for k,row in result.iteritems():
+##		if row["TargetID"] in top_names:
+##			lean_results.append(row)
+##	print "lean results contain %s results" % (len(lean_results))
+##	# printing lean results into file
+##	with open("output_lean.txt", "w") as f:
+##		cols = sorted(lean_results[0].keys())  # this gives us column names in order
+##		firstrow_string = ""
+##		for col_name in cols:
+##			firstrow_string = "%s\t%s" %(firstrow_string, col_name)  # concat column names to first line, tab separated
+##		f.write("%s\n" % (firstrow_string.lstrip("\t")))  # stripping leading tab
+##		for row in lean_results:
+##			row_string = ""
+##			for col_name in cols:
+##				row_string = "%s\t%s" %(row_string, row[col_name].replace("NaN", "NaN"))
+##			f.write("%s\n" %(row_string.lstrip("\t")))
+##	f.close()
+
+# This function loads the data into a ndarray from the .csv data file
+def load_data(fnames=[]):
+	data_file = csv.reader(open("skdata.csv"))
+	temp = data_file.next()
+	n_samples = int(temp[0])
+	n_features = int(temp[1])
+	target_names = np.array(temp[2:])
+	data = np.empty((n_samples, n_features))
+	target = np.empty((n_samples,), dtype=np.int)
+
+	for i, ir in enumerate(data_file):
+		data[i] = np.asarray(ir[:-1], dtype=np.float)
+		target[i] = np.asarray(ir[-1], dtype=np.int)
+
+	return Bunch(data=data, target=target,
+				 target_names=target_names,
+				 DESCR="big dataset",
+				 feature_names=fnames)
+
+def diff(v1, v2):
+	mean1 = getMean(v1)
+	sd1 = getSD(v1)
+	mean2 = getMean(v2)
+	sd2 = getSD(v2)
+	return math.fabs(mean1-mean2)/((sd1+sd2)/2)
+
+def getMean(v):
+	floatv = toFloat(v)
+	return (sum(floatv)/len(floatv))
+
+def getSD(v):
+	floatv = toFloat(v)
+	mean = getMean(floatv)
+	sd = math.sqrt(sum((x-mean)**2 for x in floatv)/len(floatv))
+	return sd
+
+def toFloat(v):
+	temp = []
+	for each in v:
+		if not each == "NaN":
+			temp.append(float(each))
+	return temp
+
+def shrink(d, size=3, key="diff"):
+	s = sorted(d, key=lambda x: x[key])
+	return s[-size:]
+
+def run2(clf,fs,f):
+	return "0.1/0.2"
+
+def drawStuff():
+	classifier_type = "tree"
+	selection = "Univariate"
+	f_list = ["1","2","3"]
+	best_list = ["NB_Univariate_2", "SVM_kclusters_3", "tree_Univariate_3"]
+	best_labels = ["Naive Bayes","SVM","Decision Tree"]
+
+	for i in xrange(3):
+		mean_fpr = np.linspace(0, 1, 100)
+		mean_tpr = joblib.load("data\PLOT_mean_tpr_%s.pkl"%(best_list[i]))
+		mean_auc = auc(mean_fpr, mean_tpr)
+
+##		if f == "1":
+##			label = "87"
+##		if f == "2":
+##			label = "433"
+##		if f == "3":
+##			label = "2163"
+		l = best_labels[i]
+		pl.plot(mean_fpr, mean_tpr,
+				label='%s classifier (area = %0.2f)' % (l,mean_auc), lw=1)
+
+	pl.plot([0, 1], [0, 1], '--', color=(0.6, 0.6, 0.6), label='Luck')
+	pl.xlim([-0.05, 1.05])
+	pl.ylim([-0.05, 1.05])
+	pl.xlabel('False Positive Rate')
+	pl.ylabel('True Positive Rate')
+	pl.title('ROC Plot Comparing Different Classifiers')
+	pl.legend(loc="lower right")
+	pl.show()
+
+
+def main():
+##	param = [1, 5, 10, 20, 25, 30, 35, 50]
+##	for each in param:
+##		run(each)
+	fs_list = ["Univariate", "SVM", "kclusters"]
+	clf_list = ["NB", "SVM", "tree"]
+	f_list = ["1", "2", "3"]
+
+	#run("SVM","SVM","1")
+
+##	with open("big_output.csv", "w") as fobj:
+##		fobj.write("FeatureSelection,FeatureCount,NaiveBayes,SVM,DecisionTree\n")
+##		for fs in fs_list:
+##			for f in f_list:
+##				line = "%s,%s" %(fs, f)
+##				for clf in clf_list:
+##				   result = run(clf, fs, f)
+##				   line = "%s,%s" %(line,result)
+##				fobj.write("%s\n"%line)
+##	fobj.close()
+
+	#run2()
+
+	drawStuff()
+
+if __name__ == '__main__':
+	main()

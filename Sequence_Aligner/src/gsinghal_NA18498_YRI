@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -l nodes=4:ppn=8,walltime=24:00:00,mem=8gb 
+#PBS -N gsinghal_NA18498_YRI
+#PBS -d /scratch/gsinghal/YRI_LC/
+bowtie2 -p 32 --sensitive -x YRIref_index -U SRR029844.filt.fastq -S NA18486_YRI.sam &> NA18486_bowtie2.txt 
+wait 
+if [ $? != 0 ]; then
+{
+    LOG = "JOB"
+    echo $! >> $LOG
+    echo "failed" >> $LOG
+    echo $LOG
+    bash email_bowtie2_fail
+    exit
+    
+} fi
+
+bash bowtie2_done  
+samtools view -bS  NA18486_YRI.sam > NA18486_YRI.bam 
+ wait 
+if [ $? != 0 ]; then
+{
+    LOG = "JOB"
+    echo $! >> $LOG
+    echo "failed" >> $LOG
+    echo $LOG
+    bash email_samtools
+    exit
+    
+} fi
+
+bash email_samtoolsOK  
+bash email_success

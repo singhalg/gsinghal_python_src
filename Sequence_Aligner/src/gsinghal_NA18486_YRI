@@ -1,0 +1,5 @@
+#!/bin/bash
+#PBS -l nodes=4:ppn=8,walltime=24:00:00,mem=8gb 
+#PBS -N gsinghal_NA18486_YRI
+#PBS -d /scratch/gsinghal/YRI_LC/
+bowtie2 -p 32 --sensitive -x YRIref_index   -1 SRR011037_1.filt.fastq,SRR011038_1.filt.fastq,SRR011039_1.filt.fastq,SRR011040_1.filt.fastq,SRR011041_1.filt.fastq,SRR011042_1.filt.fastq,SRR011043_1.filt.fastq,SRR020480_1.filt.fastq,SRR020481_1.filt.fastq,SRR022607_1.filt.fastq,SRR027525_1.filt.fastq,SRR027526_1.filt.fastq,SRR027527_1.filt.fastq,SRR027528_1.filt.fastq,SRR029844_1.filt.fastq,SRR029845_1.filt.fastq,SRR032211_1.filt.fastq,SRR032212_1.filt.fastq -2 SRR011037_2.filt.fastq,SRR011038_2.filt.fastq,SRR011039_2.filt.fastq,SRR011040_2.filt.fastq,SRR011041_2.filt.fastq,SRR011042_2.filt.fastq,SRR011043_2.filt.fastq,SRR020480_2.filt.fastq,SRR020481_2.filt.fastq,SRR022607_2.filt.fastq,SRR027525_2.filt.fastq,SRR027526_2.filt.fastq,SRR027527_2.filt.fastq,SRR027528_2.filt.fastq,SRR029844_2.filt.fastq,SRR029845_2.filt.fastq,SRR032211_2.filt.fastq,SRR032212_2.filt.fastq -S NA18486_YRI.sam &> NA18486_bowtie2.txt 

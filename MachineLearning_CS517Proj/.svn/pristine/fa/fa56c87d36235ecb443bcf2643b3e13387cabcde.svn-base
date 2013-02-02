@@ -1,0 +1,396 @@
+'''
+Created on Apr 9, 2012
+
+@author: gsinghal
+'''
+import sys, re
+from sklearn.neighbors import NearestNeighbors as NN
+import parse
+import pickle
+import numpy as np
+
+import random as rd
+import copy
+#=======
+from sklearn.externals import joblib
+
+
+
+
+def tsv2csv():
+    fh = open('train.tsv', 'rU')
+    header = fh.readline()
+    data = fh.readlines()
+    fhout = open('train.csv', 'w')
+
+    hds = header.replace('\t', ',')
+    fhout.write(hds)
+
+    for line in data:
+        fhout.write(line.replace('\t', ','))
+
+
+    fh.close()
+    fhout.close()
+
+def convert_file2dictionary(filename,dictKeyField):
+    fTasks=open(filename,"r")
+    original_lines=fTasks.readlines()
+    fTasks.close()
+    original_fields=map(lambda s:s.strip('"'),original_lines[0].strip("\n").strip("\r").split("\t"))
+    all_items=dict()
+    numrows = 0
+    for t in original_lines[1:]:
+        numrows += 1
+        #print "processing row %s" % numrows
+        item_dictionary={}
+        for k,v in map(None,original_fields,t.split('\t')):
+            item_dictionary[k]=v.strip("\n").strip("\r").strip('"')
+        all_items[item_dictionary["TargetID"]]=item_dictionary
+    print "processed %s rows" % numrows
+    return all_items
+
+def convert_file2dictionary2(filename,dictKeyField):
+    fTasks=open(filename,"r")
+    original_lines=fTasks.readlines()
+    fTasks.close()
+    original_fields=map(lambda s:s.strip('"'),original_lines[0].strip("\n").strip("\r").split("\t"))
+    all_items=dict()
+    for name in original_fields[1:]:
+        all_items[name] = dict()
+    numrows = 0
+    for t in original_lines[1:]:
+        numrows += 1
+        #print "processing row %s" % numrows
+        item_dictionary={}
+        for k,v in map(None,original_fields,t.split('\t')):
+            item_dictionary[k]=v.strip("\n").strip("\r").strip('"')
+        for k,v in all_items.iteritems():
+            all_items[k][item_dictionary["TargetID"]] = item_dictionary[k]
+    print "processed %s rows" % numrows
+    return all_items
+
+
+def run():
+    result = convert_file2dictionary("train.tsv","TargetID") #row major
+    result2 = convert_file2dictionary2("train.tsv", "TargetID") #col major
+
+    res1_keys = result.keys()
+    res2_keys = result2.keys()
+
+    for each in res1_keys[:1]:
+        print each
+        all_patients = result[each]
+        print all_patients
+#        print result[each]
+
+    for each in res2_keys[:1]:
+        print each
+        allGenes =  result2[each]
+        genes = allGenes.keys()
+        for agene in genes[:300]:
+            print agene
+            print allGenes[agene]
+
+
+
+
+def parser():
+    pass
+#    fh = open('train.csv', 'rU')
+#    header = fh.readline()
+#    data = fh.readlines()
+#    NaNFree = len(data)
+#    for line in data:
+#        flds = line.split(',')
+#
+#
+#
+#        if re.search('NaN', line):
+#            NaNFree-=1
+#
+#    print len(data)
+#    print NaNFree
+
+
+#    patients = parse.convert_file2dictionary("train.tsv","TargetID")
+#
+#    patient_ids = patients.keys()
+#
+#    for each in patient_ids[:1]:
+#        print each, '\n'
+##        patients[each], '\n'
+#
+#
+#    print 'OKAY'
+#    genes = parse.convert_file2dictionary2("train.tsv","TargetID")
+#
+#    gene_ids = genes.keys()
+
+
+
+def makeArray(filename):
+
+#    patients = parse.load_data(fnames = [])
+#    keys = patients.keys()
+#    for each in keys[:5]:
+#        print each
+#    print patients[keys[1]]
+
+#    fhpatients = open('patients_pickle', 'rU')
+#    patientTags = pickle.load(fhpatients)
+#    fhpatients.close()
+#
+#    fhgenes = open('geneTags_pickled', 'rU')
+#    geneTags = pickle.load(fhgenes)
+#    fhgenes.close()
+
+
+
+
+    fh = open(filename, 'rU')
+    data = fh.readlines()
+    patientTags = data[0].split(',')[1:]
+#    print 'patientTags = ', patientTags
+    # eg patientTags =  ['WGAAD-144', 'WGAAD-148', 'WGAAD-15', 'WGAAD-156', 'WGAAD-158', 'WGAAD-165', 'WGAAD-166', 'WGAAD-171', 'WGAAD-175', ..., 'WGAAD-189', 'WGAAD-190\n']
+
+
+
+    patients = []
+    patientsC = []
+    for i in range(len(patientTags)):
+        genesA =[]
+        genesB = []
+        for line in data[1:]:
+            fld = line.split(',')[i+1].strip()
+            genesA.append(fld)
+            genesB.append(fld)
+        patients.append(genesA)
+
+        patientsC.append(genesB)
+
+
+    genes = []
+    geneTags = []
+    for line in data[1:]:
+
+        geneTags.append(line.split(',')[0])
+        flds = line.split(',')[1:]
+        genes.append(flds)
+
+#    print 'geneTags = ', geneTags
+    # eg geneTags = ['GI_10047091-S', 'GI_10047093-S', 'GI_10047103-S', 'GI_10047133-A', 'GI_10092596-S',..., 'GI_10092600-S']
+
+    meanGeneVals= []
+    for aGene in genes:
+        meanGeneVals.append(mean(aGene))
+#    print meanGeneVals
+    # eg meanGeneVals = [3418.4777777777776, 83.35294117647061, 1179.7222222222224, 98.18750000000001, ... ,208.67222222222222]
+
+    for i in range(len(patientsC)):
+        for j in range(len(geneTags)):
+            if (patientsC[i][j]=='NaN') or (patientsC[i][j]=='NaN\n') :
+                patientsC[i][j]=meanGeneVals[j]
+            else:
+                patientsC[i][j] = float(patientsC[i][j])
+
+
+#    print 'patients [17] = ', patients[17]
+#    print 'patientsC [17] = ', patientsC[17]
+    patientsArr = np.array(patientsC)
+
+
+#    print patientsArr
+
+    return patientsArr, patients, geneTags, patientTags, meanGeneVals
+
+
+    full = 0
+    partial = 0
+    for eachRow in genes:
+#        print eachRow
+        if ('NaN'  in eachRow) or ('NaN\n' in eachRow):
+            partial+=1
+        else:
+            full+=1
+
+    print 'Genes without NaNs = ', full
+    print 'Genes with NaNs = ', partial
+
+
+def nearestNeighbor(filename):
+    #patientsArr is the 2d list in which NaN is replaced by the mean value. 
+    patientsArr, patients, geneTags, patientTags, meanGeneVals = makeArray(filename)
+
+    neigh = NN(n_neighbors=5, radius=1.0)
+
+    neigh.fit(patientsArr)
+#    ct = 0
+    print '# patients', len(patientTags)
+    print '# genes', len(geneTags)
+    for i in range(len(patientTags)):
+        for j in range(len(geneTags)):
+            if (patients[i][j]=='NaN') or (patients[i][j]=='NaN\n') :
+#                ct+=1
+#                if ct>2:
+#                    sys.exit()
+
+#                print 'patient ', i, ' has a missing value '
+                nbrs = neigh.kneighbors(patientsArr[i]) # we are fitting the model with patientsArr, since in this file, 
+                #the NaN have been replaced by mean values
+                knbrs = nbrs[1]
+#                print 'nearest neighbors are ', nbrs[0],'  ||||  ' ,nbrs[1]
+#                print knbrs
+#                print 'new value for patients [', i+1, '][', j+1,'] = '
+                patients[i][j]= retMissingVal(knbrs, patientsArr, j)
+                #calculate the mean of the genevalues of these patients
+#                pass
+                # """fill in missing values"""
+#                patients[i][j]=meanGeneVals[j]
+            else:
+                patients[i][j] = float(patients[i][j])
+    joblib.dump(patients, 'imputed_data.pkl')
+##    fh_pickle = open('imputed_data', 'w')
+##    pickle.dump(patients, fh_pickle)
+##    fh_pickle.close()
+    return patients
+
+def crossValidateImputation():
+
+    
+    patients = nearestNeighbor('train_2.csv')
+    # patients has imputed values
+    
+    patientsC = copy.deepcopy(patients) # this is a deep copy of patients. We will replace the gene values in patientsC with 'NaN'
+    
+    print type(patients)
+    print type(patientsC)
+    
+    locations = []
+    
+    numPatients = len(patients)
+    numGenes = len(patients[0])
+    # we have 54342 NaNs in the original dataset
+    
+    for x in range (10000):
+        i = rd.randint(0,numPatients-1)
+        j = rd.randint(0, numGenes-1)
+        patientsC[i][j]='NaN'
+        locations.append([i,j])
+        
+    # now the data in patientsC has NaNs
+    
+
+     
+    patientsArr = np.array(patientsC)
+    #patientsArr is the array having missing values at random locations , patientsArr is totally separate from patientsC 
+    
+    genes = []
+    for y in range(numGenes):
+        genes.append(patientsArr[:,y])
+    
+    meanGeneVals= []
+    for aGene in genes:
+        meanGeneVals.append(mean2(aGene))
+     
+    for i in range(numPatients):
+        for j in range(numGenes):
+            if (patientsArr[i][j]==float('NaN')) or (patientsArr[i][j]==float('NaN\n')) :
+                patientsArr[i][j]=meanGeneVals[j]
+    
+    # we will use the patientsArr to fit the nearest neighbor model
+    
+    
+    neigh = NN(n_neighbors=5, radius=1.0)
+
+    neigh.fit(patientsArr)
+
+    for i in range(numPatients):
+        for j in range(numGenes):
+            if (patientsC[i][j]=='NaN') or (patientsC[i][j]=='NaN\n') :
+                nbrs = neigh.kneighbors(patientsArr[i])
+                knbrs = nbrs[1]
+                patientsC[i][j]= retMissingVal(knbrs, patientsArr, j)
+            else:
+                patientsC[i][j] = float(patientsC[i][j])
+    
+    # now in patientsC, randomly inserted NaN have been replaced by imputed values.
+    
+    compareVals = []
+    for aLoc in locations:
+        # compareVals is a list of pairs, each pair being [ starting data value, imputed value replacing NaN] 
+        compareVals.append([ patients[aLoc[0]][aLoc[1]] , patientsC[aLoc[0]][aLoc[1]]  ])
+    
+    print compareVals[:20]    
+        
+
+def mean(alist):
+    total= 0
+    for each in alist:
+        if each.strip() != 'NaN':
+            total+=float(each)
+    NaNs = alist.count('NaN') + alist.count('NaN\n')
+    return (total/(len(alist)-NaNs))
+
+def mean2(array):
+    alist = list(array)
+    total= 0
+    for each in alist:
+        if each != float('NaN'):
+            total+=float(each)
+    NaNs = alist.count(float('NaN')) + alist.count(float('NaN\n'))
+    return (total/(len(alist)-NaNs))
+
+
+'''
+@list : list of patients, which are the nearest neighbors
+@patientsArr: array of patient data with missing values been replaced by mean values
+'''
+def retMissingVal(alist, patientsArr, j):
+#    print alist
+    total = 0
+    for i in alist[0]:
+        total+= patientsArr[i,j]
+
+    newVal = total/len(alist[0])
+#    print 'missing values is ', newVal
+    return newVal
+
+#    fhout = open('patients_pickled', 'w')
+#    pickle.dump(patients, fhout)
+#
+#    fhout2 = open('writeOut.txt', 'w')
+#    fhout2.write(str(patients[0]))
+#    fhout2.write(str(patients[1]))
+#    fhout2.close()
+##    for each in patients:
+##        print each[:20]
+#    print patients[0][:10]
+#    print patients[1][:10]
+#    print patients[2][:10]
+
+
+
+
+def makeMatrix():
+    parse.genData()
+    data_matrix, features, samples = parse.readData()
+    print 'features = '
+    print features
+    print 'samples  = '
+    print samples
+    print 'data_matrix = '
+    keys =  data_matrix.keys()
+    akey=  data_matrix[keys[0]].keys()
+    print data_matrix[keys[0]][akey]
+
+def main():
+#    run()
+#    makeArray()
+#    makeMatrix()
+#    nearestNeighbor('train.csv')
+    
+
+    crossValidateImputation()
+if __name__ == '__main__':
+    main()

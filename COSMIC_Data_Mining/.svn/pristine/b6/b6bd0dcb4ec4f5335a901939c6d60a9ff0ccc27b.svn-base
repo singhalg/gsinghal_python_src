@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Servlets -->
+	<servlet>
+		<servlet-name>backendServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.BackendServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>backendServlet</servlet-name>
+		<url-pattern>/_ah/start</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>runTestServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.RunTestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>runTestServlet</servlet-name>
+		<url-pattern>/runtest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>testingServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.ForestTestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>testingServlet</servlet-name>
+		<url-pattern>/testing</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>decisionViewServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.DecisionViewServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>decisionViewServlet</servlet-name>
+		<url-pattern>/decision</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>datastoreViewServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.DatastoreViewServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>datastoreViewServlet</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>startServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.StartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>startServlet</servlet-name>
+		<url-pattern>/start</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>combineTestServlet</servlet-name>
+		<servlet-class>com.colinmcdonough.java.cloudlearning.server.CombineTestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>combineTestServlet</servlet-name>
+		<url-pattern>/combine</url-pattern>
+	</servlet-mapping>
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>RandomForest.html</welcome-file>
+	</welcome-file-list>
+	
+	<security-constraint>
+        <web-resource-collection>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+</web-app>

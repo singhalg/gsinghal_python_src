@@ -1,0 +1,6 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=24,walltime=15:00:00,mem=10gb
+#PBS -N gsinghal_NA18489_hg19
+#PBS -d /scratch/gsinghal/YRI_LC/
+#PBS -q dque_smp
+bowtie2 -p 24  --sensitive -x  hg19  -1 SRR003258_1.filt.fastq,SRR003259_1.filt.fastq,SRR003260_1.filt.fastq,SRR003261_1.filt.fastq,SRR003262_1.filt.fastq,SRR003263_1.filt.fastq,SRR003264_1.filt.fastq,SRR003265_1.filt.fastq,SRR003266_1.filt.fastq,SRR003267_1.filt.fastq,SRR018110_1.filt.fastq,SRR020466_1.filt.fastq,SRR020467_1.filt.fastq,SRR027536_1.filt.fastq -2 SRR003258_2.filt.fastq,SRR003259_2.filt.fastq,SRR003260_2.filt.fastq,SRR003261_2.filt.fastq,SRR003262_2.filt.fastq,SRR003263_2.filt.fastq,SRR003264_2.filt.fastq,SRR003265_2.filt.fastq,SRR003266_2.filt.fastq,SRR003267_2.filt.fastq,SRR018110_2.filt.fastq,SRR020466_2.filt.fastq,SRR020467_2.filt.fastq,SRR027536_2.filt.fastq -S NA18489_hg19.sam &> NA18489_bowtie2.txt

@@ -1,0 +1,6 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=64,walltime=6:00:00,mem=10gb 
+#PBS -N gsinghal_NA18487_YRI
+#PBS -d /scratch/gsinghal/YRI_LC/
+#PBS -q dque_smp 
+bowtie2 -p 64  --sensitive -x  hg19  -1 SRR017203_1.filt.fastq,SRR017204_1.filt.fastq,SRR017205_1.filt.fastq,SRR017206_1.filt.fastq,SRR017207_1.filt.fastq,SRR017208_1.filt.fastq,SRR017209_1.filt.fastq,SRR017210_1.filt.fastq,SRR018137_1.filt.fastq,SRR022690_1.filt.fastq -2 SRR017203_2.filt.fastq,SRR017204_2.filt.fastq,SRR017205_2.filt.fastq,SRR017206_2.filt.fastq,SRR017207_2.filt.fastq,SRR017208_2.filt.fastq,SRR017209_2.filt.fastq,SRR017210_2.filt.fastq,SRR018137_2.filt.fastq,SRR022690_2.filt.fastq -S NA18487_YRI.sam &> NA18487_bowtie2.txt 
