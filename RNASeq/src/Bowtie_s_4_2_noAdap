@@ -1,0 +1,19 @@
+#!/bin/bash
+mkdir /data/scratch/gsinghal
+mkdir /data/scratch/gsinghal/bowtie
+mkdir /data/scratch/gsinghal/bowtie/indexes
+mkdir /data/scratch/gsinghal/bowtie/output
+cp /net/artemis/mnt/work1/projects/gsinghalWork/hg19Inv/*  /data/scratch/gsinghal/bowtie/indexes/
+cp /net/artemis/mnt/work1/projects/gsinghalWork/s_4_2_sequence_noAdap.fq  /data/scratch/gsinghal/bowtie/
+/net/artemis/mnt/work2/seqApps/bowtie-0.12.7/bowtie  --trim3 6  -n 3 -e 120 -l 20 -y  -k 1  --al /data/scratch/gsinghal/bowtie/output/aligned_s_4_2_noAdap.fq  -p 16 /data/scratch/gsinghal/bowtie/indexes/hg19_inv  /data/scratch/gsinghal/bowtie/s_4_2_sequence_noAdap.fq  /data/scratch/gsinghal/bowtie/output/s_4_2_bowtie_noAdap.map 
+mkdir /net/artemis/mnt/work1/projects/gsinghalWork/Bowtie_s_4_2_noAdap_results
+rm -r /data/scratch/gsinghal/bowtie/indexes
+mv /data/scratch/gsinghal/bowtie/*  /net/artemis/mnt/work1/projects/gsinghalWork/Bowtie_s_4_2_noAdap_results/
+rm -r /data/scratch/gsinghal/
+
+
+
+/net/artemis/mnt/work2/seqApps/bowtie-0.12.7/bowtie -n 3 -e 150 -l 30 -y  -k 1  --al /data/scratch/gsinghal/aligned_mcf7_1.fq  -p 10 /data/scratch/gsinghal/indexes/hg19_inv  /data/scratch/gsinghal/SRR097789_1.fastq  /data/scratch/gsinghal/SRR097789_1_mcf7.map 
+
+
+/net/artemis/mnt/work2/seqApps/bowtie-0.12.7/bowtie -n 3 -e 150 -l 30 -y  -k 1  --al /data/scratch/gsinghal/aligned_mcf7_2.fq  -p 10 /data/scratch/gsinghal/indexes/hg19_inv  /data/scratch/gsinghal/SRR097789_2.fastq  /data/scratch/gsinghal/SRR097789_2_mcf7.map 

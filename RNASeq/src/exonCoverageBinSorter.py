@@ -1,0 +1,149 @@
+'''
+Created on Apr 12, 2011
+
+@author: Gaurav
+
+
+#-------------------------------------------------------------------#
+# @copyright:  2011 Gaurav Singhal                                  #
+# All Rights Reserved.                                              #
+# Author: Gaurav Singhal                                            #
+# Created : April 12, 2011                                          #
+# Send all comments and queries to gsinghal@wustl.edu               #
+#                                                                   #
+# DISCLAIMER: THIS SOFTWARE IS PROVIDED "AS IS"                     #
+#             WITHOUT WARRANTY OF ANY KIND.                         #
+#-------------------------------------------------------------------#
+
+'''
+
+import sys
+from decimal import Decimal
+from sets import Set
+
+def cutOffFinder(cancerGeneList, exonCoverageBed):
+    
+    genes = open(cancerGeneList, 'rU')
+    cancerGenes = Set([])
+    genesList = genes.readlines()
+    for each in genesList:
+        cancerGenes.add(each.strip())
+    
+    
+    exonBed = open(exonCoverageBed, 'rU')
+    exonCoverageGenes = Set([])
+    exons = exonBed.readlines()
+    
+    coverageGenes = []
+    
+    for each in exons:
+        
+        geneName = returnGeneName(each)
+        
+        if geneName in cancerGenes:
+            coverageGenes.append(organize(each))
+            
+    
+    
+    sortedExons = sorted(coverageGenes, key=helpSort, reverse =True)
+            
+        
+        
+        # find if this exon has the cancer gene
+        # if so , then pick up the exon, and parse its contents to convert values into exons.
+        
+    
+    outfile = open('cancerExons', 'w')
+    
+    for each in sortedExons:
+        outfile.write(list2String(each))
+        
+    outfile.close()
+    
+    
+    # once u have the parsed exons (which are actually cancer genes)
+    # sort them by different crieteria, coverage score, read num etc, binning. 
+    
+    
+    
+        
+    
+
+
+
+
+def exonCoverageSorter(file):
+    
+    infile = open(file, 'rU')
+    readExonCov = infile.readlines()
+    infile.close()
+    exons = []
+        
+    for each in readExonCov:
+        exons.append(organize(each))
+        
+    sortedExons = sorted(exons, key=helpSort, reverse =True)
+    
+    
+    outfile = open(file[:-4]+'_sorted.bed', 'w')
+    
+    for each in sortedExons:
+        outfile.write(organizeWrite(each))
+        
+    outfile.close()
+        
+    
+def helpSort(list):
+
+    return list[4]
+
+
+def organize(line):
+    cols = line.split('\t')
+    
+    readNum = int(cols[-4].strip())
+    
+    coveredBases = int(cols[-3].strip())
+    
+    exonsSize = int(cols[-2].strip())
+    
+    score = Decimal(cols[-1].strip())
+        
+    allButScore = ''
+    for each in cols[:-4]:
+        allButScore+=each + '\t'
+        
+    processed = [allButScore, readNum, coveredBases, exonsSize, score]
+    return processed
+
+
+def list2String(list):
+    
+    string = ''
+    for each in list[1:]:
+        string += str(each) + '\t'
+        
+    return list[0] + '\t' + string + '\n'
+
+def organizeWrite(list):
+    
+    if list[1] == 0:
+        return list[0] + '\t' + '0.0000000' + '\n'
+    else:
+        return list[0] + '\t' + str(list[1]) + '\n'
+    
+
+def returnGeneName(line):
+    cols = line.split('\t')
+    return cols[3].strip()
+
+def main():
+    
+    cancerGenes = sys.argv[1]
+    splitReads_Exons_coverage  = sys.argv[2]
+    
+    cutOffFinder(cancerGenes, splitReads_Exons_coverage)
+    
+    
+if __name__ == '__main__':
+    main()
